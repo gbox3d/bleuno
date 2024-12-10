@@ -25,9 +25,16 @@ config setA ledpin [4,16,17,18]
 config setA ledpin [2,12,15,4,13,14,16,17,18] 
 config setA ledpin [0,2,5,12,15,13,14,18,19] 
 config setA ledpin [15,2,0,4,16,17,18,19] //worover kit
+config setA ledpin [15,2,0,4] //worover kit
 config save
 reboot
 ```
+
+**setup pwm pins** : Setup the pins for the PWM  
+```txt
+config setA pwmpin [16,17,18,19] //
+```
+
 
 **on** : Turn the LED on   
 example:    
@@ -41,6 +48,10 @@ example:
 `off 3 6 9` : turn led index 3, 6, 9 off 
 `off -1` : all leds off  
 
+**pwm** : Set the PWM value for the LED
+example:
+`pwm -1 255` : set all pwm value to 255
+`pwm 0 255` : set the PWM value for led index 1 to 255
 
 dht11 pin setup
 ```txt

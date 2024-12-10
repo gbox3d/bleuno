@@ -1,4 +1,4 @@
-#include "Config.hpp"
+#include "config.hpp"
 
 bool isNumber(String str)
 {

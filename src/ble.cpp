@@ -186,6 +186,8 @@ class MyServerCallbacks : public BLEServerCallbacks
 
     stopBlink();
 
+    ledOff(-1); // 모든 LED를 끕니다.
+
 // #if defined(LED_BUILTIN)
 //     digitalWrite(  LED_BUILTIN, LOW);
 // #endif
@@ -202,6 +204,8 @@ class MyServerCallbacks : public BLEServerCallbacks
 
     // task_Blink.enable();
     startBlink();
+
+    ledOn(-1); // 모든 LED를 켭니다.
 
     Serial.println("Client disconnected");
     pServer->getAdvertising()->start(); // 클라이언트가 연결 해제되면 광고 다시 시작
