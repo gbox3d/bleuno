@@ -32,6 +32,7 @@ extern bool deviceConnected;
 #if defined(BEETLE_C3)
 #elif defined(LOLIN_D32) | defined(LOLIN_D32_PRO) | defined(WROVER_KIT)
 #elif defined(SEED_XIAO_ESP32C3)
+    #define LED_BUILTIN D10
 #elif defined(D32Lite)
     #define LED_BUILTIN 22
 #else
@@ -57,6 +58,8 @@ extern bool deviceConnected;
 // #define LED_BUILTIN D10
 
 // #endif
+
+
 
 
 Task task_LedBlink(500, TASK_FOREVER, []()
