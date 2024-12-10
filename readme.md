@@ -19,10 +19,12 @@ The UUIDs for the service and characteristic are defined in the `ble_led_control
 **setup led pins** : Setup the pins for the LED  
 
 ```txt
+config setA ledpin [4,5,6,7] // espc3 -> d2,d3,d4,d5 
 config setA ledpin [1,4,6,5] 
 config setA ledpin [4,16,17,18] 
 config setA ledpin [2,12,15,4,13,14,16,17,18] 
 config setA ledpin [0,2,5,12,15,13,14,18,19] 
+config setA ledpin [15,2,0,4,16,17,18,19] //worover kit
 config save
 reboot
 ```
@@ -36,6 +38,7 @@ example:
 **off** : Turn the LED off  
 example:  
 `off 1` : turn led index 1 off  
+`off 3 6 9` : turn led index 3, 6, 9 off 
 `off -1` : all leds off  
 
 
