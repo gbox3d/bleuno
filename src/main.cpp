@@ -12,7 +12,7 @@
 #include "etc.hpp"
 
 //version string
-String __version__ = "1.0.3";
+String __version__ = "1.0.4";
 
 Scheduler g_ts;
 Config g_config;
@@ -147,6 +147,8 @@ int pwmLed(int pinIndex, int dutyCycle)
             int channel = pwmChannels[i].channel;
             ledcWrite(channel, dutyCycle);
         }
+
+        return 0;
     }
 
     if(pinIndex >= pwmChannels.size()) {
