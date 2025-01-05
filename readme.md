@@ -14,6 +14,12 @@ The UUIDs for the service and characteristic are defined in the `ble_led_control
 #define CHARACTERISTIC_UUID "f6aa83ca-de53-46b4-bdea-28a7cb57942e"
 ```
 
+```txt
+service-uuid : c6f8b088-2af8-4388-8364-ca2a907bdeb8
+characteristic-uuid : f6aa83ca-de53-46b4-bdea-28a7cb57942e
+```
+
+
 ## Commands
 
 **setup led pins** : Setup the pins for the LED  
