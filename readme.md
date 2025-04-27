@@ -69,4 +69,10 @@ config set dht11pin 32
 config save
 reboot
 ```
-
+**safe back delay** : Set the safe back mode for the LED
+example:  
+```txt
+config set safebackdelay 0
+config set safebackdelay 500
+config save
+```

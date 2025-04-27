@@ -26,10 +26,12 @@ struct PwmChannelInfo {
 
 std::vector<PwmChannelInfo> pwmChannels;
 
-// std::vector<int> pwmPins;
 
 int8_t systemMode = 0;
 int dht11Pin = -1;
+uint32_t safeBackDelay;
+uint32_t safeBackTimeCheck = 0;
+Task task_SafeBackCheck(1000,TASK_FOREVER,NULL,&g_ts,false);
 
 #define DHTTYPE DHT11
 DHT *dht = nullptr;
@@ -41,44 +43,46 @@ extern String parseCmd(String _strLine);
 extern void ble_setup(String strDeviceName);
 extern bool deviceConnected;
 
-#if defined(BEETLE_C3)
-#elif defined(LOLIN_D32) | defined(LOLIN_D32_PRO) | defined(WROVER_KIT)
-#elif defined(SEED_XIAO_ESP32C3)
-#define LED_BUILTIN D10
-#elif defined(D32Lite)
-#define LED_BUILTIN 22
-#else
+
+#if not defined(BUILTIN_LED)
+    #if defined(WROVER_KIT)
+    #define BUILTIN_LED 5
+    #elif defined(SEED_XIAO_ESP32C3) | defined(BEETLE_C3)
+    #define BUILTIN_LED D10
+    #elif defined(D32Lite)
+    #define BUILTIN_LED 22
+    #elif defined(SEED_XIAO_ESP32C3)
+    #define BUILTIN_LED D10
+    #endif
 #endif
 
-#if defined(WROVER_KIT) | defined(WROOM32)
-#define LED_BUILTIN 5
-#endif
-
-// #define LED_BUILTIN 4
-// #endif
-
-// #if not defined(LED_BUILTIN) // check if the default LED pin is defined
-
-// #if defined(LOLIN_D32) | defined(LOLIN_D32_PRO) | defined(WROVER_KIT)
-// // this device aready defined LED_BUILTIN 4 -> D5
-
+// #if defined(BEETLE_C3)
+// #elif defined(LOLIN_D32) | defined(LOLIN_D32_PRO) | defined(WROVER_KIT)
 // #elif defined(SEED_XIAO_ESP32C3)
-// #define LED_BUILTIN D10
-
+// #define BUILTIN_LED D10
+// #elif defined(D32Lite)
+// #define BUILTIN_LED 22
+// #else
 // #endif
+
+// #if defined(WROVER_KIT) | defined(WROOM32)
+// #define BUILTIN_LED 5
+// #endif
+
+
 
 Task task_LedBlink(500, TASK_FOREVER, []()
                    {
-#if defined(LED_BUILTIN)
+#if defined(BUILTIN_LED)
                        if (deviceConnected)
                        {
-                           digitalWrite(LED_BUILTIN, LOW);
-                           Serial.println("LED_BUILTIN : " + String(LED_BUILTIN) + " " + String(digitalRead(LED_BUILTIN)));
+                           digitalWrite(BUILTIN_LED, LOW);
+                           Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
                        }
                        else
                        {
-                           // Serial.println("LED_BUILTIN : " + String(LED_BUILTIN) + " " + String(digitalRead(LED_BUILTIN)));
-                           digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
+                           // Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
+                           digitalWrite(BUILTIN_LED, !digitalRead(BUILTIN_LED));
                        }
 #endif
                    },
@@ -94,14 +98,33 @@ void stopBlink()
     task_LedBlink.disable();
     if (deviceConnected)
     {
-        digitalWrite(LED_BUILTIN, LOW);
-        Serial.println("LED_BUILTIN : " + String(LED_BUILTIN) + " " + String(digitalRead(LED_BUILTIN)));
+        digitalWrite(BUILTIN_LED, LOW);
+        Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
     }
     else
     {
-        digitalWrite(LED_BUILTIN, HIGH);
+        digitalWrite(BUILTIN_LED, HIGH);
     }
 }
+
+
+void ledControl(int pinIndex,uint8_t value)
+{
+    if (pinIndex == -1)
+    {
+        for (int i = 0; i < ledPins.size(); i++)
+        {
+            int pin = ledPins[i];
+            digitalWrite(pin, value); // turn the LED on (HIGH is the voltage level)
+        }
+    }
+    else
+    {
+        int pin = ledPins[pinIndex];
+        digitalWrite(pin, value); // turn the LED on (HIGH is the voltage level)
+    }
+}
+
 
 void ledOn(int pinIndex)
 {
@@ -137,7 +160,6 @@ void ledOff(int pinIndex)
     }
 }
 
-
 int pwmLed(int pinIndex, int dutyCycle)
 {
     if(pinIndex < 0) {
@@ -147,6 +169,8 @@ int pwmLed(int pinIndex, int dutyCycle)
             int channel = pwmChannels[i].channel;
             ledcWrite(channel, dutyCycle);
         }
+
+        safeBackTimeCheck = millis(); // current time
 
         return 0;
     }
@@ -166,6 +190,22 @@ int pwmLed(int pinIndex, int dutyCycle)
     return 0;
 }
 
+
+void clearAllControl()
+{
+    for (int i = 0; i < ledPins.size(); i++)
+    {
+        int pin = ledPins[i];
+        digitalWrite(pin, LOW); // turn the LED on (HIGH is the voltage level)
+    }
+
+    for (int i = 0; i < pwmChannels.size(); i++)
+    {
+        int channel = pwmChannels[i].channel;
+        ledcWrite(channel, 0);
+    }
+}
+
 Task task_Cmd(100, TASK_FOREVER, []()
               {
     if (Serial.available() > 0)
@@ -178,16 +218,17 @@ Task task_Cmd(100, TASK_FOREVER, []()
         Serial.println(parseCmd(_strLine));
     } }, &g_ts, true);
 
+
 // the setup function runs once when you press reset or power the board
 void setup()
 {
 
     String strDeviceName = "ESP32_BLE" + String(getChipID().c_str());
 
-// initialize digital pin LED_BUILTIN as an output.
-#if defined(LED_BUILTIN)
-    pinMode(LED_BUILTIN, OUTPUT);
-    digitalWrite(LED_BUILTIN, HIGH); // turn the LED off by making the voltage LOW
+// initialize digital pin BUILTIN_LED as an output.
+#if defined(BUILTIN_LED)
+    pinMode(BUILTIN_LED, OUTPUT);
+    digitalWrite(BUILTIN_LED, HIGH); // turn the LED off by making the voltage LOW
 #endif
 
     Serial.begin(115200);
@@ -196,9 +237,7 @@ void setup()
 
     delay(250);
 
-    // initialize digital pin LED_BUILTIN as an output.
-    // pinMode(LED_BUILTIN, OUTPUT);
-    // digitalWrite(LED_BUILTIN, HIGH); // turn the LED off by making the voltage LOW
+    // initialize digital pin BUILTIN_LED as an output.
 
     // LED pins
     {
@@ -264,9 +303,9 @@ void setup()
         }
     }
 
-
     // load system mode
     systemMode = g_config.get<int>("mode", 0);
+    Serial.println("system mode : " + String(systemMode));
 
     // load dht11 sensor pin
     dht11Pin = g_config.get<int>("dht11pin", -1);
@@ -298,11 +337,34 @@ void setup()
         task_ReadDHT.enable(); // Enable the task
     }
 
-    Serial.println("system mode : " + String(systemMode));
+    // safe back delay
+    //제어중 일ㅓ시간 입력이 없으면 안전하게 모든 핀을 초기화
+    safeBackDelay = g_config.get<uint32_t>("safebackdelay", 0);
+
+    if(safeBackDelay > 0) {
+        Serial.println("safe back delay : " + String(safeBackDelay));
+
+        task_SafeBackCheck.set(safeBackDelay, TASK_FOREVER, []()
+        {
+            // Serial.printf("safe back delay : %d\n", millis() - safeBackTimeCheck);
+            if(millis() - safeBackTimeCheck > (safeBackDelay/2)) {
+                clearAllControl();
+            }
+        });
+        task_SafeBackCheck.enable();
+
+        // Task task_CheckTimeOut(500, TASK_FOREVER, []()
+        // {
+        //     Serial.printf("safe back delay : %d\n", millis() - safeBackTimeCheck);
+        //     if(millis() - safeBackTimeCheck > (safeBackDelay/2)) {
+        //         clearAllControl();
+        //     }
+        // }, &g_ts, true);
+    }
 
     Serial.println(":-]");
     Serial.println("Serial connected");
-    Serial.println("led built-in : " + String(LED_BUILTIN));
+    Serial.println("led built-in : " + String(BUILTIN_LED));
 
     Serial.printf("Free heap: %d\n", ESP.getFreeHeap());
 

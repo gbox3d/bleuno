@@ -8,6 +8,8 @@ tonkey g_MainParser;
 
 extern Config g_config;
 
+
+extern void ledControl(int pinIndex,uint8_t value);
 extern void ledOn(int pinIndex);
 extern void ledOff(int pinIndex);
 extern int pwmLed(int pinIndex, int dutyCycle);
@@ -60,6 +62,24 @@ String parseCmd(String _strLine)
                 tokens.push_back(g_MainParser.getToken(i));
             }
             g_config.parseCmd(tokens, _res_doc);
+        }
+        else if(cmd == "led") {
+            int tokenCount = g_MainParser.getTokenCount(); // 동일하게 tokenCount를 미리 저장
+            if (tokenCount == 2)
+            {
+                int pinIndex = g_MainParser.getToken(1).toInt();
+                uint8_t value = g_MainParser.getToken(2).toInt();
+
+                ledControl(pinIndex,value);
+
+                _res_doc["result"] = "ok";
+                _res_doc["ms"] = "led set" + String(value) + " pin : " + String(pinIndex);
+            }
+            else
+            {
+                _res_doc["result"] = "err";
+                _res_doc["ms"] = "argument error";
+            }
         }
         else if (cmd == "on")
         {

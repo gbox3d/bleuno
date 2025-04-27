@@ -15,6 +15,7 @@ extern std::vector<int> ledPins;
 
 extern void startBlink();
 extern void stopBlink();
+extern void clearAllControl();
 
 extern void ledOn(int pinIndex);
 extern void ledOff(int pinIndex);
@@ -130,11 +131,6 @@ class MyCharateristicCallbacks : public BLECharacteristicCallbacks
 
             digitalWrite(ledPins[nPinIndex], HIGH);
           }
-
-            // for (int i = 0; i < sizeof(ledPins) / sizeof(ledPins[0]); i++)
-            // {
-            //     digitalWrite(ledPins[i], HIGH);
-            // }
             Serial.printf("LEDs ON: %d\n", packet->parm[0]);
             break;
           case 0x03:
@@ -205,7 +201,7 @@ class MyServerCallbacks : public BLEServerCallbacks
     // task_Blink.enable();
     startBlink();
 
-    ledOn(-1); // 모든 LED를 켭니다.
+    clearAllControl();
 
     Serial.println("Client disconnected");
     pServer->getAdvertising()->start(); // 클라이언트가 연결 해제되면 광고 다시 시작
