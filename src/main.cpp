@@ -6,32 +6,34 @@
 #include <TaskScheduler.h>
 #include <ArduinoJson.h>
 
+#include <Adafruit_NeoPixel.h>
+
 #include <DHT.h>
 
 #include "config.hpp"
 #include "etc.hpp"
 
-//version string
-String __version__ = "1.0.4";
+// version string
+String __version__ = "1.0.5_dev";
 
 Scheduler g_ts;
 Config g_config;
 
 std::vector<int> ledPins;
 
-struct PwmChannelInfo {
+struct PwmChannelInfo
+{
     int pin;
     int channel;
 };
 
 std::vector<PwmChannelInfo> pwmChannels;
 
-
 int8_t systemMode = 0;
 int dht11Pin = -1;
 uint32_t safeBackDelay;
 uint32_t safeBackTimeCheck = 0;
-Task task_SafeBackCheck(1000,TASK_FOREVER,NULL,&g_ts,false);
+Task task_SafeBackCheck(1000, TASK_FOREVER, NULL, &g_ts, false);
 
 #define DHTTYPE DHT11
 DHT *dht = nullptr;
@@ -43,72 +45,83 @@ extern String parseCmd(String _strLine);
 extern void ble_setup(String strDeviceName);
 extern bool deviceConnected;
 
-
 #if not defined(BUILTIN_LED)
-    #if defined(WROVER_KIT)
-    #define BUILTIN_LED 5
-    #elif defined(SEED_XIAO_ESP32C3) | defined(BEETLE_C3)
-    #define BUILTIN_LED D10
-    #elif defined(D32Lite)
-    #define BUILTIN_LED 22
-    #elif defined(SEED_XIAO_ESP32C3)
-    #define BUILTIN_LED D10
-    #endif
+#if defined(WROVER_KIT)
+#define BUILTIN_LED 5
+#elif defined(SEED_XIAO_ESP32C3) | defined(BEETLE_C3)
+#define BUILTIN_LED D10
+#elif defined(D32Lite)
+#define BUILTIN_LED 22
+#elif defined(SEED_XIAO_ESP32C3)
+#define BUILTIN_LED D10
+#elif defined(TENSTAR_ESP32C3)
+#define BUILTIN_LED 8
+constexpr uint8_t NEOPIXEL_PIN = 8; // 네오픽셀
+// ===== 네오픽셀(옵션) =====
+constexpr int NUM_PIXELS = 1;
+Adafruit_NeoPixel pixels(NUM_PIXELS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 #endif
+#endif
+// ===== Blink task (TENSTAR: use NeoPixel, Others: use BUILTIN_LED) =====
+#ifdef TENSTAR_ESP32C3
+Task task_LedBlink(500, TASK_FOREVER, []() {
+    // 미연결이면 파란색 깜빡임, 연결되면 끔
+    static bool on = false;
 
-// #if defined(BEETLE_C3)
-// #elif defined(LOLIN_D32) | defined(LOLIN_D32_PRO) | defined(WROVER_KIT)
-// #elif defined(SEED_XIAO_ESP32C3)
-// #define BUILTIN_LED D10
-// #elif defined(D32Lite)
-// #define BUILTIN_LED 22
-// #else
-// #endif
-
-// #if defined(WROVER_KIT) | defined(WROOM32)
-// #define BUILTIN_LED 5
-// #endif
-
-
-
-Task task_LedBlink(500, TASK_FOREVER, []()
-                   {
+    if (deviceConnected) {
+        // 연결 상태: 픽셀 끔(고정)
+        if (on) { on = false; }
+        pixels.clear();
+        pixels.show();
+    } else {
+        // 접속 대기: 파란색 깜빡임
+        on = !on;
+        if (on) {
+            pixels.setPixelColor(0, pixels.Color(0, 0, 255)); // 파랑
+        } else {
+            pixels.clear(); // off
+        }
+        pixels.show();
+    }
+}, &g_ts, true);
+#else
+Task task_LedBlink(500, TASK_FOREVER, []() {
 #if defined(BUILTIN_LED)
-                       if (deviceConnected)
-                       {
-                           digitalWrite(BUILTIN_LED, LOW);
-                           Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
-                       }
-                       else
-                       {
-                           // Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
-                           digitalWrite(BUILTIN_LED, !digitalRead(BUILTIN_LED));
-                       }
+    if (deviceConnected) {
+        // 연결 상태: LED 끔(LOW) 고정
+        digitalWrite(BUILTIN_LED, LOW);
+        // Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
+    } else {
+        // 접속 대기: 깜빡임
+        digitalWrite(BUILTIN_LED, !digitalRead(BUILTIN_LED));
+    }
 #endif
-                   },
-                   &g_ts, true);
+}, &g_ts, true);
+#endif
+
 
 void startBlink()
 {
     task_LedBlink.enable();
 }
-
 void stopBlink()
 {
     task_LedBlink.disable();
-    if (deviceConnected)
-    {
+
+#ifdef TENSTAR_ESP32C3
+    // 깜빡임을 멈추면 픽셀을 끈다(고정 표시를 원하시면 이 부분을 조정)
+    pixels.clear();
+    pixels.show();
+#else
+    if (deviceConnected) {
         digitalWrite(BUILTIN_LED, LOW);
-        Serial.println("BUILTIN_LED : " + String(BUILTIN_LED) + " " + String(digitalRead(BUILTIN_LED)));
-    }
-    else
-    {
+    } else {
         digitalWrite(BUILTIN_LED, HIGH);
     }
+#endif
 }
 
-
-void ledControl(int pinIndex,uint8_t value)
+void ledControl(int pinIndex, uint8_t value)
 {
     if (pinIndex == -1)
     {
@@ -124,7 +137,6 @@ void ledControl(int pinIndex,uint8_t value)
         digitalWrite(pin, value); // turn the LED on (HIGH is the voltage level)
     }
 }
-
 
 void ledOn(int pinIndex)
 {
@@ -162,8 +174,9 @@ void ledOff(int pinIndex)
 
 int pwmLed(int pinIndex, int dutyCycle)
 {
-    if(pinIndex < 0) {
-        //all pwm pins set
+    if (pinIndex < 0)
+    {
+        // all pwm pins set
         for (int i = 0; i < pwmChannels.size(); i++)
         {
             int channel = pwmChannels[i].channel;
@@ -175,11 +188,12 @@ int pwmLed(int pinIndex, int dutyCycle)
         return 0;
     }
 
-    if(pinIndex >= pwmChannels.size()) {
+    if (pinIndex >= pwmChannels.size())
+    {
         return 2;
     }
 
-    //8bit duty cycle
+    // 8bit duty cycle
     if (dutyCycle < 0 || dutyCycle > 255)
     {
         return 1;
@@ -189,7 +203,6 @@ int pwmLed(int pinIndex, int dutyCycle)
     ledcWrite(channel, dutyCycle);
     return 0;
 }
-
 
 void clearAllControl()
 {
@@ -218,17 +231,27 @@ Task task_Cmd(100, TASK_FOREVER, []()
         Serial.println(parseCmd(_strLine));
     } }, &g_ts, true);
 
-
 // the setup function runs once when you press reset or power the board
 void setup()
 {
 
     String strDeviceName = "ESP32_BLE" + String(getChipID().c_str());
 
+#ifdef TENSTAR_ESP32C3
+    // ===== 네오픽셀(옵션) =====
+    //빨간색켜기
+    pixels.begin(); // 네오픽셀 초기화
+    pixels.setPixelColor(0, pixels.Color(255, 0, 0)); // 빨간색
+    pixels.show(); // 색상 적용
+    delay(500);
+    // ========================
+#else
 // initialize digital pin BUILTIN_LED as an output.
 #if defined(BUILTIN_LED)
     pinMode(BUILTIN_LED, OUTPUT);
     digitalWrite(BUILTIN_LED, HIGH); // turn the LED off by making the voltage LOW
+#endif
+
 #endif
 
     Serial.begin(115200);
@@ -272,8 +295,8 @@ void setup()
         int _index = 0;
 
         const int pwmFrequency = 5000; // PWM 주파수 (Hz)
-        const int pwmResolution = 8;  // PWM 해상도 (비트)
-        int pwmChannel = 0;           // 채널 시작 번호
+        const int pwmResolution = 8;   // PWM 해상도 (비트)
+        int pwmChannel = 0;            // 채널 시작 번호
 
         for (JsonVariant v : _pinArray)
         {
@@ -338,19 +361,19 @@ void setup()
     }
 
     // safe back delay
-    //제어중 일ㅓ시간 입력이 없으면 안전하게 모든 핀을 초기화
+    // 제어중 일ㅓ시간 입력이 없으면 안전하게 모든 핀을 초기화
     safeBackDelay = g_config.get<uint32_t>("safebackdelay", 0);
 
-    if(safeBackDelay > 0) {
+    if (safeBackDelay > 0)
+    {
         Serial.println("safe back delay : " + String(safeBackDelay));
 
         task_SafeBackCheck.set(safeBackDelay, TASK_FOREVER, []()
-        {
+                               {
             // Serial.printf("safe back delay : %d\n", millis() - safeBackTimeCheck);
             if(millis() - safeBackTimeCheck > (safeBackDelay/2)) {
                 clearAllControl();
-            }
-        });
+            } });
         task_SafeBackCheck.enable();
 
         // Task task_CheckTimeOut(500, TASK_FOREVER, []()
