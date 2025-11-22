@@ -25,6 +25,7 @@ characteristic-uuid : f6aa83ca-de53-46b4-bdea-28a7cb57942e
 **setup led pins** : Setup the pins for the LED  
 
 ```txt
+config setA ledpin [4,3,1,0] // espc3 tenstar  -> gpio4,gpio3,gpio1,gpio0
 config setA ledpin [3,4,5,7] // espc3 -> d1,d2,d3,d5 
 config setA ledpin [3,4,5,6,7,8,9] // espc3 -> d1,d2,d3,d4,d5 ,d8,d9 , (d4,d9) 는 부팅시 사용하므로 사용에 주의
 config setA ledpin [1,4,6,5] 
@@ -76,3 +77,28 @@ config set safebackdelay 0
 config set safebackdelay 500
 config save
 ```
+
+## board info
+
+### esp32c3 tenstar
+![esp32c3 tenstar](./ESP32_supermini.jpg)
+
+**주의 사항**
+
+- 사용해도 되는 핀 : 0, 1, 3, 4, 5, 6, 7, 10   
+- 아날로그 입력 핀 (ADC) : 0, 1, 2, 3, 4, 5 (보드에 A0~A5로 표기됨)  
+- PWM 핀 : 모든핀 가능  
+- i2c 는 가능한 4,5번 핀을 사용하세요.    
+- 8 번핀 : 내장 ws2812 용도 neo 픽셀 사용시 8번 핀을 사용합니다.  
+- 2,9 번핀 : 부팅시 사용하므로 사용에 주의하세요.   
+
+```txt
+config setA ledpin [4,3,1,0] // espc3 tenstar  -> gpio4,gpio3,gpio1,gpio0
+config set dht11pin 5
+config save
+
+reboot
+```
+
+
+
