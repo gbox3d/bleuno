@@ -91,10 +91,11 @@ config save
 - i2c 는 가능한 4,5번 핀을 사용하세요.    
 - 8 번핀 : 내장 ws2812 용도 neo 픽셀 사용시 8번 핀을 사용합니다.  
 - 2,9 번핀 : 부팅시 사용하므로 사용에 주의하세요.   
+- 5 번핀은 wifi 사용시 값이 불안정할 수 있습니다.  
 
 ```txt
 config setA ledpin [4,3,1,0] // espc3 tenstar  -> gpio4,gpio3,gpio1,gpio0
-config set dht11pin 5
+config set dht11pin 7
 config save
 
 reboot

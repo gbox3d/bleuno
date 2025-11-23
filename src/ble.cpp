@@ -9,6 +9,13 @@
 
 #include <vector>
 
+#if defined(TENSTAR_ESP32C3)
+#include <Adafruit_NeoPixel.h>
+extern Adafruit_NeoPixel pixels;
+#endif
+
+
+
 extern String parseCmd(String _strLine);
 extern int systemMode;
 extern std::vector<int> ledPins;
@@ -19,6 +26,7 @@ extern void clearAllControl();
 
 extern void ledOn(int pinIndex);
 extern void ledOff(int pinIndex);
+
 
 //------------------------------------------------ ble start
 BLEServer *pServer = NULL;
@@ -181,15 +189,13 @@ class MyServerCallbacks : public BLEServerCallbacks
     deviceConnected = true;
 
     stopBlink();
+    
+  #if defined(TENSTAR_ESP32C3)
+    pixels.setPixelColor(0, pixels.Color(0, 0, 255)); // 파랑색
+    pixels.show(); // 색상 적용
+  #endif
 
     ledOff(-1); // 모든 LED를 끕니다.
-
-// #if defined(LED_BUILTIN)
-//     digitalWrite(  LED_BUILTIN, LOW);
-// #endif
-
-    
-
     Serial.println("Client connected");
     pServer->getAdvertising()->stop(); // 클라이언트가 연결되면 광고 중지
   };

@@ -242,6 +242,7 @@ void setup()
     //빨간색켜기
     pixels.begin(); // 네오픽셀 초기화
     pixels.setPixelColor(0, pixels.Color(255, 0, 0)); // 빨간색
+    pixels.setBrightness(5); // 밝기 설정 (0-255)
     pixels.show(); // 색상 적용
     delay(500);
     // ========================
@@ -276,7 +277,6 @@ void setup()
             int pin = v.as<int>();
 
             pinMode(pin, OUTPUT);
-            // digitalWrite(pin, HIGH); // turn the LED off by making the voltage LOW
             digitalWrite(pin, LOW); // turn the LED on (HIGH is the voltage level)
             ledPins.push_back(pin);
 
@@ -370,19 +370,10 @@ void setup()
 
         task_SafeBackCheck.set(safeBackDelay, TASK_FOREVER, []()
                                {
-            // Serial.printf("safe back delay : %d\n", millis() - safeBackTimeCheck);
             if(millis() - safeBackTimeCheck > (safeBackDelay/2)) {
                 clearAllControl();
             } });
         task_SafeBackCheck.enable();
-
-        // Task task_CheckTimeOut(500, TASK_FOREVER, []()
-        // {
-        //     Serial.printf("safe back delay : %d\n", millis() - safeBackTimeCheck);
-        //     if(millis() - safeBackTimeCheck > (safeBackDelay/2)) {
-        //         clearAllControl();
-        //     }
-        // }, &g_ts, true);
     }
 
     Serial.println(":-]");
