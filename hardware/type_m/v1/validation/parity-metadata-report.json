@@ -1,0 +1,259 @@
+{
+  "applied": true,
+  "input_pcb_sha256": "f6151a6f9654cd43aad023fbf43c738c1bf8646dd3cf6b93f97a7aaa65d9bf85",
+  "output_pcb_sha256": "bcdbe27d51f960a010e42ed7fc33a665b0f786eaba996c15e6610c561b4d89db",
+  "netlist_sha256": "bd2d0bdc5a5b2d4b9a5707a0cceb610b61032019fa5f3b4dc1c100d0f04f081b",
+  "field_changes": [
+    {
+      "reference": "J1",
+      "field": "Datasheet",
+      "before": "",
+      "after": "https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf"
+    },
+    {
+      "reference": "J3",
+      "field": "Datasheet",
+      "before": "",
+      "after": "https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf"
+    },
+    {
+      "reference": "J4",
+      "field": "Datasheet",
+      "before": "",
+      "after": "https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf"
+    },
+    {
+      "reference": "J7",
+      "field": "Datasheet",
+      "before": "",
+      "after": "https://item.szlcsc.com/datasheet/WAFER-ZH1.5-3PZZ/6173820.html"
+    }
+  ],
+  "nc_net_changes": [],
+  "isolated_nc_net_pad_counts": {
+    "unconnected-(J2-Pad1)": 1,
+    "unconnected-(U1-GPIO2-Pad3)": 1,
+    "unconnected-(U1-GPIO21-Pad15)": 1,
+    "unconnected-(U1-GPIO22-Pad16)": 1,
+    "unconnected-(U1-GPIO8-Pad12)": 1,
+    "unconnected-(U1-GPIO9-Pad13)": 1,
+    "unconnected-(U2-ULT-Pad6)": 1
+  },
+  "checks": {
+    "all_board_geometry_and_zone_fills_unchanged": true,
+    "original_17_connection_groups_unchanged": true,
+    "nc_nets_have_one_pad_no_track_no_zone": true,
+    "schematic_project_rules_unchanged": true,
+    "native_reload": true
+  },
+  "geometry_sha256": "a896d27ac110a00b14ecad10129a029aa64552e1d20f768cdacdc13d3fbbf7bf",
+  "previous_passes": [
+    {
+      "applied": true,
+      "input_pcb_sha256": "3408109d7ad8c1e12a68a8e9f8bf13578ea09a246661e7f827697982b539f41c",
+      "output_pcb_sha256": "f6151a6f9654cd43aad023fbf43c738c1bf8646dd3cf6b93f97a7aaa65d9bf85",
+      "netlist_sha256": "bd2d0bdc5a5b2d4b9a5707a0cceb610b61032019fa5f3b4dc1c100d0f04f081b",
+      "field_changes": [
+        {
+          "reference": "J1",
+          "field": "Manufacturer Part",
+          "before": null,
+          "after": "BX-ZH1.5-2PWZ"
+        },
+        {
+          "reference": "J1",
+          "field": "Manufacturer",
+          "before": null,
+          "after": "Bossie(博锡)"
+        },
+        {
+          "reference": "J1",
+          "field": "Supplier Part",
+          "before": null,
+          "after": "C18077736"
+        },
+        {
+          "reference": "J1",
+          "field": "Supplier",
+          "before": null,
+          "after": "LCSC"
+        },
+        {
+          "reference": "J1",
+          "field": "LCSC Part Name",
+          "before": null,
+          "after": "1x2P 间距:1.5mm 弯插 系列:ZH"
+        },
+        {
+          "reference": "J3",
+          "field": "Manufacturer Part",
+          "before": null,
+          "after": "BX-ZH1.5-2PWZ"
+        },
+        {
+          "reference": "J3",
+          "field": "Manufacturer",
+          "before": null,
+          "after": "Bossie(博锡)"
+        },
+        {
+          "reference": "J3",
+          "field": "Supplier Part",
+          "before": null,
+          "after": "C18077736"
+        },
+        {
+          "reference": "J3",
+          "field": "Supplier",
+          "before": null,
+          "after": "LCSC"
+        },
+        {
+          "reference": "J3",
+          "field": "LCSC Part Name",
+          "before": null,
+          "after": "1x2P 间距:1.5mm 弯插 系列:ZH"
+        },
+        {
+          "reference": "J4",
+          "field": "Manufacturer Part",
+          "before": null,
+          "after": "BX-ZH1.5-2PWZ"
+        },
+        {
+          "reference": "J4",
+          "field": "Manufacturer",
+          "before": null,
+          "after": "Bossie(博锡)"
+        },
+        {
+          "reference": "J4",
+          "field": "Supplier Part",
+          "before": null,
+          "after": "C18077736"
+        },
+        {
+          "reference": "J4",
+          "field": "Supplier",
+          "before": null,
+          "after": "LCSC"
+        },
+        {
+          "reference": "J4",
+          "field": "LCSC Part Name",
+          "before": null,
+          "after": "1x2P 间距:1.5mm 弯插 系列:ZH"
+        },
+        {
+          "reference": "J5",
+          "field": "Original Reference",
+          "before": "Servo1\n+    S   -",
+          "after": "Servo1"
+        },
+        {
+          "reference": "J6",
+          "field": "Original Reference",
+          "before": "Servo2\n+   S   -",
+          "after": "Servo2"
+        },
+        {
+          "reference": "J7",
+          "field": "Manufacturer Part",
+          "before": null,
+          "after": "WAFER-ZH1.5-3PZZ"
+        },
+        {
+          "reference": "J7",
+          "field": "Manufacturer",
+          "before": null,
+          "after": "XUNPU(讯普)"
+        },
+        {
+          "reference": "J7",
+          "field": "Supplier Part",
+          "before": null,
+          "after": "C5359584"
+        },
+        {
+          "reference": "J7",
+          "field": "Supplier",
+          "before": null,
+          "after": "LCSC"
+        },
+        {
+          "reference": "J7",
+          "field": "LCSC Part Name",
+          "before": null,
+          "after": "1x3P 间距:1.5mm 直插 系列:ZH"
+        },
+        {
+          "reference": "J7",
+          "field": "Original Reference",
+          "before": "sensor1\n+   S  -",
+          "after": "sensor1"
+        }
+      ],
+      "nc_net_changes": [
+        {
+          "reference": "J2",
+          "pad": "1",
+          "before": "",
+          "after": "unconnected-(J2-Pad1)"
+        },
+        {
+          "reference": "U1",
+          "pad": "3",
+          "before": "",
+          "after": "unconnected-(U1-GPIO2-Pad3)"
+        },
+        {
+          "reference": "U1",
+          "pad": "12",
+          "before": "",
+          "after": "unconnected-(U1-GPIO8-Pad12)"
+        },
+        {
+          "reference": "U1",
+          "pad": "13",
+          "before": "",
+          "after": "unconnected-(U1-GPIO9-Pad13)"
+        },
+        {
+          "reference": "U1",
+          "pad": "15",
+          "before": "",
+          "after": "unconnected-(U1-GPIO21-Pad15)"
+        },
+        {
+          "reference": "U1",
+          "pad": "16",
+          "before": "",
+          "after": "unconnected-(U1-GPIO22-Pad16)"
+        },
+        {
+          "reference": "U2",
+          "pad": "6",
+          "before": "",
+          "after": "unconnected-(U2-ULT-Pad6)"
+        }
+      ],
+      "isolated_nc_net_pad_counts": {
+        "unconnected-(J2-Pad1)": 1,
+        "unconnected-(U1-GPIO2-Pad3)": 1,
+        "unconnected-(U1-GPIO21-Pad15)": 1,
+        "unconnected-(U1-GPIO22-Pad16)": 1,
+        "unconnected-(U1-GPIO8-Pad12)": 1,
+        "unconnected-(U1-GPIO9-Pad13)": 1,
+        "unconnected-(U2-ULT-Pad6)": 1
+      },
+      "checks": {
+        "all_board_geometry_and_zone_fills_unchanged": true,
+        "original_17_connection_groups_unchanged": true,
+        "nc_nets_have_one_pad_no_track_no_zone": true,
+        "schematic_project_rules_unchanged": true,
+        "native_reload": true
+      },
+      "geometry_sha256": "a896d27ac110a00b14ecad10129a029aa64552e1d20f768cdacdc13d3fbbf7bf"
+    }
+  ]
+}

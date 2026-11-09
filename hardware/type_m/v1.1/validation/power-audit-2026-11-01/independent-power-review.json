@@ -1,0 +1,448 @@
+{
+  "generated_utc": "2026-11-01T06:01:23.667625+00:00",
+  "inputs_sha256": {
+    "v1.1\\kicad\\type_m_v1_1.kicad_pcb": "1105ff3d34db037440e3a9b3378be9334527ece302c66043df2a05d6d55889da",
+    "v1.1\\kicad\\type_m_v1_1.kicad_sch": "574c1ca528cba32e3ad642419d7f4b3a9aad8a8a8fa6d7d08b7733d3f197abea",
+    "v1.1\\kicad\\type_m_v1_1.pretty\\ESP32C3 SM.kicad_mod": "429789d2d68d903ca7a34d123b015cf49074f79e05a1ccf5bad7c28c3773a0a0",
+    "v1.1\\validation\\preview\\type_m_v1_1-pcb.svg": "7531df670998969b037a06bf67276a628da566535035f20573b266f6d96cb010"
+  },
+  "method": "Native KiCad connectivity plus independent exact-track-endpoint BFS; direct schematic/footprint pad-number comparison; actual SVG stroke coordinates.",
+  "native_v1": {
+    "J1.1": {
+      "pad_net": "VCC",
+      "xy_mm": [
+        181.263,
+        91.778
+      ],
+      "connected_pads": [
+        "J1.1",
+        "J2.2",
+        "J5.1",
+        "J6.1",
+        "R1.1",
+        "U1.8",
+        "U2.9"
+      ],
+      "native_item_types": {
+        "PCB_TRACK": 23,
+        "PAD": 7
+      },
+      "direct_track_count": 2
+    },
+    "J1.2": {
+      "pad_net": "GND",
+      "xy_mm": [
+        179.763,
+        91.778
+      ],
+      "connected_pads": [
+        "J1.2",
+        "J5.3",
+        "J6.3",
+        "J7.3",
+        "R2.1",
+        "U1.7",
+        "U2.10"
+      ],
+      "native_item_types": {
+        "ZONE": 2,
+        "PCB_TRACK": 25,
+        "PAD": 7
+      },
+      "direct_track_count": 2
+    },
+    "J2.1": {
+      "pad_net": "unconnected-(J2-Pad1)",
+      "xy_mm": [
+        167.305,
+        93.048
+      ],
+      "connected_pads": [
+        "J2.1"
+      ],
+      "native_item_types": {
+        "PAD": 1
+      },
+      "direct_track_count": 0
+    },
+    "J2.2": {
+      "pad_net": "VCC",
+      "xy_mm": [
+        169.845,
+        93.048
+      ],
+      "connected_pads": [
+        "J1.1",
+        "J2.2",
+        "J5.1",
+        "J6.1",
+        "R1.1",
+        "U1.8",
+        "U2.9"
+      ],
+      "native_item_types": {
+        "PCB_TRACK": 23,
+        "PAD": 7
+      },
+      "direct_track_count": 3
+    },
+    "J2.3": {
+      "pad_net": "VIN",
+      "xy_mm": [
+        172.385,
+        93.048
+      ],
+      "connected_pads": [
+        "J2.3"
+      ],
+      "native_item_types": {
+        "PAD": 1
+      },
+      "direct_track_count": 0
+    }
+  },
+  "native_v1_1": {
+    "J1.1": {
+      "pad_net": "VCC",
+      "xy_mm": [
+        181.263,
+        91.778
+      ],
+      "connected_pads": [
+        "J1.1",
+        "J2.2",
+        "J5.1",
+        "J6.1",
+        "R1.1",
+        "U1.8",
+        "U2.9"
+      ],
+      "native_item_types": {
+        "PCB_TRACK": 23,
+        "PAD": 7
+      },
+      "direct_track_count": 2
+    },
+    "J1.2": {
+      "pad_net": "GND",
+      "xy_mm": [
+        179.763,
+        91.778
+      ],
+      "connected_pads": [
+        "J1.2",
+        "J5.3",
+        "J6.3",
+        "J7.3",
+        "R2.1",
+        "U1.7",
+        "U2.10"
+      ],
+      "native_item_types": {
+        "PCB_TRACK": 25,
+        "ZONE": 2,
+        "PAD": 7
+      },
+      "direct_track_count": 2
+    },
+    "J2.1": {
+      "pad_net": "unconnected-(J2-Pad1)",
+      "xy_mm": [
+        167.305,
+        93.048
+      ],
+      "connected_pads": [
+        "J2.1"
+      ],
+      "native_item_types": {
+        "PAD": 1
+      },
+      "direct_track_count": 0
+    },
+    "J2.2": {
+      "pad_net": "VCC",
+      "xy_mm": [
+        169.845,
+        93.048
+      ],
+      "connected_pads": [
+        "J1.1",
+        "J2.2",
+        "J5.1",
+        "J6.1",
+        "R1.1",
+        "U1.8",
+        "U2.9"
+      ],
+      "native_item_types": {
+        "PCB_TRACK": 23,
+        "PAD": 7
+      },
+      "direct_track_count": 3
+    },
+    "J2.3": {
+      "pad_net": "VIN",
+      "xy_mm": [
+        172.385,
+        93.048
+      ],
+      "connected_pads": [
+        "J2.3"
+      ],
+      "native_item_types": {
+        "PAD": 1
+      },
+      "direct_track_count": 0
+    }
+  },
+  "same_native_power_components": true,
+  "J1_1_to_U1_8_exact_track_endpoint_chain": [
+    {
+      "uuid": "b06922f1-ea8d-4d66-b454-923d92320ff5",
+      "net": "VCC",
+      "from_mm": [
+        181.263,
+        91.778
+      ],
+      "to_mm": [
+        181.263,
+        92.806
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "1e4529bd-6494-4ae0-b11e-f1200a5d3325",
+      "net": "VCC",
+      "from_mm": [
+        181.263,
+        92.806
+      ],
+      "to_mm": [
+        177.338,
+        96.731
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2079d983-7e97-4d08-9d16-d6ba366e0629",
+      "net": "VCC",
+      "from_mm": [
+        177.338,
+        96.731
+      ],
+      "to_mm": [
+        172.385,
+        96.731
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "66ef6120-c438-4395-8cc0-c941c531d789",
+      "net": "VCC",
+      "from_mm": [
+        172.385,
+        96.731
+      ],
+      "to_mm": [
+        169.845,
+        94.191
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "90d56c4d-70d2-4bf4-8de9-6765a6d64d4f",
+      "net": "VCC",
+      "from_mm": [
+        169.845,
+        94.191
+      ],
+      "to_mm": [
+        169.845,
+        94.572
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8be895dc-da36-44a8-8fb3-aaac721df084",
+      "net": "VCC",
+      "from_mm": [
+        169.845,
+        94.572
+      ],
+      "to_mm": [
+        165.273,
+        99.144
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "60168def-84c2-4eea-ac23-0698a65296ad",
+      "net": "VCC",
+      "from_mm": [
+        165.273,
+        99.144
+      ],
+      "to_mm": [
+        165.273,
+        98.636
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "39a4a477-3784-44e5-9318-63b657bb5835",
+      "net": "VCC",
+      "from_mm": [
+        165.273,
+        98.636
+      ],
+      "to_mm": [
+        160.701,
+        94.064
+      ],
+      "layer": "F.Cu"
+    }
+  ],
+  "schematic_to_pcb_pin_mapping": {
+    "J2": {
+      "schematic_value": "PW OFF ON",
+      "pcb_value": "PW OFF ON",
+      "pins": {
+        "1": {
+          "schematic_pin_name": "1",
+          "pcb_pad_number": "1",
+          "pcb_net": "unconnected-(J2-Pad1)",
+          "pcb_xy_mm": [
+            167.305,
+            93.048
+          ],
+          "pad_shape": 1
+        },
+        "2": {
+          "schematic_pin_name": "2",
+          "pcb_pad_number": "2",
+          "pcb_net": "VCC",
+          "pcb_xy_mm": [
+            169.845,
+            93.048
+          ],
+          "pad_shape": 0
+        },
+        "3": {
+          "schematic_pin_name": "3",
+          "pcb_pad_number": "3",
+          "pcb_net": "VIN",
+          "pcb_xy_mm": [
+            172.385,
+            93.048
+          ],
+          "pad_shape": 0
+        }
+      }
+    },
+    "U1": {
+      "schematic_value": "ESP32C3 Supermini",
+      "pcb_value": "ESP32C3 Supermini",
+      "pins": {
+        "6": {
+          "schematic_pin_name": "+3V3",
+          "pcb_pad_number": "6",
+          "pcb_net": "3.3V",
+          "pcb_xy_mm": [
+            160.701,
+            99.144
+          ],
+          "pad_shape": 1
+        },
+        "7": {
+          "schematic_pin_name": "GND",
+          "pcb_pad_number": "7",
+          "pcb_net": "GND",
+          "pcb_xy_mm": [
+            160.701,
+            96.604
+          ],
+          "pad_shape": 1
+        },
+        "8": {
+          "schematic_pin_name": "+5V",
+          "pcb_pad_number": "8",
+          "pcb_net": "VCC",
+          "pcb_xy_mm": [
+            160.701,
+            94.064
+          ],
+          "pad_shape": 1
+        }
+      }
+    },
+    "J1": {
+      "schematic_value": "MT1",
+      "pcb_value": "MT1",
+      "pins": {
+        "1": {
+          "schematic_pin_name": "1",
+          "pcb_pad_number": "1",
+          "pcb_net": "VCC",
+          "pcb_xy_mm": [
+            181.263,
+            91.778
+          ],
+          "pad_shape": 1
+        },
+        "2": {
+          "schematic_pin_name": "2",
+          "pcb_pad_number": "2",
+          "pcb_net": "GND",
+          "pcb_xy_mm": [
+            179.763,
+            91.778
+          ],
+          "pad_shape": 0
+        }
+      }
+    }
+  },
+  "U1_footprint_texts": [
+    "${REFERENCE}"
+  ],
+  "U1_board_footprint_texts": [
+    "Tenstar",
+    "${REFERENCE}"
+  ],
+  "module_power_silkscreen_limit": "This KiCad footprint has no 5V/GND/3V3 pin text, so physical module pin labels cannot be independently certified from these files alone.",
+  "battery_polarity_marking": {
+    "text": "BAT + -",
+    "footprint_rotation_deg": 0.0,
+    "text_rotation_deg": 0.0,
+    "mirrored": false,
+    "svg_to_board_offset_mm": [
+      122.34700000000001,
+      89.619
+    ],
+    "native_svg_final_three_glyph_paths": [
+      "M56.4769 1.1708 L56.9558 1.1708 ",
+      "M56.7163 1.4321 L56.7163 0.9094 ",
+      "M57.7339 1.1708 L58.2128 1.1708 "
+    ],
+    "plus_center_board_x_mm": 179.0633,
+    "minus_center_board_x_mm": 180.32035,
+    "physical_pad_left_to_right": [
+      "J1.2 GND (-)",
+      "J1.1 VCC (+)"
+    ],
+    "silkscreen_sign_left_to_right": [
+      "+",
+      "-"
+    ],
+    "sign_order_opposes_pad_polarity_order": true,
+    "limit": "The signs form one unaligned text string, not two per-pad markers. Order conflict is confirmed; intent or actual reverse wiring is not established."
+  },
+  "conclusions": [
+    "No BAT-to-C3 open circuit found: J1.1 reaches U1.8 by a continuous F.Cu track chain; J1.2 reaches U1.7 through native GND connectivity including filled zones.",
+    "J2.1 and J2.3 are standalone copper pads; battery and loads share VCC independently of switch contacts.",
+    "J1 schematic/PCB Value MT1 conflicts with its BAT + - silkscreen role and can confuse identification.",
+    "BAT + - text order opposes the physical left-to-right GND/VCC pad order; this is a polarity-label ambiguity worth correcting, not proof of actual reverse wiring.",
+    "Module-internal power circuitry and suitability for a 3.7V battery are not represented by this carrier KiCad design."
+  ],
+  "input_files_unchanged": true
+}

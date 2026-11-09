@@ -1,0 +1,48 @@
+{
+  "old_identifier": "type_s_v1:ESP32-C3_SUPERMINI_TH{colon}MODULE_ESP32-C3_SUPERMINI",
+  "new_identifier": "type_s_v1:ESP32C3_SUPERMINI_CUSTOM",
+  "files": [
+    {
+      "kind": "schematic",
+      "source": "kicad\\type_s_v1.kicad_sch",
+      "destination": "kicad\\type_s_v1.kicad_sch",
+      "identifier_changes": 2,
+      "input_sha256": "80fd247a46366c8ae029d1de390884fb2bb4301b9fe7f2e10686b95a48eb102a",
+      "output_sha256": "42538dab5c2e8544e5b7b223105766b077cb99fcff9f25a4d5452491b27b464f"
+    },
+    {
+      "kind": "symbol_library",
+      "source": "kicad\\type_s_v1.kicad_sym",
+      "destination": "kicad\\type_s_v1.kicad_sym",
+      "identifier_changes": 1,
+      "input_sha256": "752e5d8ecef808123c3cdef6affa3ae0e40269e2660c999063e3eee97bdca405",
+      "output_sha256": "d58d369c5adf91f3864cdf794e1d75fa30d998229bf6c715e65e8d36c255f24a"
+    },
+    {
+      "kind": "pcb",
+      "source": "kicad\\type_s_v1.kicad_pcb",
+      "destination": "kicad\\type_s_v1.kicad_pcb",
+      "identifier_changes": 1,
+      "input_sha256": "115e3d81adee4a4cd3d92ae47f2ccbfe3d93a88bd25d5b4c3427c417a7a5b61d",
+      "output_sha256": "e1dd51318ef2fcd64e7e2043310c380edd769fda273c763eec23a11831446d4f"
+    },
+    {
+      "kind": "module",
+      "source": "kicad\\type_s_v1.pretty\\ESP32-C3_SUPERMINI_TH{colon}MODULE_ESP32-C3_SUPERMINI.kicad_mod",
+      "destination": "kicad\\type_s_v1.pretty\\ESP32C3_SUPERMINI_CUSTOM.kicad_mod",
+      "identifier_changes": 1,
+      "input_sha256": "50b6edd2556fe1973ec477a3c87d177b5076a8b8a4e5b2da9a7d9658ea50473d",
+      "output_sha256": "aad4829a3481ad79923d8a48c5bd478f2f0666fce91fbeef6bea32f2a7371705"
+    }
+  ],
+  "checks": {
+    "only_footprint_identifiers_changed": true,
+    "native_library_and_board_reload": true,
+    "all_16_mcu_pad_identifiers_preserved": true,
+    "project_and_rules_unchanged": true
+  },
+  "known_source_value_disagreements": [
+    "R1: SCH 220kOhm vs PCB 10kOhm",
+    "R2: SCH 220kOhm vs PCB 10kOhm"
+  ]
+}

@@ -1,0 +1,745 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-31T18:23:11",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 178.989,
+                        "y": 98.89
+                    },
+                    "uuid": "94bfcef8-3d70-4286-8cfc-283f47bfb2fd"
+                },
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 126.792,
+                        "y": 120.226
+                    },
+                    "uuid": "31f03cfa-e99e-415e-b25c-d721d6bc50c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 220k",
+                    "pos": {
+                        "x": 170.607,
+                        "y": 103.208
+                    },
+                    "uuid": "a1a82846-add4-4e7f-a05c-cbb295cb9815"
+                },
+                {
+                    "description": "풋프린트 220k",
+                    "pos": {
+                        "x": 170.353,
+                        "y": 99.144
+                    },
+                    "uuid": "512e75f4-77e7-4e71-add0-69e77f06ec93"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "값(10k)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 10k",
+                    "pos": {
+                        "x": 171.115,
+                        "y": 107.78
+                    },
+                    "uuid": "26286945-6114-4038-be98-65996341ca0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(220k)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 220k",
+                    "pos": {
+                        "x": 170.353,
+                        "y": 99.144
+                    },
+                    "uuid": "512e75f4-77e7-4e71-add0-69e77f06ec93"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드 네트(VCC)가 회로도에서 지정한 네트(GND)와 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[VCC]220k",
+                    "pos": {
+                        "x": 165.273,
+                        "y": 99.144
+                    },
+                    "uuid": "2f69c6e7-e4bc-4c71-a8f7-070823f22fb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "풋프린트 누락 ? (~)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "값(BAT + -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 BAT + -",
+                    "pos": {
+                        "x": 180.513,
+                        "y": 91.778
+                    },
+                    "uuid": "4d911aaa-4f55-4971-b5a3-3e6be3c701ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 BAT + -",
+                    "pos": {
+                        "x": 180.513,
+                        "y": 91.778
+                    },
+                    "uuid": "4d911aaa-4f55-4971-b5a3-3e6be3c701ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "값(DRV8833)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 DRV8833",
+                    "pos": {
+                        "x": 123.617,
+                        "y": 92.921
+                    },
+                    "uuid": "86c824d0-2bcb-4f56-b257-e9f9645fbb6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(DRV8833-ULT-Pad6))가 없습니다",
+            "items": [
+                {
+                    "description": "6의 PTH 패드[<no net>]DRV8833",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 107.145
+                    },
+                    "uuid": "5a83bd91-1701-406e-b93f-3d3175a3ed2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "값(MT1)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 MT1",
+                    "pos": {
+                        "x": 126.665,
+                        "y": 113.495
+                    },
+                    "uuid": "1b7c593a-a93b-4ca7-a877-eb9a7bda1dbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 MT1",
+                    "pos": {
+                        "x": 126.665,
+                        "y": 113.495
+                    },
+                    "uuid": "1b7c593a-a93b-4ca7-a877-eb9a7bda1dbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "값(MT2)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 MT2",
+                    "pos": {
+                        "x": 133.65,
+                        "y": 113.622
+                    },
+                    "uuid": "bd48e259-f5e2-49ff-811d-ae7476af3a06"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 MT2",
+                    "pos": {
+                        "x": 133.65,
+                        "y": 113.622
+                    },
+                    "uuid": "bd48e259-f5e2-49ff-811d-ae7476af3a06"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "값(PW OFF ON)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 PW OFF ON",
+                    "pos": {
+                        "x": 169.845,
+                        "y": 93.048
+                    },
+                    "uuid": "503e5ddb-6ddc-4e3b-a2ec-a50c2cecac78"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(PW OFF ON-Pad1))가 없습니다",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]PW OFF ON",
+                    "pos": {
+                        "x": 167.305,
+                        "y": 93.048
+                    },
+                    "uuid": "b508db00-aa4f-4cc8-a3b5-205badccd902"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "풋프린트 누락 sensor1 (WAFER-ZH1.5-3PZZ)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "풋프린트 누락 Servo1 (Servo)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "풋프린트 누락 Servo2 (Servo)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "값(Tenstar)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 Tenstar",
+                    "pos": {
+                        "x": 153.081,
+                        "y": 102.954
+                    },
+                    "uuid": "9a5b2610-7ca4-4bf7-9738-b3518b48df34"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO2-Pad3))가 없습니다",
+            "items": [
+                {
+                    "description": "3의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 106.764
+                    },
+                    "uuid": "6c49ba5a-b975-47d5-a108-b7a38a8191e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO8-Pad12))가 없습니다",
+            "items": [
+                {
+                    "description": "12의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 101.684
+                    },
+                    "uuid": "98b0bd02-077b-40d8-8122-63a7bc0063a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO9-Pad13))가 없습니다",
+            "items": [
+                {
+                    "description": "13의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 104.224
+                    },
+                    "uuid": "9aba8d1a-ba1f-4265-9cbf-a4203aa9fc37"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO21-Pad15))가 없습니다",
+            "items": [
+                {
+                    "description": "15의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 109.304
+                    },
+                    "uuid": "64538ef2-dd58-4a30-aefe-6254c17459ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO22-Pad16))가 없습니다",
+            "items": [
+                {
+                    "description": "16의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 111.844
+                    },
+                    "uuid": "a9f3b9fe-38c1-404c-896c-184740c287bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 126.792,
+                        "y": 120.226
+                    },
+                    "uuid": "31f03cfa-e99e-415e-b25c-d721d6bc50c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 Servo2\n+   S   -",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 118.575
+                    },
+                    "uuid": "7003e24c-72ab-4a49-b72c-1733fc56776b"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 178.989,
+                        "y": 98.89
+                    },
+                    "uuid": "94bfcef8-3d70-4286-8cfc-283f47bfb2fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 sensor1\n+   S  -",
+                    "pos": {
+                        "x": 168.194,
+                        "y": 117.686
+                    },
+                    "uuid": "a22a9daa-a482-4fa8-a13c-e0bf7bf0b8dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 Servo1\n+    S   -",
+                    "pos": {
+                        "x": 148.128,
+                        "y": 118.575
+                    },
+                    "uuid": "e4caa183-8079-4312-bd39-390b0701cc34"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "MovingTarget_MotorConT1_2026-10-31.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1520 mm)",
+            "items": [
+                {
+                    "description": "배선 [SLEEP] on Top Layer, 길이 1.3310 mm",
+                    "pos": {
+                        "x": 139.71,
+                        "y": 98.026
+                    },
+                    "uuid": "afc6ed32-3657-4313-bc1e-417f999fcb16"
+                },
+                {
+                    "description": "11의 PTH 패드[D3]DRV8833",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 96.985
+                    },
+                    "uuid": "c6a7d654-a741-4239-8a1b-93cae603e75b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1020 mm)",
+            "items": [
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 1.3668 mm",
+                    "pos": {
+                        "x": 156.9655,
+                        "y": 113.368
+                    },
+                    "uuid": "9de7a2e7-9e50-46b1-8db0-623049407944"
+                },
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.8767 mm",
+                    "pos": {
+                        "x": 156.961,
+                        "y": 113.876
+                    },
+                    "uuid": "e5caed95-9aa0-4c24-a4b7-3d2561caee7d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1520 mm)",
+            "items": [
+                {
+                    "description": "배선 [SLEEP] on Top Layer, 길이 1.3310 mm",
+                    "pos": {
+                        "x": 139.1,
+                        "y": 96.085
+                    },
+                    "uuid": "9a560963-3a1e-4fc3-8814-ab021eff00a6"
+                },
+                {
+                    "description": "11의 PTH 패드[D3]DRV8833",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 96.985
+                    },
+                    "uuid": "c6a7d654-a741-4239-8a1b-93cae603e75b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1519 mm)",
+            "items": [
+                {
+                    "description": "배선 [SLEEP] on Top Layer, 길이 0.8627 mm",
+                    "pos": {
+                        "x": 139.1,
+                        "y": 97.416
+                    },
+                    "uuid": "5ff9d086-a0ee-430e-a99e-6dd3f971d03a"
+                },
+                {
+                    "description": "11의 PTH 패드[D3]DRV8833",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 96.985
+                    },
+                    "uuid": "c6a7d654-a741-4239-8a1b-93cae603e75b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1020 mm)",
+            "items": [
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 1.7536 mm",
+                    "pos": {
+                        "x": 157.932,
+                        "y": 110.4265
+                    },
+                    "uuid": "33d397f2-d2af-4395-9fac-752efe1038e6"
+                },
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.7961 mm",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 110.574
+                    },
+                    "uuid": "60c723a2-dd07-4773-8364-3cd64f298dae"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1020 mm)",
+            "items": [
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 1.7536 mm",
+                    "pos": {
+                        "x": 157.932,
+                        "y": 110.4265
+                    },
+                    "uuid": "33d397f2-d2af-4395-9fac-752efe1038e6"
+                },
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.9750 mm",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 112.549
+                    },
+                    "uuid": "81edbaed-8d1c-4830-9db6-11db12bc6040"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1520 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[D1]Tenstar",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 109.304
+                    },
+                    "uuid": "23657e6f-d4f0-43cf-a807-23439b201f07"
+                },
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 1.7536 mm",
+                    "pos": {
+                        "x": 157.932,
+                        "y": 110.4265
+                    },
+                    "uuid": "33d397f2-d2af-4395-9fac-752efe1038e6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1020 mm)",
+            "items": [
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 1.9750 mm",
+                    "pos": {
+                        "x": 157.932,
+                        "y": 112.4015
+                    },
+                    "uuid": "84833ca9-8fe5-4442-8519-74ac38d384e7"
+                },
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.8767 mm",
+                    "pos": {
+                        "x": 156.961,
+                        "y": 113.876
+                    },
+                    "uuid": "e5caed95-9aa0-4c24-a4b7-3d2561caee7d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1020 mm)",
+            "items": [
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 12.7745 mm",
+                    "pos": {
+                        "x": 144.191,
+                        "y": 113.368
+                    },
+                    "uuid": "1f2b3a94-bc60-4c18-a743-f9bca857e984"
+                },
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.8767 mm",
+                    "pos": {
+                        "x": 156.961,
+                        "y": 113.876
+                    },
+                    "uuid": "e5caed95-9aa0-4c24-a4b7-3d2561caee7d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.2000 mm; 실제값 0.1520 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[D1]Tenstar",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 109.304
+                    },
+                    "uuid": "23657e6f-d4f0-43cf-a807-23439b201f07"
+                },
+                {
+                    "description": "배선 [D2] on Top Layer, 길이 4.7085 mm",
+                    "pos": {
+                        "x": 159.172,
+                        "y": 109.1865
+                    },
+                    "uuid": "39fe9109-8998-4719-8f39-5533ae4189ac"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "기판 모서리 공간거리 위반 (기판 구성 제약 모서리 공간거리 0.5000 mm; 실제값 0.2550 mm)",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 122.347,
+                        "y": 92.413
+                    },
+                    "uuid": "3fb56b06-f7d2-4cf0-8878-4dac83cc81fe"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "기판 모서리 공간거리 위반 (기판 구성 제약 모서리 공간거리 0.5000 mm; 실제값 0.2550 mm)",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 122.347,
+                        "y": 92.413
+                    },
+                    "uuid": "3fb56b06-f7d2-4cf0-8878-4dac83cc81fe"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        }
+    ]
+}

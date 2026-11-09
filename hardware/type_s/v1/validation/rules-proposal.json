@@ -1,0 +1,56 @@
+{
+  "applied": false,
+  "baseline_sha256": "9d1177e189e6972d6b16aa659a083c36d33db4d707789cfa573e2e987cd63869",
+  "configuration_name": "JLCPCB Capability(Two Layers Board)",
+  "selectors": {
+    "safe_spacing_default": "copperThickness1oz",
+    "track_default": "copperThickness1oz",
+    "copper_selectors": [
+      "Copper_copperRegion"
+    ],
+    "plane_selectors": [
+      "Plane_innerPlane"
+    ],
+    "net_count": 12,
+    "net_names": [
+      "3.3V",
+      "5V",
+      "A1",
+      "BATCHK",
+      "D1",
+      "D2",
+      "D3",
+      "GND",
+      "SENSOR1",
+      "SENSOR2",
+      "SENSOR3",
+      "VCC"
+    ]
+  },
+  "source_values_mm": {
+    "track_track": 0.10199878,
+    "ordinary_copper": 0.15200122,
+    "zone_copper": 0.254,
+    "ordinary_edge": 0.29999939999999997,
+    "zone_edge": 0.254,
+    "ordinary_hole": 0.17526,
+    "zone_hole": 0.254,
+    "hole_hole": 0.29999939999999997,
+    "slot_ordinary": 0.15200122,
+    "width_min": 0.127,
+    "width_default": 0.254,
+    "width_max": 2.54
+  },
+  "proposed_board_rules": {
+    "min_clearance": 0.10199878,
+    "min_copper_edge_clearance": 0.254,
+    "min_hole_clearance": 0.17526,
+    "min_hole_to_hole": 0.29999939999999997,
+    "min_track_width": 0.127
+  },
+  "proposed_default_netclass": {
+    "clearance": 0.15200122,
+    "track_width": 0.254
+  },
+  "scope": "Source values for current Track/TH Pad/Zone objects; slot vs edge semantics differ. See rules-mapping.md."
+}

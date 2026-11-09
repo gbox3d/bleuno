@@ -1,0 +1,11 @@
+{
+  "file": "kicad/type_m_v1_1.kicad_sch",
+  "before_sha256": "574c1ca528cba32e3ad642419d7f4b3a9aad8a8a8fa6d7d08b7733d3f197abea",
+  "after_sha256": "1fd43d45f3a77e46bd35d96ad9fd242d5dc60b8d96331df91e2252b80da89a6c",
+  "changes": [
+    "J1 Value MT1 -> BAT",
+    "removed #PWR012 Power-VCC at (91.44, 40.64)",
+    "added global_label VIN at (91.44, 40.64, 180) uuid c14c8325-bbf9-5613-abc8-fa1f9c05453f",
+    "added no_connect at (54.61, 34.29) uuid 7e80353e-b5e2-5a5a-9eef-ba0ac2138a3c"
+  ]
+}

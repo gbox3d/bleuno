@@ -1,0 +1,217 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-01T14:38:54",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "type_m_v1_1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J3 (MT1)",
+                    "pos": {
+                        "x": 124.288,
+                        "y": 112.768
+                    },
+                    "uuid": "67c43fc5-2901-516f-b90d-ca79f3221d6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R3 (10k)",
+                    "pos": {
+                        "x": 168.956,
+                        "y": 108.161
+                    },
+                    "uuid": "1772498b-1154-5ad3-83e3-d2c7cab028ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J1 (BAT + -)",
+                    "pos": {
+                        "x": 176.449,
+                        "y": 91.143
+                    },
+                    "uuid": "d664905f-4794-57a0-82e9-0b2553fa69e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J2 (PW OFF ON)",
+                    "pos": {
+                        "x": 166.416,
+                        "y": 91.524
+                    },
+                    "uuid": "bf1a3702-b210-55df-96d9-219b6866ce61"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R1 (220k)",
+                    "pos": {
+                        "x": 169.21,
+                        "y": 99.398
+                    },
+                    "uuid": "685fe369-de6f-5e1b-919a-fbba16376273"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J6 (Servo2\n+   S   -)",
+                    "pos": {
+                        "x": 155.113,
+                        "y": 116.924
+                    },
+                    "uuid": "85fc6316-ceac-546a-a5c7-9690d4dc6f95"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 U2 (DRV8833)",
+                    "pos": {
+                        "x": 123.49,
+                        "y": 92.794
+                    },
+                    "uuid": "0881dcde-eab1-5c3e-b27c-63da6c3a5b62"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 U1 (Tenstar)",
+                    "pos": {
+                        "x": 144.826,
+                        "y": 91.143
+                    },
+                    "uuid": "2087cbe5-da37-52d1-b02b-83d31211d6f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R2 (220k)",
+                    "pos": {
+                        "x": 169.337,
+                        "y": 103.716
+                    },
+                    "uuid": "11e318e5-58ff-542f-9971-666da8b8d7e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J7 (sensor1\n+   S  -)",
+                    "pos": {
+                        "x": 165.0045,
+                        "y": 116.0095
+                    },
+                    "uuid": "f91f38d2-a2e6-57ab-bfec-ea4bc2d571fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J4 (MT2)",
+                    "pos": {
+                        "x": 131.273,
+                        "y": 112.895
+                    },
+                    "uuid": "1ddb6d03-12f3-5e3a-b5c7-c19cadd6f435"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J5 (Servo1\n+    S   -)",
+                    "pos": {
+                        "x": 144.191,
+                        "y": 117.071
+                    },
+                    "uuid": "889efa40-2fc7-58da-93d7-450fdf5dcd9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

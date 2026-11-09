@@ -1,0 +1,781 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-01T11:57:13",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 162.672,
+                        "y": 101.938
+                    },
+                    "uuid": "798fe9e6-e91f-4674-93cc-2a2d59465165"
+                },
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 101.811
+                    },
+                    "uuid": "2de39a15-423e-46dd-88ae-52d09540f3a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 171.435,
+                        "y": 113.749
+                    },
+                    "uuid": "864dea44-bdbe-4c8c-9da3-b2b0d8891e1f"
+                },
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 101.811
+                    },
+                    "uuid": "2de39a15-423e-46dd-88ae-52d09540f3a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 134.859,
+                        "y": 99.017
+                    },
+                    "uuid": "bbddde8d-fe2b-400d-9d8d-9320ca0f317d"
+                },
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 134.859,
+                        "y": 117.305
+                    },
+                    "uuid": "3c5a3727-dd89-4be5-b3b6-154800b1dedf"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 171.562,
+                        "y": 101.811
+                    },
+                    "uuid": "beec6548-f104-42f5-9ac0-7df2d4bb8fe1"
+                },
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 101.811
+                    },
+                    "uuid": "2de39a15-423e-46dd-88ae-52d09540f3a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 179.182,
+                        "y": 93.429
+                    },
+                    "uuid": "d55b69c5-9904-4c33-a1f6-d03819176d1e"
+                },
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 134.859,
+                        "y": 117.305
+                    },
+                    "uuid": "3c5a3727-dd89-4be5-b3b6-154800b1dedf"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "값(4.7k)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 4.7k",
+                    "pos": {
+                        "x": 128.128,
+                        "y": 104.224
+                    },
+                    "uuid": "3f720b2c-714c-4e01-b3cb-a3a7b75772f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(10K)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 10K",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 101.811
+                    },
+                    "uuid": "2de39a15-423e-46dd-88ae-52d09540f3a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드 네트(5V)가 회로도에서 지정한 네트(3.3V)와 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[5V]10K",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 98.211
+                    },
+                    "uuid": "b0131a82-95ac-4c7a-8baf-37727fbd6ff1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "풋프린트 누락 ? (~)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "값(A1 +  s  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 A1 +  s  -",
+                    "pos": {
+                        "x": 164.704,
+                        "y": 114.384
+                    },
+                    "uuid": "72d57ef8-e498-4115-bb22-35b1b7171343"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(BAT +  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 BAT +  -",
+                    "pos": {
+                        "x": 174.356,
+                        "y": 93.937
+                    },
+                    "uuid": "241927ba-92d2-403b-acd7-b8bcabc6a2cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(CDS +  s  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 CDS +  s  -",
+                    "pos": {
+                        "x": 178.42,
+                        "y": 113.749
+                    },
+                    "uuid": "a9e5d16a-da4d-4175-a309-65459a6c5b96"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(D1 +  d  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 D1 +  d  -",
+                    "pos": {
+                        "x": 128.001,
+                        "y": 108.796
+                    },
+                    "uuid": "a439c7d8-c870-400f-8333-b548ec6f4786"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(D2 +  d  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 D2 +  d  -",
+                    "pos": {
+                        "x": 128.001,
+                        "y": 114.5745
+                    },
+                    "uuid": "fc210689-59f7-4054-9583-27f709f8fdd8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(D3 +  d  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 D3 +  d  -",
+                    "pos": {
+                        "x": 128.001,
+                        "y": 120.353
+                    },
+                    "uuid": "0d5a053b-ca15-4b24-8749-7e0cba27c84a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(DHT +  s  -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 DHT +  s  -",
+                    "pos": {
+                        "x": 178.42,
+                        "y": 101.43
+                    },
+                    "uuid": "5deb5ff8-8a31-4d93-b859-b559b9f5383c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(DS18B20\n+   s   -)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 DS18B20\n+   s   -",
+                    "pos": {
+                        "x": 127.62,
+                        "y": 98.509
+                    },
+                    "uuid": "0e60e259-4315-4873-8b6d-37713b33c00b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(On   Off)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 On   Off",
+                    "pos": {
+                        "x": 164.323,
+                        "y": 94.064
+                    },
+                    "uuid": "7266b957-34d9-40d5-96af-1f3bb8f8c047"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(On   Off-Pad3))가 없습니다",
+            "items": [
+                {
+                    "description": "3의 PTH 패드[<no net>]On   Off",
+                    "pos": {
+                        "x": 166.863,
+                        "y": 94.064
+                    },
+                    "uuid": "6acef2ad-ab1b-4933-8e3a-f573f7494746"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "값(Tenstar)이 심볼 값()과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 Tenstar",
+                    "pos": {
+                        "x": 147.305,
+                        "y": 105.494
+                    },
+                    "uuid": "a4113187-8991-4bf9-8b8c-b8dcc5c31a94"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:ESP32-C3_SUPERMINI_TH{colon}MODULE_ESP32-C3_SUPERMINI이(가) 심볼이 지정한 풋프린트(ZeroFactor-easyedapro:ESP32-C3_SUPERMINI_TH_MODULE_ESP32-C3_SUPERMINI)와 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 Tenstar",
+                    "pos": {
+                        "x": 147.305,
+                        "y": 105.494
+                    },
+                    "uuid": "a4113187-8991-4bf9-8b8c-b8dcc5c31a94"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO2-Pad2))가 없습니다",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 108.294
+                    },
+                    "uuid": "a9912d7b-3578-4bd0-9899-d3fbe942dc53"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO8-Pad8))가 없습니다",
+            "items": [
+                {
+                    "description": "8의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 103.214
+                    },
+                    "uuid": "798cedac-4a72-44f6-9f74-1abfcc52e1e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO9-Pad9))가 없습니다",
+            "items": [
+                {
+                    "description": "9의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 105.754
+                    },
+                    "uuid": "5f2f49c3-2cc9-4ffb-8f78-e08145cf70d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO20-Pad20))가 없습니다",
+            "items": [
+                {
+                    "description": "20의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 110.834
+                    },
+                    "uuid": "52251712-968a-482b-88cb-32af00cc5974"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(Tenstar-GPIO21-Pad21))가 없습니다",
+            "items": [
+                {
+                    "description": "21의 PTH 패드[<no net>]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 113.374
+                    },
+                    "uuid": "395868d1-735f-4b25-9dd6-9762e74ff615"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 134.859,
+                        "y": 117.305
+                    },
+                    "uuid": "3c5a3727-dd89-4be5-b3b6-154800b1dedf"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 134.859,
+                        "y": 99.017
+                    },
+                    "uuid": "bbddde8d-fe2b-400d-9d8d-9320ca0f317d"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "풋프린트 <참조 지정자 없음>",
+                    "pos": {
+                        "x": 179.182,
+                        "y": 93.429
+                    },
+                    "uuid": "d55b69c5-9904-4c33-a1f6-d03819176d1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "기판 모서리 공간거리 위반 (기판 구성 제약 모서리 공간거리 0.5000 mm; 실제값 0.2590 mm)",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 121.524,
+                        "y": 95.461
+                    },
+                    "uuid": "894e8e04-fbdd-4471-b162-62a0c27cd27f"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.508,
+                        "y": 90.254
+                    },
+                    "uuid": "5d44b251-2f75-490d-ba86-06de0dfc4e2c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "기판 모서리 공간거리 위반 (기판 구성 제약 모서리 공간거리 0.5000 mm; 실제값 0.2590 mm)",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 121.524,
+                        "y": 95.461
+                    },
+                    "uuid": "894e8e04-fbdd-4471-b162-62a0c27cd27f"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.016,
+                        "y": 88.984
+                    },
+                    "uuid": "03dc932b-f4f5-49bd-91bf-956d8f94eb3e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 138.305,
+                        "y": 116.844
+                    },
+                    "uuid": "1d6cec4a-0629-46a1-9294-89a7da0bc85f"
+                },
+                {
+                    "description": "10의 PTH 패드[D3]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 108.294
+                    },
+                    "uuid": "0c201082-b6b2-454f-a63e-5cc6c1991b8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 138.305,
+                        "y": 116.844
+                    },
+                    "uuid": "1d6cec4a-0629-46a1-9294-89a7da0bc85f"
+                },
+                {
+                    "description": "5의 PTH 패드[SENSOR3]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 95.594
+                    },
+                    "uuid": "230741e0-372d-42cf-a93c-d2fde4168641"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 138.305,
+                        "y": 116.844
+                    },
+                    "uuid": "1d6cec4a-0629-46a1-9294-89a7da0bc85f"
+                },
+                {
+                    "description": "7의 PTH 패드[D2]Tenstar",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 100.674
+                    },
+                    "uuid": "706c81a3-418f-4b35-9166-c9f47a5201ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "0의 PTH 패드[BATCHK]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 113.374
+                    },
+                    "uuid": "96164afb-ca20-44cd-ba57-33782b0c8fc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "1의 PTH 패드[A1]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 110.834
+                    },
+                    "uuid": "67bb8630-d440-4827-8487-de173a4655eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "3의 PTH 패드[SENSOR1]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 105.754
+                    },
+                    "uuid": "517fd27c-6792-496b-abf3-69552a9095ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "3.3의 PTH 패드[3.3V]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 100.674
+                    },
+                    "uuid": "6ff81ad0-5f1d-4662-8df1-d87f8125e958"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "4의 PTH 패드[SENSOR2]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 103.214
+                    },
+                    "uuid": "7485ce34-cacc-43d2-b3b5-95440e69d913"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "5V의 PTH 패드[5V]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 95.594
+                    },
+                    "uuid": "af9e1ccb-8bbf-46f2-b139-eb640be75645"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of Tenstar on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "G의 PTH 패드[GND]Tenstar",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 98.134
+                    },
+                    "uuid": "00f90579-b030-4338-9f48-ce92773d4166"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

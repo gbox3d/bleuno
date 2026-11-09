@@ -1,0 +1,346 @@
+{
+  "generated_utc": "2026-11-01T07:45:28.902152+00:00",
+  "kicad_version": "10.0.6",
+  "input_sha256": {
+    "before_sch": "574c1ca528cba32e3ad642419d7f4b3a9aad8a8a8fa6d7d08b7733d3f197abea",
+    "before_pcb": "1105ff3d34db037440e3a9b3378be9334527ece302c66043df2a05d6d55889da",
+    "before_netlist": "d47e64ef357a10f15eeb5457aabe14d513af0b62fe5eb49bf44b5ddf3d4f782d",
+    "before_erc": "f81f03d79ec1038f2f4e7125bd31fcda4b34f84580d04a85f91885eacbc31abe",
+    "before_drc": "c2752854ecb44609bbf1ba35165d3cdaf48b7ffe5ad6740261b2931970b16923",
+    "sch": "1fd43d45f3a77e46bd35d96ad9fd242d5dc60b8d96331df91e2252b80da89a6c",
+    "pcb": "666f25885011bb457aeda7973b493dc2d9f13ea2899f9c12e0419fa00fa10c2e",
+    "netlist": "3b6b3b5c09ec1f18b51c603bcc77a6085027ac2c7ffa9f3c595c7096314f8e68",
+    "erc": "306ac3210c10f3550d4673b0ea8324f8b0ac0d57102943ebe49df52fac7c9af5",
+    "drc": "3a524f627fad75de2011ab33801478068e4e2251e298ac001551a38d0c362cb1"
+  },
+  "checks": [
+    {
+      "name": "before_snapshot_equals_sensor_stage_audited_files",
+      "passed": true
+    },
+    {
+      "name": "before_reports_equal_sensor_stage_pinned_netlist_erc_drc",
+      "passed": true
+    },
+    {
+      "name": "v1_snapshot_hashes_preserved",
+      "passed": true,
+      "detail": {
+        "files": 57,
+        "changed": []
+      }
+    },
+    {
+      "name": "reports_newer_than_design_files_and_netlist_source_is_this_schematic",
+      "passed": true,
+      "detail": {
+        "stale": [],
+        "netlist_source": "C:\\Users\\user\\Desktop\\work\\cronos\\bleuno\\hardware\\type_m\\v1.1\\kicad\\type_m_v1_1.kicad_sch"
+      }
+    },
+    {
+      "name": "sch_only_four_top_level_changes",
+      "passed": true,
+      "detail": {
+        "removed": [
+          "symbol",
+          "symbol"
+        ],
+        "added": [
+          "no_connect",
+          "global_label",
+          "symbol"
+        ]
+      }
+    },
+    {
+      "name": "sch_J1_only_value_MT1_to_BAT",
+      "passed": true
+    },
+    {
+      "name": "sch_removed_symbol_is_PWR012_VCC_at_J1_pin1_wire_end",
+      "passed": true
+    },
+    {
+      "name": "sch_new_VIN_label_clones_existing_style_at_91_44_40_64_rot180",
+      "passed": true
+    },
+    {
+      "name": "sch_no_connect_exactly_at_J2_pin1",
+      "passed": true
+    },
+    {
+      "name": "sch_wires_unchanged_and_J1_pin1_wire_ends_at_new_label",
+      "passed": true
+    },
+    {
+      "name": "sch_lib_symbols_unchanged",
+      "passed": true
+    },
+    {
+      "name": "netlist_only_VCC_loses_J1_1_and_VIN_gains_J1_1",
+      "passed": true,
+      "detail": {
+        "VCC": [
+          [
+            [
+              "J1",
+              "1"
+            ],
+            [
+              "J2",
+              "2"
+            ],
+            [
+              "J5",
+              "1"
+            ],
+            [
+              "J6",
+              "1"
+            ],
+            [
+              "R1",
+              "1"
+            ],
+            [
+              "U1",
+              "8"
+            ],
+            [
+              "U2",
+              "9"
+            ]
+          ],
+          [
+            [
+              "J2",
+              "2"
+            ],
+            [
+              "J5",
+              "1"
+            ],
+            [
+              "J6",
+              "1"
+            ],
+            [
+              "R1",
+              "1"
+            ],
+            [
+              "U1",
+              "8"
+            ],
+            [
+              "U2",
+              "9"
+            ]
+          ]
+        ],
+        "VIN": [
+          [
+            [
+              "J2",
+              "3"
+            ]
+          ],
+          [
+            [
+              "J1",
+              "1"
+            ],
+            [
+              "J2",
+              "3"
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "ERC_delta_exactly_expected",
+      "passed": true,
+      "detail": {
+        "before": {
+          "error": 21,
+          "warning": 27
+        },
+        "after": {
+          "error": 20,
+          "warning": 26
+        },
+        "removed": [
+          [
+            "pin_not_connected",
+            "error",
+            [
+              "557cf05d-d743-4409-8c5d-221796c35201"
+            ]
+          ],
+          [
+            "isolated_pin_label",
+            "warning",
+            [
+              "34783d0f-520b-45c8-b483-83569857bdb8"
+            ]
+          ],
+          [
+            "pin_to_pin",
+            "warning",
+            [
+              "f36b8395-4bd0-45bb-9e04-f0dd1bdce723",
+              "1a89e1cb-78a0-47bb-bab6-713c606c51cc"
+            ]
+          ]
+        ],
+        "added": [
+          [
+            "pin_to_pin",
+            "warning",
+            [
+              "f36b8395-4bd0-45bb-9e04-f0dd1bdce723",
+              "7e9e9abb-1d4a-4f98-b0f9-88157bef02f6"
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "pcb_all_other_footprints_exact",
+      "passed": true
+    },
+    {
+      "name": "pcb_J1_only_pad1_net_value_and_silk_text_changed",
+      "passed": true
+    },
+    {
+      "name": "pcb_J1_polarity_marks_minus_over_pad2_plus_over_pad1_0_8mm",
+      "passed": true
+    },
+    {
+      "name": "pcb_J1_pad_positions_unchanged_pad2_left_GND_pad1_right_VIN",
+      "passed": true
+    },
+    {
+      "name": "pcb_tracks_three_renetted_one_removed_one_added_rest_exact",
+      "passed": true,
+      "detail": {
+        "before": 124,
+        "after": 124
+      }
+    },
+    {
+      "name": "pcb_vias_texts_edges_unchanged",
+      "passed": true
+    },
+    {
+      "name": "pcb_zone_outlines_and_settings_unchanged",
+      "passed": true
+    },
+    {
+      "name": "pcb_setup_layers_and_other_fields_unchanged",
+      "passed": true
+    },
+    {
+      "name": "pcb_sensor_stage_SEN1_tracks_and_via_still_present",
+      "passed": true
+    },
+    {
+      "name": "pcb_pad_nets_match_schematic_netlist",
+      "passed": true
+    },
+    {
+      "name": "copper_battery_plus_J1_1_reaches_only_switch_ON_pad_J2_3",
+      "passed": true,
+      "detail": [
+        "J1.1",
+        "J2.3"
+      ]
+    },
+    {
+      "name": "copper_switch_common_J2_2_reaches_all_VCC_loads_and_nothing_else",
+      "passed": true,
+      "detail": [
+        "J2.2",
+        "J5.1",
+        "J6.1",
+        "R1.1",
+        "U1.8",
+        "U2.9"
+      ]
+    },
+    {
+      "name": "copper_switch_OFF_pad_J2_1_isolated",
+      "passed": true
+    },
+    {
+      "name": "copper_battery_minus_J1_2_reaches_GND_loads",
+      "passed": true
+    },
+    {
+      "name": "copper_no_contact_between_different_nets_anywhere",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "copper_VIN_is_J1_1_J2_3_plus_exactly_four_tracks_all_connected",
+      "passed": true
+    },
+    {
+      "name": "silk_minus_centred_on_GND_pad2_plus_centred_on_battery_plus_pad1",
+      "passed": true,
+      "detail": {
+        "BAT": [
+          176.449,
+          91.143
+        ],
+        "-": [
+          179.763,
+          90.878
+        ],
+        "+": [
+          181.263,
+          90.878
+        ]
+      }
+    },
+    {
+      "name": "J1_value_BAT_in_pcb_and_schematic",
+      "passed": true
+    },
+    {
+      "name": "native_DRC_zero_errors_unconnected_and_schematic_parity",
+      "passed": true,
+      "detail": {
+        "errors": 0,
+        "warnings": 12,
+        "unconnected": 0,
+        "parity": 0
+      }
+    },
+    {
+      "name": "DRC_warnings_same_12_pre_existing_text_height_items",
+      "passed": true
+    },
+    {
+      "name": "all_audited_inputs_unchanged_during_read",
+      "passed": true
+    }
+  ],
+  "allowed_changes": [
+    "SCH: J1 Value MT1 -> BAT; #PWR012 removed; global label VIN at (91.44,40.64,180); no_connect at J2 pin 1",
+    "PCB: J1.1 net VCC -> VIN; tracks b06922f1/1e4529bd/2079d983 VCC -> VIN; track 66ef6120 removed; one new 1.0 mm F.Cu VIN track (172.385,96.731)-(172.385,93.048); J1 Value BAT; J1 silk 'BAT + -' -> 'BAT' (same place); new 0.8 mm '-' and '+' marks over pads 2 and 1",
+    "PCB: zone filled polygons regenerated natively; all zone settings/outlines unchanged"
+  ],
+  "erc_remaining_imported_symbol_limitations": {
+    "error": 20,
+    "warning": 26
+  },
+  "passed": true,
+  "summary": {
+    "checks": 34,
+    "passed": 34
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "applied": true,
+  "input_pcb_sha256": "ef3f3eeaacc696a38f435e0e50824db8fdde34268e1cc0720c928a16f8ffa75b",
+  "output_pcb_sha256": "115e3d81adee4a4cd3d92ae47f2ccbfe3d93a88bd25d5b4c3427c417a7a5b61d",
+  "netlist_sha256": "17514b28aa904555efd91606766b20d2c8179c56e9550a04f21dc29183807f66",
+  "field_changes": [],
+  "nc_net_changes": [
+    {
+      "reference": "J2",
+      "pad": "3",
+      "before": "",
+      "after": "unconnected-(J2-Pad3)"
+    },
+    {
+      "reference": "U1",
+      "pad": "2",
+      "before": "",
+      "after": "unconnected-(U1-GPIO2-Pad2)"
+    },
+    {
+      "reference": "U1",
+      "pad": "8",
+      "before": "",
+      "after": "unconnected-(U1-GPIO8-Pad8)"
+    },
+    {
+      "reference": "U1",
+      "pad": "9",
+      "before": "",
+      "after": "unconnected-(U1-GPIO9-Pad9)"
+    },
+    {
+      "reference": "U1",
+      "pad": "20",
+      "before": "",
+      "after": "unconnected-(U1-GPIO20-Pad20)"
+    },
+    {
+      "reference": "U1",
+      "pad": "21",
+      "before": "",
+      "after": "unconnected-(U1-GPIO21-Pad21)"
+    }
+  ],
+  "preserved_source_value_differences": [
+    {
+      "reference": "R1",
+      "schematic": "220kΩ",
+      "pcb": "10kΩ"
+    },
+    {
+      "reference": "R2",
+      "schematic": "220kΩ",
+      "pcb": "10kΩ"
+    }
+  ],
+  "isolated_nc_net_pad_counts": {
+    "unconnected-(J2-Pad3)": 1,
+    "unconnected-(U1-GPIO2-Pad2)": 1,
+    "unconnected-(U1-GPIO20-Pad20)": 1,
+    "unconnected-(U1-GPIO21-Pad21)": 1,
+    "unconnected-(U1-GPIO8-Pad8)": 1,
+    "unconnected-(U1-GPIO9-Pad9)": 1
+  },
+  "checks": {
+    "all_board_geometry_and_zone_fills_unchanged": true,
+    "original_12_connection_groups_unchanged": true,
+    "nc_nets_have_one_pad_no_track_no_zone": true,
+    "schematic_project_rules_unchanged": true,
+    "native_reload": true
+  },
+  "geometry_sha256": "c6f2e71bb188266fb3f5df773507f33e986c263154e99f97adca263c4894f805"
+}

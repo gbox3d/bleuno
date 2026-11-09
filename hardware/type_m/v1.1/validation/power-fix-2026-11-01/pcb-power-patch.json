@@ -1,0 +1,121 @@
+{
+  "input_sha256": "1105ff3d34db037440e3a9b3378be9334527ece302c66043df2a05d6d55889da",
+  "output_sha256": "666f25885011bb457aeda7973b493dc2d9f13ea2899f9c12e0419fa00fa10c2e",
+  "pad_net_changes": {
+    "J1.1": [
+      "VCC",
+      "VIN"
+    ]
+  },
+  "tracks_renetted_to_VIN": [
+    {
+      "uuid": "b06922f1-ea8d-4d66-b454-923d92320ff5",
+      "start_mm": [
+        181.263,
+        91.778
+      ],
+      "end_mm": [
+        181.263,
+        92.806
+      ],
+      "width_mm": 1.0,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "1e4529bd-6494-4ae0-b11e-f1200a5d3325",
+      "start_mm": [
+        177.338,
+        96.731
+      ],
+      "end_mm": [
+        181.263,
+        92.806
+      ],
+      "width_mm": 1.0,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2079d983-7e97-4d08-9d16-d6ba366e0629",
+      "start_mm": [
+        172.385,
+        96.731
+      ],
+      "end_mm": [
+        177.338,
+        96.731
+      ],
+      "width_mm": 1.0,
+      "layer": "F.Cu"
+    }
+  ],
+  "track_removed": {
+    "uuid": "66ef6120-c438-4395-8cc0-c941c531d789",
+    "start_mm": [
+      169.845,
+      94.191
+    ],
+    "end_mm": [
+      172.385,
+      96.731
+    ]
+  },
+  "track_added": {
+    "uuid": "1719e8c7-ea4a-40b0-8b32-6b799c657418",
+    "net": "VIN",
+    "layer": "F.Cu",
+    "start_mm": [
+      172.385,
+      96.731
+    ],
+    "end_mm": [
+      172.385,
+      93.048
+    ],
+    "width_mm": 1.0
+  },
+  "J1_value": [
+    "MT1",
+    "BAT"
+  ],
+  "J1_silk_text": {
+    "uuid": "d664905f-4794-57a0-82e9-0b2553fa69e9",
+    "text": [
+      "BAT + -",
+      "BAT"
+    ],
+    "relative_mm": [
+      -4.064,
+      -0.635
+    ]
+  },
+  "J1_polarity_marks": {
+    "-": {
+      "uuid": "6b6a4b15-e6d2-44c1-af1f-a6fdeca4fac2",
+      "relative_mm": [
+        -0.75,
+        -0.9
+      ],
+      "board_mm": [
+        179.763,
+        90.878
+      ],
+      "size_mm": 0.8,
+      "thickness_mm": 0.15
+    },
+    "+": {
+      "uuid": "7bfc996d-091f-4e8e-a8df-a413b7953286",
+      "relative_mm": [
+        0.75,
+        -0.9
+      ],
+      "board_mm": [
+        181.263,
+        90.878
+      ],
+      "size_mm": 0.8,
+      "thickness_mm": 0.15
+    }
+  },
+  "zones_refilled": true,
+  "note": "Run kicad-cli ERC/netlist/DRC --schematic-parity and verify_power_fix.py next."
+}

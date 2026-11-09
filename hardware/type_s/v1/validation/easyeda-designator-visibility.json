@@ -1,0 +1,171 @@
+{
+  "capturedAt": "2026-11-01T03:07:49.456Z",
+  "pcb": "287e5461706743eeb18d8d86160a742f",
+  "designators": [
+    {
+      "id": "e1-e37",
+      "parent": "e1",
+      "value": "Tenstar",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 709.8425,
+      "y": -96.14170000000001,
+      "rotation": 0
+    },
+    {
+      "id": "e12-e14",
+      "parent": "e12",
+      "value": "4.7k",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 275,
+      "y": -580,
+      "rotation": 720
+    },
+    {
+      "id": "e13-e14",
+      "parent": "e13",
+      "value": "10K",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 2005,
+      "y": -905,
+      "rotation": 270
+    },
+    {
+      "id": "e14-e14",
+      "parent": "e14",
+      "value": "10K",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 2010,
+      "y": -430,
+      "rotation": 270
+    },
+    {
+      "id": "e16-e15",
+      "parent": "e16",
+      "value": "CDS +  s  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 2350,
+      "y": -725,
+      "rotation": 270
+    },
+    {
+      "id": "e17-e15",
+      "parent": "e17",
+      "value": "DHT +  s  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 2360,
+      "y": -245,
+      "rotation": 270
+    },
+    {
+      "id": "e18-e15",
+      "parent": "e18",
+      "value": "DS18B20\n+   s   -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 165,
+      "y": -280,
+      "rotation": 720
+    },
+    {
+      "id": "e19-e14",
+      "parent": "e19",
+      "value": "10K",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 1770,
+      "y": -420,
+      "rotation": 270
+    },
+    {
+      "id": "e20-e14",
+      "parent": "e20",
+      "value": "10K",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 1660,
+      "y": -425,
+      "rotation": 270
+    },
+    {
+      "id": "e161-e15",
+      "parent": "e161",
+      "value": "A1 +  s  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 1820,
+      "y": -800,
+      "rotation": 270
+    },
+    {
+      "id": "e162-e12",
+      "parent": "e162",
+      "value": "BAT +  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 1970,
+      "y": -95,
+      "rotation": 0
+    },
+    {
+      "id": "e163-e15",
+      "parent": "e163",
+      "value": "D2 +  d  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 150.158,
+      "y": -908.288,
+      "rotation": 0
+    },
+    {
+      "id": "e164-e15",
+      "parent": "e164",
+      "value": "D3 +  d  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 150.158,
+      "y": -1135.788,
+      "rotation": 0
+    },
+    {
+      "id": "e167-e15",
+      "parent": "e167",
+      "value": "On   Off",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 1625,
+      "y": -95,
+      "rotation": 0
+    },
+    {
+      "id": "e424-e15",
+      "parent": "e424",
+      "value": "D1 +  d  -",
+      "valueVisible": true,
+      "keyVisible": false,
+      "layer": 3,
+      "x": 150.158,
+      "y": -680.788,
+      "rotation": 0
+    }
+  ]
+}

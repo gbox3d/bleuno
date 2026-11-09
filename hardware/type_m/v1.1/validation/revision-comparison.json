@@ -1,0 +1,180 @@
+{
+  "generated_utc": "2026-11-01T05:47:24.169522+00:00",
+  "kicad_version": "10.0.6",
+  "checks": [
+    {
+      "name": "v1_snapshot_hashes_preserved",
+      "passed": true,
+      "detail": {
+        "files": 57,
+        "changed": []
+      }
+    },
+    {
+      "name": "all_footprint_and_pad_fields_exact_except_allowed_two_pins",
+      "passed": true,
+      "detail": {
+        "footprints_including_mounting_holes": 14,
+        "changed_unexpected_uuids": []
+      }
+    },
+    {
+      "name": "all_118_original_track_uuids_geometry_layers_widths_nets_preserved",
+      "passed": true
+    },
+    {
+      "name": "exactly_six_manifest_segments_on_SEN1",
+      "passed": true,
+      "detail": {
+        "added": 6,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "exactly_one_manifest_0_6_0_3_through_via_on_SEN1",
+      "passed": true
+    },
+    {
+      "name": "only_one_new_front_silkscreen_revision_text",
+      "passed": true
+    },
+    {
+      "name": "zone_outlines_and_all_nonfill_settings_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_remaining_board_fields_and_28_edges_exact",
+      "passed": true,
+      "detail": {
+        "edge_count": 28
+      }
+    },
+    {
+      "name": "design_rules_unchanged",
+      "passed": true
+    },
+    {
+      "name": "project_design_rules_and_net_settings_unchanged",
+      "passed": true
+    },
+    {
+      "name": "one_new_SEN1_label_at_exact_U1_pin15_anchor",
+      "passed": true
+    },
+    {
+      "name": "kicad_sch_only_pin_names_label_and_frame_revision_changed",
+      "passed": true
+    },
+    {
+      "name": "kicad_sym_only_pin_names_label_and_frame_revision_changed",
+      "passed": true
+    },
+    {
+      "name": "52_component_pads_plus_two_mounting_holes",
+      "passed": true
+    },
+    {
+      "name": "all_pcb_net_groups_match_exact_expected_change",
+      "passed": true
+    },
+    {
+      "name": "all_schematic_net_groups_match_exact_expected_change",
+      "passed": true
+    },
+    {
+      "name": "pcb_and_schematic_node_memberships_match",
+      "passed": true
+    },
+    {
+      "name": "SEN1_exactly_J7_2_R3_2_U1_15",
+      "passed": true
+    },
+    {
+      "name": "updated_pad_functions_GPIO20_GPIO21",
+      "passed": true
+    },
+    {
+      "name": "SEN1_actual_copper_graph_connects_all_3_pads_10_tracks_1_via",
+      "passed": true,
+      "detail": {
+        "conductors": 14,
+        "reachable": 14,
+        "disconnected": []
+      }
+    },
+    {
+      "name": "SEN1_no_physical_contact_with_any_other_pad",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "native_DRC_zero_errors_unconnected_and_schematic_parity",
+      "passed": true,
+      "detail": {
+        "errors": 0,
+        "warnings": 12,
+        "unconnected": 0,
+        "parity": 0
+      }
+    },
+    {
+      "name": "same_12_existing_text_height_warnings",
+      "passed": true
+    },
+    {
+      "name": "ERC_only_U1_pin15_disconnected_error_replaced_by_existing_pin_type_warning",
+      "passed": true,
+      "detail": {
+        "before": {
+          "error": 22,
+          "warning": 26
+        },
+        "after": {
+          "error": 21,
+          "warning": 27
+        }
+      }
+    },
+    {
+      "name": "all_audited_inputs_unchanged_during_read",
+      "passed": true
+    }
+  ],
+  "allowed_changes": [
+    "Project/library path prefix type_m_v1 -> type_m_v1_1 only",
+    "U1.15 net becomes SEN1 and pinfunction becomes GPIO20",
+    "U1.16 remains singleton NC; net/pinfunction use GPIO21",
+    "SCH and local library pin15/16 names GPIO20/GPIO21; one SEN1 label at U1.15",
+    "Imported frame Version v1.1 and Update Date 2026-11-01 in displayed text and matching instance fields",
+    "Exactly six 0.254 mm SEN1 segments and one 0.6/0.3 mm through via, as pcb-patch.json",
+    "Exactly one F.SilkS revision text type_m v1.1, as pcb-patch.json",
+    "Native regenerated zone filled_polygon geometry; all zone settings/outlines unchanged"
+  ],
+  "input_sha256": {
+    "v1_pcb": "ec8c3e403f49f46826a1b262eb165a972bd82961a50cd1fd38dcf324aa2dfb73",
+    "revision_pcb": "1105ff3d34db037440e3a9b3378be9334527ece302c66043df2a05d6d55889da",
+    "revision_schematic": "574c1ca528cba32e3ad642419d7f4b3a9aad8a8a8fa6d7d08b7733d3f197abea",
+    "revision_symbol_library": "5ae7a65f28a721bb821b52e13f245a85b632adf3e769310bf42ecc08bb7e3b7a",
+    "revision_project": "fe1c08664d0523ab919c39a8fc3fc8b81dcf46fc2a067f7e5f2e4a539f04be6f",
+    "revision_rules": "543a56aa45ca9d2d2ac9904480f01dfaa729bbfef2a42f6de400dcafa045ada3",
+    "netlist": "d47e64ef357a10f15eeb5457aabe14d513af0b62fe5eb49bf44b5ddf3d4f782d",
+    "drc": "c2752854ecb44609bbf1ba35165d3cdaf48b7ffe5ad6740261b2931970b16923",
+    "erc": "f81f03d79ec1038f2f4e7125bd31fcda4b34f84580d04a85f91885eacbc31abe",
+    "patch_manifest": "10611b8e55f0ffddf5fcc6e21d94389aa69296a0e821d896544861cbe628aa4c"
+  },
+  "revision_metadata": {
+    "version": "v1.1",
+    "update_date": "2026-11-01",
+    "original_board_name_retained": "MotorConT1",
+    "original_project_name_retained": "MovingTarget"
+  },
+  "erc_existing_symbol_limitations": {
+    "error": 21,
+    "warning": 27
+  },
+  "passed": true,
+  "summary": {
+    "checks": 25,
+    "passed": 25
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "project": "type_s_v1",
+  "source_sha256": "0681b9a902b06c018cb0079b439ae88aa3eb3200a29b7b0be6b08c4da0565d90",
+  "references": [
+    {
+      "reference": "U1",
+      "source_unique_id": "gge2",
+      "source_reference": "Tenstar",
+      "source_pcb_text": "Tenstar",
+      "source_schematic_id": "e193",
+      "source_pcb_id": "e199",
+      "source_schematic_value": "ESP32-C3_SUPERMINI_TH",
+      "source_pcb_value": "ESP32-C3_SUPERMINI_TH",
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "ESP32-C3",
+      "pcb_displayed_value": "ESP32-C3",
+      "symbol_uuid": "16d4ee59-573d-4071-be66-6d395d545188",
+      "footprint_uuid": "a4113187-8991-4bf9-8b8c-b8dcc5c31a94",
+      "footprint": "type_s_v1:ESP32-C3_SUPERMINI_TH{colon}MODULE_ESP32-C3_SUPERMINI"
+    },
+    {
+      "reference": "R1",
+      "source_unique_id": "gge10_1",
+      "source_reference": "10K",
+      "source_pcb_text": "10K",
+      "source_schematic_id": "e3937",
+      "source_pcb_id": "e227",
+      "source_schematic_value": "220kΩ",
+      "source_pcb_value": "10kΩ",
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "220kΩ",
+      "pcb_displayed_value": "10kΩ",
+      "symbol_uuid": "763a134d-4751-4cb2-9c93-a1829e076003",
+      "footprint_uuid": "2de39a15-423e-46dd-88ae-52d09540f3a3",
+      "footprint": "type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4"
+    },
+    {
+      "reference": "R2",
+      "source_unique_id": "gge10_2",
+      "source_reference": "10K",
+      "source_pcb_text": "10K",
+      "source_schematic_id": "e3961",
+      "source_pcb_id": "e231",
+      "source_schematic_value": "220kΩ",
+      "source_pcb_value": "10kΩ",
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "220kΩ",
+      "pcb_displayed_value": "10kΩ",
+      "symbol_uuid": "69c5d9b7-2043-4934-91da-45bb99ce6eb7",
+      "footprint_uuid": "798fe9e6-e91f-4674-93cc-2a2d59465165",
+      "footprint": "type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4"
+    },
+    {
+      "reference": "R3",
+      "source_unique_id": "gge10",
+      "source_reference": "10K",
+      "source_pcb_text": "10K",
+      "source_schematic_id": "e2958",
+      "source_pcb_id": "e211",
+      "source_schematic_value": "10kΩ",
+      "source_pcb_value": "10kΩ",
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "10kΩ",
+      "pcb_displayed_value": "10kΩ",
+      "symbol_uuid": "c8e4fa50-cad0-45a1-b6b0-7550e3e23d16",
+      "footprint_uuid": "beec6548-f104-42f5-9ac0-7df2d4bb8fe1",
+      "footprint": "type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4"
+    },
+    {
+      "reference": "R4",
+      "source_unique_id": "gge11",
+      "source_reference": "10K",
+      "source_pcb_text": "10K",
+      "source_schematic_id": "e3004",
+      "source_pcb_id": "e207",
+      "source_schematic_value": "10kΩ",
+      "source_pcb_value": "10kΩ",
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "10kΩ",
+      "pcb_displayed_value": "10kΩ",
+      "symbol_uuid": "35512c5a-39eb-4fa0-a848-4eddbe0ad80b",
+      "footprint_uuid": "864dea44-bdbe-4c8c-9da3-b2b0d8891e1f",
+      "footprint": "type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4"
+    },
+    {
+      "reference": "R5",
+      "source_unique_id": "gge12",
+      "source_reference": "4.7k",
+      "source_pcb_text": "4.7k",
+      "source_schematic_id": "e3064",
+      "source_pcb_id": "e203",
+      "source_schematic_value": "4.7kΩ",
+      "source_pcb_value": "4.7kΩ",
+      "source_pcb_value_is_local": true,
+      "schematic_displayed_value": "R",
+      "pcb_displayed_value": "R",
+      "symbol_uuid": "c3f53d50-6fe6-4e65-aabb-89f1c7424ca5",
+      "footprint_uuid": "3f720b2c-714c-4e01-b3cb-a3a7b75772f6",
+      "footprint": "type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4"
+    },
+    {
+      "reference": "J1",
+      "source_unique_id": "gge26",
+      "source_reference": "BAT +  -",
+      "source_pcb_text": "BAT +  -",
+      "source_schematic_id": "e4526",
+      "source_pcb_id": "e239",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "c377d1d4-397f-4823-81d6-9ee191841484",
+      "footprint_uuid": "241927ba-92d2-403b-acd7-b8bcabc6a2cf",
+      "footprint": "type_s_v1:HDR-TH_2P-P2.54-V-F"
+    },
+    {
+      "reference": "J2",
+      "source_unique_id": "gge27",
+      "source_reference": "On   Off",
+      "source_pcb_text": "On   Off",
+      "source_schematic_id": "e4638",
+      "source_pcb_id": "e251",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "65bdba75-5926-4509-b8e7-823c47d15bdc",
+      "footprint_uuid": "7266b957-34d9-40d5-96af-1f3bb8f8c047",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-F"
+    },
+    {
+      "reference": "J3",
+      "source_unique_id": "gge17",
+      "source_reference": "DHT +  s  -",
+      "source_pcb_text": "DHT +  s  -",
+      "source_schematic_id": "e3832",
+      "source_pcb_id": "e219",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "38089453-1421-4c2c-9de9-c0e682179ab6",
+      "footprint_uuid": "5deb5ff8-8a31-4d93-b859-b559b9f5383c",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-M"
+    },
+    {
+      "reference": "J4",
+      "source_unique_id": "gge18",
+      "source_reference": "CDS +  s  -",
+      "source_pcb_text": "CDS +  s  -",
+      "source_schematic_id": "e3858",
+      "source_pcb_id": "e215",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "1f1c882e-4915-4fe8-ab4a-4e23b900f3eb",
+      "footprint_uuid": "a9e5d16a-da4d-4175-a309-65459a6c5b96",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-M"
+    },
+    {
+      "reference": "J5",
+      "source_unique_id": "gge18_1",
+      "source_reference": "DS18B20\n+   s   -",
+      "source_pcb_text": "DS18B20\n+   s   -",
+      "source_schematic_id": "e3910",
+      "source_pcb_id": "e223",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "e6b5369e-cf3e-4a67-80cd-9414af8437d6",
+      "footprint_uuid": "0e60e259-4315-4873-8b6d-37713b33c00b",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-M"
+    },
+    {
+      "reference": "J6",
+      "source_unique_id": "gge23",
+      "source_reference": "A1 +  s  -",
+      "source_pcb_text": "A1 +  s  -",
+      "source_schematic_id": "e4345",
+      "source_pcb_id": "e235",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "606f25ce-2b2e-4194-8c15-fbabf5bb8108",
+      "footprint_uuid": "72d57ef8-e498-4115-bb22-35b1b7171343",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-F"
+    },
+    {
+      "reference": "J7",
+      "source_unique_id": "gge24_1",
+      "source_reference": "D1 +  d  -",
+      "source_pcb_text": "D1 +  d  -",
+      "source_schematic_id": "e4853",
+      "source_pcb_id": "e255",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "e5f20d52-c4a2-4208-8b68-b028b1dd5396",
+      "footprint_uuid": "a439c7d8-c870-400f-8333-b548ec6f4786",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-F"
+    },
+    {
+      "reference": "J8",
+      "source_unique_id": "gge24",
+      "source_reference": "D2 +  d  -",
+      "source_pcb_text": "D2 +  d  -",
+      "source_schematic_id": "e4435",
+      "source_pcb_id": "e243",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "9d6138bc-81ee-48fd-8873-b39e15fb587e",
+      "footprint_uuid": "fc210689-59f7-4054-9583-27f709f8fdd8",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-F"
+    },
+    {
+      "reference": "J9",
+      "source_unique_id": "gge25",
+      "source_reference": "D3 +  d  -",
+      "source_pcb_text": "D3 +  d  -",
+      "source_schematic_id": "e4467",
+      "source_pcb_id": "e247",
+      "source_schematic_value": null,
+      "source_pcb_value": null,
+      "source_pcb_value_is_local": false,
+      "schematic_displayed_value": "",
+      "pcb_displayed_value": "",
+      "symbol_uuid": "ffc490d6-8d30-4b80-b31c-07edfb255e55",
+      "footprint_uuid": "0d5a053b-ca15-4b24-8749-7e0cba27c84a",
+      "footprint": "type_s_v1:HDR-TH_3P-P2.54-V-F"
+    }
+  ],
+  "virtual_power_references": 12,
+  "board_only_references": [
+    "MP1",
+    "MP2",
+    "MP3"
+  ],
+  "board_geometry_sha256": "82283f745cab88514d0aa61d2761aa4ac3ec276cd39c5868d8934cf08b1f7465",
+  "pad_net_sha256": "0f39dcb2329ab96baec6dab5ae09c99831097311f745fcad16708df1502f7ddb",
+  "schematic_geometry_sha256": "9a8a386e3e3432e8a86c3e156034ddf635dd3098f270143a92dca056f38cf2a8",
+  "preserved_original_silkscreen_texts": 15,
+  "repaired_cutout": {
+    "source_id": "e197",
+    "edges": 8,
+    "source_vertices_mil": [
+      [
+        870,
+        -210
+      ],
+      [
+        1175,
+        -210
+      ],
+      [
+        1225,
+        -260
+      ],
+      [
+        1225,
+        -415
+      ],
+      [
+        1285,
+        -475
+      ],
+      [
+        1285,
+        -1015
+      ],
+      [
+        925,
+        -1015
+      ],
+      [
+        870,
+        -960
+      ]
+    ]
+  },
+  "source_value_differences_preserved": [
+    {
+      "reference": "R1",
+      "schematic": "220kΩ",
+      "pcb": "10kΩ"
+    },
+    {
+      "reference": "R2",
+      "schematic": "220kΩ",
+      "pcb": "10kΩ"
+    }
+  ],
+  "displayed_value_differences_preserved": [
+    {
+      "reference": "R1",
+      "schematic": "220kΩ",
+      "pcb": "10kΩ"
+    },
+    {
+      "reference": "R2",
+      "schematic": "220kΩ",
+      "pcb": "10kΩ"
+    }
+  ],
+  "checks": {
+    "board_geometry_unchanged_except_cutout": true,
+    "pad_nets_unchanged": true,
+    "schematic_geometry_unchanged": true,
+    "native_board_reload": true
+  }
+}

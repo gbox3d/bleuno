@@ -1,0 +1,4044 @@
+{
+  "source": {
+    "archive": "MovingTarget_MotorConT1_2026-10-31.epro",
+    "sha256": "ad53d548a11a0d6652db9e8f0933e21c97d479a1e3235c9c981f93750b959bda",
+    "board": "MotorConT1",
+    "pcb_uuid": "230020836b7d42a2ae0bd4e6ece12948",
+    "schematic_uuid": "dd2cfae3a64d4b3db5dd5a512ac44bc2",
+    "header": {
+      "editorVersion": "2.2.C",
+      "importFlag": 0
+    },
+    "record_counts": {
+      "DOCTYPE": 1,
+      "HEAD": 1,
+      "CANVAS": 1,
+      "LAYER": 90,
+      "ACTIVE_LAYER": 1,
+      "LAYER_PHYS": 9,
+      "PREFERENCE": 1,
+      "NET": 17,
+      "RULE": 16,
+      "RULE_SELECTOR": 19,
+      "PRIMITIVE": 45,
+      "SILK_OPTS": 2,
+      "PANELIZE": 1,
+      "PANELIZE_STAMP": 2,
+      "PANELIZE_SIDE": 2,
+      "PROP": 1,
+      "PAD": 2,
+      "LINE": 118,
+      "POUR": 2,
+      "POURED": 51,
+      "POLY": 1,
+      "FILL": 1,
+      "COMPONENT": 12,
+      "ATTR": 36,
+      "PAD_NET": 209
+    },
+    "components": [
+      {
+        "id": "e176",
+        "reference": "220k",
+        "unique_id": "gge4",
+        "xy_mil": [
+          1195,
+          -360
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "ef02e86a3a04467da326e5ce079a94db",
+        "device_id": "80adf0741387447e9c2ea22eb6842071",
+        "local_properties": {
+          "Value": "220kΩ",
+          "Unique ID": "gge4",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e1595"
+        },
+        "pads": [
+          {
+            "id": "e7",
+            "number": "1",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              -200,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              35.4,
+              35.4
+            ],
+            "shape": [
+              "ELLIPSE",
+              74,
+              74
+            ]
+          },
+          {
+            "id": "e8",
+            "number": "2",
+            "net": "CHKBAT",
+            "layer": 12,
+            "xy_mil": [
+              200,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              35.4,
+              35.4
+            ],
+            "shape": [
+              "ELLIPSE",
+              74,
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e180",
+        "reference": "220k",
+        "unique_id": "gge5",
+        "xy_mil": [
+          1205,
+          -520
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "ef02e86a3a04467da326e5ce079a94db",
+        "device_id": "80adf0741387447e9c2ea22eb6842071",
+        "local_properties": {
+          "Value": "220kΩ",
+          "Unique ID": "gge5",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e1619"
+        },
+        "pads": [
+          {
+            "id": "e7",
+            "number": "1",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              -200,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              35.4,
+              35.4
+            ],
+            "shape": [
+              "ELLIPSE",
+              74,
+              74
+            ]
+          },
+          {
+            "id": "e8",
+            "number": "2",
+            "net": "CHKBAT",
+            "layer": 12,
+            "xy_mil": [
+              200,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              35.4,
+              35.4
+            ],
+            "shape": [
+              "ELLIPSE",
+              74,
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e184",
+        "reference": "DRV8833",
+        "unique_id": "gge2",
+        "xy_mil": [
+          -645,
+          -115
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "ceb349c5a3804001acf8b295c1f3454e",
+        "device_id": "f50a1c9353fe45209dc70a501f493dba",
+        "local_properties": {
+          "Unique ID": "gge2",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e451"
+        },
+        "pads": [
+          {
+            "id": "e1",
+            "number": "1",
+            "net": "SLEEP",
+            "layer": 12,
+            "xy_mil": [
+              60,
+              -60
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e2",
+            "number": "2",
+            "net": "OUT1",
+            "layer": 12,
+            "xy_mil": [
+              60,
+              -160
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e3",
+            "number": "12",
+            "net": "D4",
+            "layer": 12,
+            "xy_mil": [
+              650.5512,
+              -60
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e4",
+            "number": "3",
+            "net": "OUT2",
+            "layer": 12,
+            "xy_mil": [
+              60,
+              -260
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e5",
+            "number": "4",
+            "net": "OUT3",
+            "layer": 12,
+            "xy_mil": [
+              60,
+              -360
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e6",
+            "number": "5",
+            "net": "OUT4",
+            "layer": 12,
+            "xy_mil": [
+              60,
+              -460
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e7",
+            "number": "6",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              60,
+              -560
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e8",
+            "number": "11",
+            "net": "D3",
+            "layer": 12,
+            "xy_mil": [
+              650.5512,
+              -160
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e9",
+            "number": "10",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              650.5512,
+              -260
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e10",
+            "number": "9",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              650.5512,
+              -360
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e11",
+            "number": "8",
+            "net": "D2",
+            "layer": 12,
+            "xy_mil": [
+              650.5512,
+              -460
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          },
+          {
+            "id": "e12",
+            "number": "7",
+            "net": "D1",
+            "layer": 12,
+            "xy_mil": [
+              650.5512,
+              -560
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              36,
+              36
+            ],
+            "shape": [
+              "ELLIPSE",
+              60,
+              60
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e188",
+        "reference": "PW OFF ON",
+        "unique_id": "gge3",
+        "xy_mil": [
+          1175,
+          -120
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "e68ad98ff2874572aa6b59d51fc70cb2",
+        "device_id": "d11dbe90681345f9bd59f4ed6a696b54",
+        "local_properties": {
+          "Name": "",
+          "Unique ID": "gge3",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e1190"
+        },
+        "pads": [
+          {
+            "id": "e12",
+            "number": "1",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              -100,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "RECT",
+              66.929,
+              66.929,
+              0
+            ]
+          },
+          {
+            "id": "e13",
+            "number": "2",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              0,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "ELLIPSE",
+              66.929,
+              66.929
+            ]
+          },
+          {
+            "id": "e14",
+            "number": "3",
+            "net": "VIN",
+            "layer": 12,
+            "xy_mil": [
+              100,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "ELLIPSE",
+              66.929,
+              66.929
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e192",
+        "reference": "MT1",
+        "unique_id": "gge9",
+        "xy_mil": [
+          -525,
+          -925
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "cc14b79e8bf84aae88e888798c5e4da3",
+        "device_id": "9efe2a18d0ef4fdf9d15c025be18e146",
+        "local_properties": {
+          "Name": "MT1",
+          "Unique ID": "gge9",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e2660"
+        },
+        "pads": [
+          {
+            "id": "e12",
+            "number": "1",
+            "net": "OUT1",
+            "layer": 12,
+            "xy_mil": [
+              29.53,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              31.496,
+              31.496
+            ],
+            "shape": [
+              "RECT",
+              47.244,
+              47.244,
+              0
+            ]
+          },
+          {
+            "id": "e13",
+            "number": "2",
+            "net": "OUT2",
+            "layer": 12,
+            "xy_mil": [
+              -29.53,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              31.496,
+              31.496
+            ],
+            "shape": [
+              "ELLIPSE",
+              47.244,
+              47.244
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e196",
+        "reference": "MT2",
+        "unique_id": "gge10",
+        "xy_mil": [
+          -250,
+          -930
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "cc14b79e8bf84aae88e888798c5e4da3",
+        "device_id": "9efe2a18d0ef4fdf9d15c025be18e146",
+        "local_properties": {
+          "Name": "MT2",
+          "Unique ID": "gge10",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e2710"
+        },
+        "pads": [
+          {
+            "id": "e12",
+            "number": "1",
+            "net": "OUT3",
+            "layer": 12,
+            "xy_mil": [
+              29.53,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              31.496,
+              31.496
+            ],
+            "shape": [
+              "RECT",
+              47.244,
+              47.244,
+              0
+            ]
+          },
+          {
+            "id": "e13",
+            "number": "2",
+            "net": "OUT4",
+            "layer": 12,
+            "xy_mil": [
+              -29.53,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              31.496,
+              31.496
+            ],
+            "shape": [
+              "ELLIPSE",
+              47.244,
+              47.244
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e200",
+        "reference": "10k",
+        "unique_id": "gge8",
+        "xy_mil": [
+          1225,
+          -700
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "ef02e86a3a04467da326e5ce079a94db",
+        "device_id": "80adf0741387447e9c2ea22eb6842071",
+        "local_properties": {
+          "Unique ID": "gge8",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e2154"
+        },
+        "pads": [
+          {
+            "id": "e7",
+            "number": "1",
+            "net": "3.3V",
+            "layer": 12,
+            "xy_mil": [
+              -200,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              35.4,
+              35.4
+            ],
+            "shape": [
+              "ELLIPSE",
+              74,
+              74
+            ]
+          },
+          {
+            "id": "e8",
+            "number": "2",
+            "net": "SEN1",
+            "layer": 12,
+            "xy_mil": [
+              200,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              35.4,
+              35.4
+            ],
+            "shape": [
+              "ELLIPSE",
+              74,
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e204",
+        "reference": "sensor1\n+   S  -",
+        "unique_id": "gge7",
+        "xy_mil": [
+          1110,
+          -1090
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "1f47ad365ba043eabfec047f3aa79e80",
+        "device_id": "5935d1e788d248a1b43a6976a754df09",
+        "local_properties": {
+          "Unique ID": "gge7",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e1959"
+        },
+        "pads": [
+          {
+            "id": "e15",
+            "number": "3",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              59.053,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              29.528,
+              29.528
+            ],
+            "shape": [
+              "ELLIPSE",
+              43.307,
+              43.307
+            ]
+          },
+          {
+            "id": "e16",
+            "number": "2",
+            "net": "SEN1",
+            "layer": 12,
+            "xy_mil": [
+              -0.007,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              29.528,
+              29.528
+            ],
+            "shape": [
+              "ELLIPSE",
+              43.307,
+              43.307
+            ]
+          },
+          {
+            "id": "e17",
+            "number": "1",
+            "net": "3.3V",
+            "layer": 12,
+            "xy_mil": [
+              -59.057,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              29.528,
+              29.528
+            ],
+            "shape": [
+              "RECT",
+              43.307,
+              43.307,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e208",
+        "reference": "Servo1\n+    S   -",
+        "unique_id": "gge6",
+        "xy_mil": [
+          320,
+          -1125
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "e68ad98ff2874572aa6b59d51fc70cb2",
+        "device_id": "d11dbe90681345f9bd59f4ed6a696b54",
+        "local_properties": {
+          "Name": "Servo",
+          "Unique ID": "gge6",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e1747"
+        },
+        "pads": [
+          {
+            "id": "e12",
+            "number": "1",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              -100,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "RECT",
+              66.929,
+              66.929,
+              0
+            ]
+          },
+          {
+            "id": "e13",
+            "number": "2",
+            "net": "SERVO1",
+            "layer": 12,
+            "xy_mil": [
+              0,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "ELLIPSE",
+              66.929,
+              66.929
+            ]
+          },
+          {
+            "id": "e14",
+            "number": "3",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              100,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "ELLIPSE",
+              66.929,
+              66.929
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e212",
+        "reference": "Servo2\n+   S   -",
+        "unique_id": "gge11",
+        "xy_mil": [
+          720,
+          -1125
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "e68ad98ff2874572aa6b59d51fc70cb2",
+        "device_id": "d11dbe90681345f9bd59f4ed6a696b54",
+        "local_properties": {
+          "Name": "Servo",
+          "Unique ID": "gge11",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e3133"
+        },
+        "pads": [
+          {
+            "id": "e12",
+            "number": "1",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              -100,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "RECT",
+              66.929,
+              66.929,
+              0
+            ]
+          },
+          {
+            "id": "e13",
+            "number": "2",
+            "net": "SERVO2",
+            "layer": 12,
+            "xy_mil": [
+              0,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "ELLIPSE",
+              66.929,
+              66.929
+            ]
+          },
+          {
+            "id": "e14",
+            "number": "3",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              100,
+              0
+            ],
+            "angle_deg": 0,
+            "hole": [
+              "ROUND",
+              43.308,
+              43.308
+            ],
+            "shape": [
+              "ELLIPSE",
+              66.929,
+              66.929
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e216",
+        "reference": "Tenstar",
+        "unique_id": "gge1",
+        "xy_mil": [
+          515,
+          -510
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "c001ad73decd48a6aac368cc74cb7e4d",
+        "device_id": "33c1dad0e4654a24bc4498605bb6bfde",
+        "local_properties": {
+          "Unique ID": "gge1",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e319"
+        },
+        "pads": [
+          {
+            "id": "e39",
+            "number": "1",
+            "net": "CHKBAT",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              -350
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e40",
+            "number": "2",
+            "net": "D1",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              -250
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e41",
+            "number": "3",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              -150
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e42",
+            "number": "4",
+            "net": "D2",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              -50
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e43",
+            "number": "5",
+            "net": "D3",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              50
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e44",
+            "number": "6",
+            "net": "3.3V",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              150
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e45",
+            "number": "7",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              250
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e46",
+            "number": "8",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              300,
+              350
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e47",
+            "number": "9",
+            "net": "D4",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              350
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e48",
+            "number": "10",
+            "net": "SERVO1",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              250
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e49",
+            "number": "11",
+            "net": "SLEEP",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              150
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e50",
+            "number": "12",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              50
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e51",
+            "number": "13",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              -50
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e52",
+            "number": "14",
+            "net": "SERVO2",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              -150
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e53",
+            "number": "15",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              -250
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          },
+          {
+            "id": "e54",
+            "number": "16",
+            "net": "",
+            "layer": 12,
+            "xy_mil": [
+              -300,
+              -350
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "SLOT",
+              37.8,
+              36
+            ],
+            "shape": [
+              "RECT",
+              98.425,
+              60,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e220",
+        "reference": "BAT + -",
+        "unique_id": "gge9_1",
+        "xy_mil": [
+          1595,
+          -70
+        ],
+        "angle_deg": 0,
+        "layer": 1,
+        "footprint_id": "cc14b79e8bf84aae88e888798c5e4da3",
+        "device_id": "9efe2a18d0ef4fdf9d15c025be18e146",
+        "local_properties": {
+          "Name": "MT1",
+          "Unique ID": "gge9_1",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e3296"
+        },
+        "pads": [
+          {
+            "id": "e12",
+            "number": "1",
+            "net": "VCC",
+            "layer": 12,
+            "xy_mil": [
+              29.53,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              31.496,
+              31.496
+            ],
+            "shape": [
+              "RECT",
+              47.244,
+              47.244,
+              0
+            ]
+          },
+          {
+            "id": "e13",
+            "number": "2",
+            "net": "GND",
+            "layer": 12,
+            "xy_mil": [
+              -29.53,
+              0
+            ],
+            "angle_deg": 180,
+            "hole": [
+              "ROUND",
+              31.496,
+              31.496
+            ],
+            "shape": [
+              "ELLIPSE",
+              47.244,
+              47.244
+            ]
+          }
+        ]
+      }
+    ],
+    "duplicate_display_references": {
+      "220k": 2
+    },
+    "pad_nodes": [
+      [
+        "e176",
+        "1",
+        "VCC"
+      ],
+      [
+        "e176",
+        "2",
+        "CHKBAT"
+      ],
+      [
+        "e180",
+        "1",
+        "GND"
+      ],
+      [
+        "e180",
+        "2",
+        "CHKBAT"
+      ],
+      [
+        "e184",
+        "1",
+        "SLEEP"
+      ],
+      [
+        "e184",
+        "10",
+        "GND"
+      ],
+      [
+        "e184",
+        "11",
+        "D3"
+      ],
+      [
+        "e184",
+        "12",
+        "D4"
+      ],
+      [
+        "e184",
+        "2",
+        "OUT1"
+      ],
+      [
+        "e184",
+        "3",
+        "OUT2"
+      ],
+      [
+        "e184",
+        "4",
+        "OUT3"
+      ],
+      [
+        "e184",
+        "5",
+        "OUT4"
+      ],
+      [
+        "e184",
+        "6",
+        ""
+      ],
+      [
+        "e184",
+        "7",
+        "D1"
+      ],
+      [
+        "e184",
+        "8",
+        "D2"
+      ],
+      [
+        "e184",
+        "9",
+        "VCC"
+      ],
+      [
+        "e188",
+        "1",
+        ""
+      ],
+      [
+        "e188",
+        "2",
+        "VCC"
+      ],
+      [
+        "e188",
+        "3",
+        "VIN"
+      ],
+      [
+        "e192",
+        "1",
+        "OUT1"
+      ],
+      [
+        "e192",
+        "2",
+        "OUT2"
+      ],
+      [
+        "e196",
+        "1",
+        "OUT3"
+      ],
+      [
+        "e196",
+        "2",
+        "OUT4"
+      ],
+      [
+        "e200",
+        "1",
+        "3.3V"
+      ],
+      [
+        "e200",
+        "2",
+        "SEN1"
+      ],
+      [
+        "e204",
+        "1",
+        "3.3V"
+      ],
+      [
+        "e204",
+        "2",
+        "SEN1"
+      ],
+      [
+        "e204",
+        "3",
+        "GND"
+      ],
+      [
+        "e208",
+        "1",
+        "VCC"
+      ],
+      [
+        "e208",
+        "2",
+        "SERVO1"
+      ],
+      [
+        "e208",
+        "3",
+        "GND"
+      ],
+      [
+        "e212",
+        "1",
+        "VCC"
+      ],
+      [
+        "e212",
+        "2",
+        "SERVO2"
+      ],
+      [
+        "e212",
+        "3",
+        "GND"
+      ],
+      [
+        "e216",
+        "1",
+        "CHKBAT"
+      ],
+      [
+        "e216",
+        "10",
+        "SERVO1"
+      ],
+      [
+        "e216",
+        "11",
+        "SLEEP"
+      ],
+      [
+        "e216",
+        "12",
+        ""
+      ],
+      [
+        "e216",
+        "13",
+        ""
+      ],
+      [
+        "e216",
+        "14",
+        "SERVO2"
+      ],
+      [
+        "e216",
+        "15",
+        ""
+      ],
+      [
+        "e216",
+        "16",
+        ""
+      ],
+      [
+        "e216",
+        "2",
+        "D1"
+      ],
+      [
+        "e216",
+        "3",
+        ""
+      ],
+      [
+        "e216",
+        "4",
+        "D2"
+      ],
+      [
+        "e216",
+        "5",
+        "D3"
+      ],
+      [
+        "e216",
+        "6",
+        "3.3V"
+      ],
+      [
+        "e216",
+        "7",
+        "GND"
+      ],
+      [
+        "e216",
+        "8",
+        "VCC"
+      ],
+      [
+        "e216",
+        "9",
+        "D4"
+      ],
+      [
+        "e220",
+        "1",
+        "VCC"
+      ],
+      [
+        "e220",
+        "2",
+        "GND"
+      ]
+    ],
+    "declared_nets": [
+      "CHKBAT",
+      "D1",
+      "D2",
+      "D3",
+      "3.3V",
+      "GND",
+      "VCC",
+      "D4",
+      "SERVO1",
+      "SLEEP",
+      "SERVO2",
+      "OUT1",
+      "OUT2",
+      "OUT3",
+      "OUT4",
+      "VIN",
+      "SEN1"
+    ],
+    "tracks": [
+      {
+        "id": "e3",
+        "net": "D4",
+        "layer": 1,
+        "start_mil": [
+          5.5512,
+          -175
+        ],
+        "end_mil": [
+          200,
+          -175
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e4",
+        "net": "D4",
+        "layer": 1,
+        "start_mil": [
+          200,
+          -175
+        ],
+        "end_mil": [
+          215,
+          -160
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e5",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1624.53,
+          -110.47
+        ],
+        "end_mil": [
+          1624.53,
+          -70
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e6",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1175,
+          -120
+        ],
+        "end_mil": [
+          1175,
+          -165
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e7",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1175,
+          -165
+        ],
+        "end_mil": [
+          1175,
+          -180
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e8",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1175,
+          -165
+        ],
+        "end_mil": [
+          1275,
+          -265
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e9",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1275,
+          -265
+        ],
+        "end_mil": [
+          1470,
+          -265
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e10",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1470,
+          -265
+        ],
+        "end_mil": [
+          1624.53,
+          -110.47
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e11",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          155,
+          -1125
+        ],
+        "end_mil": [
+          220,
+          -1125
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e12",
+        "net": "OUT1",
+        "layer": 1,
+        "start_mil": [
+          -585,
+          -275
+        ],
+        "end_mil": [
+          -495.47,
+          -364.53
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e13",
+        "net": "OUT1",
+        "layer": 1,
+        "start_mil": [
+          -495.47,
+          -364.53
+        ],
+        "end_mil": [
+          -495.47,
+          -925
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e14",
+        "net": "OUT2",
+        "layer": 1,
+        "start_mil": [
+          -585,
+          -375
+        ],
+        "end_mil": [
+          -650,
+          -440
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e15",
+        "net": "OUT2",
+        "layer": 1,
+        "start_mil": [
+          -650,
+          -440
+        ],
+        "end_mil": [
+          -650,
+          -855
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e16",
+        "net": "OUT2",
+        "layer": 1,
+        "start_mil": [
+          -650,
+          -855
+        ],
+        "end_mil": [
+          -580,
+          -925
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e17",
+        "net": "OUT2",
+        "layer": 1,
+        "start_mil": [
+          -580,
+          -925
+        ],
+        "end_mil": [
+          -554.53,
+          -925
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e18",
+        "net": "OUT3",
+        "layer": 2,
+        "start_mil": [
+          -585,
+          -475
+        ],
+        "end_mil": [
+          -220.47,
+          -839.53
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e19",
+        "net": "OUT3",
+        "layer": 2,
+        "start_mil": [
+          -220.47,
+          -839.53
+        ],
+        "end_mil": [
+          -220.47,
+          -930
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e20",
+        "net": "OUT4",
+        "layer": 2,
+        "start_mil": [
+          -585,
+          -575
+        ],
+        "end_mil": [
+          -279.53,
+          -880.47
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e21",
+        "net": "OUT4",
+        "layer": 2,
+        "start_mil": [
+          -279.53,
+          -880.47
+        ],
+        "end_mil": [
+          -279.53,
+          -930
+        ],
+        "width_mil": 19.685
+      },
+      {
+        "id": "e22",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          -585,
+          -175
+        ],
+        "end_mil": [
+          -100,
+          -175
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e23",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          -100,
+          -175
+        ],
+        "end_mil": [
+          -35.4331,
+          -239.5669
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e24",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          -35.4331,
+          -239.5669
+        ],
+        "end_mil": [
+          -35.4331,
+          -291.9763
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e25",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          -35.4331,
+          -291.9763
+        ],
+        "end_mil": [
+          -11.4251,
+          -315.9843
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e26",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          -11.4251,
+          -315.9843
+        ],
+        "end_mil": [
+          40.9843,
+          -315.9843
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e27",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          40.9843,
+          -315.9843
+        ],
+        "end_mil": [
+          100,
+          -375
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e28",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          100,
+          -375
+        ],
+        "end_mil": [
+          200,
+          -375
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e29",
+        "net": "SLEEP",
+        "layer": 1,
+        "start_mil": [
+          200,
+          -375
+        ],
+        "end_mil": [
+          215,
+          -360
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e30",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          5.5512,
+          -375
+        ],
+        "end_mil": [
+          100,
+          -280.5512
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e31",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          100,
+          -280.5512
+        ],
+        "end_mil": [
+          100,
+          -145
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e32",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          100,
+          -145
+        ],
+        "end_mil": [
+          155,
+          -90
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e33",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          975,
+          -90
+        ],
+        "end_mil": [
+          1040,
+          -25
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e34",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          620,
+          -1125
+        ],
+        "end_mil": [
+          810,
+          -935
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e35",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          810,
+          -935
+        ],
+        "end_mil": [
+          865,
+          -935
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e36",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          865,
+          -935
+        ],
+        "end_mil": [
+          935,
+          -865
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e37",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1520.47,
+          -25
+        ],
+        "end_mil": [
+          1565.47,
+          -70
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e38",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          155,
+          -90
+        ],
+        "end_mil": [
+          975,
+          -90
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e39",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          935,
+          -420
+        ],
+        "end_mil": [
+          995,
+          -360
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e40",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          935,
+          -865
+        ],
+        "end_mil": [
+          935,
+          -420
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e41",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1040,
+          -25
+        ],
+        "end_mil": [
+          1520.47,
+          -25
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e42",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          815,
+          -260
+        ],
+        "end_mil": [
+          850,
+          -260
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e43",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          930,
+          -340
+        ],
+        "end_mil": [
+          930,
+          -420
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e44",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          930,
+          -420
+        ],
+        "end_mil": [
+          1005,
+          -495
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e45",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1005,
+          -495
+        ],
+        "end_mil": [
+          1005,
+          -520
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e46",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          850,
+          -260
+        ],
+        "end_mil": [
+          930,
+          -340
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e47",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1005,
+          -520
+        ],
+        "end_mil": [
+          1080,
+          -445
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e48",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1080,
+          -445
+        ],
+        "end_mil": [
+          1080,
+          -325
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e49",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1080,
+          -325
+        ],
+        "end_mil": [
+          1210,
+          -195
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e50",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1440.47,
+          -195
+        ],
+        "end_mil": [
+          1565.47,
+          -70
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e51",
+        "net": "GND",
+        "layer": 2,
+        "start_mil": [
+          1210,
+          -195
+        ],
+        "end_mil": [
+          1440.47,
+          -195
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e52",
+        "net": "3.3V",
+        "layer": 1,
+        "start_mil": [
+          1025,
+          -700
+        ],
+        "end_mil": [
+          1025,
+          -1064.057
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e53",
+        "net": "3.3V",
+        "layer": 1,
+        "start_mil": [
+          1025,
+          -1064.057
+        ],
+        "end_mil": [
+          1050.943,
+          -1090
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e54",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          820,
+          -1125
+        ],
+        "end_mil": [
+          1134.053,
+          -1125
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e55",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          1134.053,
+          -1125
+        ],
+        "end_mil": [
+          1169.053,
+          -1090
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e56",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          1169.053,
+          -1090
+        ],
+        "end_mil": [
+          1169.053,
+          -684.053
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e57",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          1169.053,
+          -684.053
+        ],
+        "end_mil": [
+          1005,
+          -520
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e58",
+        "net": "SEN1",
+        "layer": 2,
+        "start_mil": [
+          1109.993,
+          -1090
+        ],
+        "end_mil": [
+          1125,
+          -1074.993
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e59",
+        "net": "SEN1",
+        "layer": 2,
+        "start_mil": [
+          1125,
+          -1074.993
+        ],
+        "end_mil": [
+          1125,
+          -965
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e60",
+        "net": "SEN1",
+        "layer": 2,
+        "start_mil": [
+          1125,
+          -965
+        ],
+        "end_mil": [
+          1390,
+          -700
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e61",
+        "net": "SEN1",
+        "layer": 2,
+        "start_mil": [
+          1390,
+          -700
+        ],
+        "end_mil": [
+          1425,
+          -700
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e62",
+        "net": "CHKBAT",
+        "layer": 2,
+        "start_mil": [
+          815,
+          -860
+        ],
+        "end_mil": [
+          1065,
+          -860
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e63",
+        "net": "CHKBAT",
+        "layer": 2,
+        "start_mil": [
+          1065,
+          -860
+        ],
+        "end_mil": [
+          1405,
+          -520
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e64",
+        "net": "CHKBAT",
+        "layer": 2,
+        "start_mil": [
+          1395,
+          -360
+        ],
+        "end_mil": [
+          1405,
+          -370
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e65",
+        "net": "CHKBAT",
+        "layer": 2,
+        "start_mil": [
+          1405,
+          -370
+        ],
+        "end_mil": [
+          1405,
+          -520
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e66",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          1175,
+          -180
+        ],
+        "end_mil": [
+          995,
+          -360
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e67",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          815,
+          -160
+        ],
+        "end_mil": [
+          995,
+          -340
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e68",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          995,
+          -340
+        ],
+        "end_mil": [
+          995,
+          -360
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e69",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          220,
+          -1125
+        ],
+        "end_mil": [
+          220,
+          -1064.3701
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e70",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          220,
+          -1064.3701
+        ],
+        "end_mil": [
+          259.3701,
+          -1025
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e71",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          259.3701,
+          -1025
+        ],
+        "end_mil": [
+          490,
+          -1025
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e72",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          490,
+          -1025
+        ],
+        "end_mil": [
+          590,
+          -1125
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e73",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          590,
+          -1125
+        ],
+        "end_mil": [
+          620,
+          -1125
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e74",
+        "net": "3.3V",
+        "layer": 2,
+        "start_mil": [
+          815,
+          -360
+        ],
+        "end_mil": [
+          935,
+          -480
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e75",
+        "net": "3.3V",
+        "layer": 2,
+        "start_mil": [
+          935,
+          -480
+        ],
+        "end_mil": [
+          935,
+          -655
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e76",
+        "net": "3.3V",
+        "layer": 2,
+        "start_mil": [
+          935,
+          -655
+        ],
+        "end_mil": [
+          980,
+          -700
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e77",
+        "net": "3.3V",
+        "layer": 2,
+        "start_mil": [
+          980,
+          -700
+        ],
+        "end_mil": [
+          1025,
+          -700
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e78",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          820,
+          -1140
+        ],
+        "end_mil": [
+          820,
+          -1125
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e79",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          420,
+          -1125
+        ],
+        "end_mil": [
+          520,
+          -1225
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e80",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          520,
+          -1225
+        ],
+        "end_mil": [
+          735,
+          -1225
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e81",
+        "net": "GND",
+        "layer": 1,
+        "start_mil": [
+          735,
+          -1225
+        ],
+        "end_mil": [
+          820,
+          -1140
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e82",
+        "net": "SERVO1",
+        "layer": 2,
+        "start_mil": [
+          320,
+          -1125
+        ],
+        "end_mil": [
+          130,
+          -935
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e83",
+        "net": "SERVO1",
+        "layer": 2,
+        "start_mil": [
+          130,
+          -935
+        ],
+        "end_mil": [
+          130,
+          -310
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e84",
+        "net": "SERVO1",
+        "layer": 2,
+        "start_mil": [
+          130,
+          -310
+        ],
+        "end_mil": [
+          180,
+          -260
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e85",
+        "net": "SERVO1",
+        "layer": 2,
+        "start_mil": [
+          180,
+          -260
+        ],
+        "end_mil": [
+          215,
+          -260
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e86",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          5.5512,
+          -675
+        ],
+        "end_mil": [
+          75,
+          -744.4488
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e87",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          75,
+          -744.4488
+        ],
+        "end_mil": [
+          75,
+          -865
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e88",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          75,
+          -865
+        ],
+        "end_mil": [
+          150,
+          -940
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e89",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          5.5512,
+          -575
+        ],
+        "end_mil": [
+          25,
+          -575
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e90",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          25,
+          -575
+        ],
+        "end_mil": [
+          100,
+          -650
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e91",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          100,
+          -650
+        ],
+        "end_mil": [
+          100,
+          -855
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e92",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          100,
+          -855
+        ],
+        "end_mil": [
+          165,
+          -920
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e93",
+        "net": "SERVO2",
+        "layer": 2,
+        "start_mil": [
+          720,
+          -1125
+        ],
+        "end_mil": [
+          575,
+          -980
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e94",
+        "net": "SERVO2",
+        "layer": 2,
+        "start_mil": [
+          575,
+          -980
+        ],
+        "end_mil": [
+          365,
+          -980
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e95",
+        "net": "SERVO2",
+        "layer": 2,
+        "start_mil": [
+          365,
+          -980
+        ],
+        "end_mil": [
+          280,
+          -895
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e96",
+        "net": "SERVO2",
+        "layer": 2,
+        "start_mil": [
+          280,
+          -895
+        ],
+        "end_mil": [
+          280,
+          -725
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e97",
+        "net": "SERVO2",
+        "layer": 2,
+        "start_mil": [
+          280,
+          -725
+        ],
+        "end_mil": [
+          215,
+          -660
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e98",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          150,
+          -940
+        ],
+        "end_mil": [
+          667.7478,
+          -940
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e99",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          667.7478,
+          -940
+        ],
+        "end_mil": [
+          720,
+          -887.7478
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e100",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          720,
+          -887.7478
+        ],
+        "end_mil": [
+          720,
+          -810
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e101",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          720,
+          -810
+        ],
+        "end_mil": [
+          770,
+          -760
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e102",
+        "net": "D1",
+        "layer": 1,
+        "start_mil": [
+          770,
+          -760
+        ],
+        "end_mil": [
+          815,
+          -760
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e103",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          165,
+          -920
+        ],
+        "end_mil": [
+          667.9266,
+          -920
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e104",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          667.9266,
+          -920
+        ],
+        "end_mil": [
+          705.9843,
+          -881.9423
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e105",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          705.9843,
+          -881.9423
+        ],
+        "end_mil": [
+          705.9843,
+          -804.1945
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e106",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          705.9843,
+          -804.1945
+        ],
+        "end_mil": [
+          754.8032,
+          -755.3756
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e107",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          754.8032,
+          -755.3756
+        ],
+        "end_mil": [
+          754.8032,
+          -570
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e108",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          754.8032,
+          -570
+        ],
+        "end_mil": [
+          764.8032,
+          -560
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e109",
+        "net": "D2",
+        "layer": 1,
+        "start_mil": [
+          764.8032,
+          -560
+        ],
+        "end_mil": [
+          815,
+          -560
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e110",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          5.5512,
+          -475
+        ],
+        "end_mil": [
+          -65,
+          -545.5512
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e111",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          -65,
+          -545.5512
+        ],
+        "end_mil": [
+          -65,
+          -905
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e112",
+        "net": "VCC",
+        "layer": 1,
+        "start_mil": [
+          -65,
+          -905
+        ],
+        "end_mil": [
+          155,
+          -1125
+        ],
+        "width_mil": 39.3701
+      },
+      {
+        "id": "e113",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          5.5512,
+          -275
+        ],
+        "end_mil": [
+          70.5512,
+          -210
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e114",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          70.5512,
+          -210
+        ],
+        "end_mil": [
+          305,
+          -210
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e115",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          305,
+          -210
+        ],
+        "end_mil": [
+          390,
+          -125
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e116",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          390,
+          -125
+        ],
+        "end_mil": [
+          535,
+          -125
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e117",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          770,
+          -460
+        ],
+        "end_mil": [
+          815,
+          -460
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e118",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          535,
+          -125
+        ],
+        "end_mil": [
+          750,
+          -340
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e119",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          750,
+          -340
+        ],
+        "end_mil": [
+          750,
+          -440
+        ],
+        "width_mil": 10
+      },
+      {
+        "id": "e120",
+        "net": "D3",
+        "layer": 1,
+        "start_mil": [
+          750,
+          -440
+        ],
+        "end_mil": [
+          770,
+          -460
+        ],
+        "width_mil": 10
+      }
+    ],
+    "vias": [],
+    "arcs": [],
+    "standalone_pads": [
+      [
+        "PAD",
+        "e1",
+        0,
+        "",
+        12,
+        "1",
+        1535,
+        -350,
+        0,
+        [
+          "ROUND",
+          78.7402,
+          78.7402
+        ],
+        [
+          "ELLIPSE",
+          86.6142,
+          86.6142
+        ],
+        [],
+        0,
+        0,
+        0,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      [
+        "PAD",
+        "e2",
+        0,
+        "",
+        12,
+        "1",
+        -520,
+        -1190,
+        0,
+        [
+          "ROUND",
+          78.7402,
+          78.7402
+        ],
+        [
+          "ELLIPSE",
+          86.6142,
+          86.6142
+        ],
+        [],
+        0,
+        0,
+        0,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0
+      ]
+    ],
+    "outlines_mil": [
+      [
+        [
+          1685,
+          15
+        ],
+        [
+          1720,
+          -20
+        ],
+        [
+          1720,
+          -295
+        ],
+        [
+          1490,
+          -545.317
+        ],
+        [
+          1490,
+          -800
+        ],
+        [
+          1260,
+          -1015
+        ],
+        [
+          1260,
+          -1208.5152
+        ],
+        [
+          1200.9248,
+          -1265
+        ],
+        [
+          -555,
+          -1265
+        ],
+        [
+          -695,
+          -1117.4356
+        ],
+        [
+          -695,
+          -95
+        ],
+        [
+          -653.8339,
+          -50
+        ],
+        [
+          858.5832,
+          -50
+        ],
+        [
+          977.8881,
+          15
+        ]
+      ]
+    ],
+    "cutouts_mil": [
+      [
+        [
+          325,
+          -250
+        ],
+        [
+          395,
+          -180
+        ],
+        [
+          540,
+          -180
+        ],
+        [
+          620,
+          -260
+        ],
+        [
+          620,
+          -323.0313
+        ],
+        [
+          590,
+          -342.204
+        ],
+        [
+          590,
+          -404.6098
+        ],
+        [
+          680,
+          -455
+        ],
+        [
+          680,
+          -860
+        ],
+        [
+          665,
+          -875
+        ],
+        [
+          370,
+          -875
+        ],
+        [
+          365,
+          -870
+        ],
+        [
+          365,
+          -355
+        ],
+        [
+          325,
+          -315
+        ]
+      ]
+    ],
+    "pours": [
+      {
+        "id": "e121",
+        "net": "GND",
+        "layer": 2,
+        "contours": [
+          [
+            [
+              -730,
+              30
+            ],
+            [
+              1780,
+              30
+            ],
+            [
+              1780,
+              -1320
+            ],
+            [
+              -730,
+              -1320
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "e148",
+        "net": "GND",
+        "layer": 1,
+        "contours": [
+          [
+            [
+              -765,
+              120
+            ],
+            [
+              1815,
+              120
+            ],
+            [
+              1815,
+              -1365
+            ],
+            [
+              -765,
+              -1365
+            ]
+          ]
+        ]
+      }
+    ],
+    "schematics": [
+      {
+        "path": "SHEET/dd2cfae3a64d4b3db5dd5a512ac44bc2/1.esch",
+        "record_counts": {
+          "DOCTYPE": 1,
+          "HEAD": 1,
+          "COMPONENT": 55,
+          "FONTSTYLE": 9,
+          "ATTR": 337,
+          "LINESTYLE": 1,
+          "WIRE": 42
+        },
+        "parts": [
+          {
+            "id": "e319",
+            "reference": "Tenstar",
+            "unique_id": "gge1",
+            "xy": [
+              185,
+              530
+            ],
+            "value": null,
+            "name": "ESP32C3 Supermini",
+            "footprint_id": "c001ad73decd48a6aac368cc74cb7e4d",
+            "pins": [
+              {
+                "number": "1",
+                "name": "GPIO0",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "GPIO1",
+                "type": "Undefined"
+              },
+              {
+                "number": "3",
+                "name": "GPIO2",
+                "type": "Undefined"
+              },
+              {
+                "number": "4",
+                "name": "GPIO3",
+                "type": "Undefined"
+              },
+              {
+                "number": "5",
+                "name": "GPIO4",
+                "type": "Undefined"
+              },
+              {
+                "number": "6",
+                "name": "+3V3",
+                "type": "Undefined"
+              },
+              {
+                "number": "7",
+                "name": "GND",
+                "type": "Undefined"
+              },
+              {
+                "number": "8",
+                "name": "+5V",
+                "type": "Undefined"
+              },
+              {
+                "number": "9",
+                "name": "GPIO5",
+                "type": "Undefined"
+              },
+              {
+                "number": "10",
+                "name": "GPIO6",
+                "type": "Undefined"
+              },
+              {
+                "number": "11",
+                "name": "GPIO7",
+                "type": "Undefined"
+              },
+              {
+                "number": "12",
+                "name": "GPIO8",
+                "type": "Undefined"
+              },
+              {
+                "number": "13",
+                "name": "GPIO9",
+                "type": "Undefined"
+              },
+              {
+                "number": "14",
+                "name": "GPIO10",
+                "type": "Undefined"
+              },
+              {
+                "number": "15",
+                "name": "GPIO21",
+                "type": "Undefined"
+              },
+              {
+                "number": "16",
+                "name": "GPIO22",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e451",
+            "reference": "DRV8833",
+            "unique_id": "gge2",
+            "xy": [
+              435,
+              545
+            ],
+            "value": null,
+            "name": "",
+            "footprint_id": "ceb349c5a3804001acf8b295c1f3454e",
+            "pins": [
+              {
+                "number": "1",
+                "name": "EEP",
+                "type": "IN"
+              },
+              {
+                "number": "2",
+                "name": "OUT1",
+                "type": "IN"
+              },
+              {
+                "number": "3",
+                "name": "OUT2",
+                "type": "IN"
+              },
+              {
+                "number": "4",
+                "name": "OUT3",
+                "type": "IN"
+              },
+              {
+                "number": "5",
+                "name": "OUT4",
+                "type": "IN"
+              },
+              {
+                "number": "6",
+                "name": "ULT",
+                "type": "IN"
+              },
+              {
+                "number": "7",
+                "name": "IN1",
+                "type": "IN"
+              },
+              {
+                "number": "8",
+                "name": "IN2",
+                "type": "IN"
+              },
+              {
+                "number": "9",
+                "name": "VCC",
+                "type": "IN"
+              },
+              {
+                "number": "10",
+                "name": "GND",
+                "type": "IN"
+              },
+              {
+                "number": "11",
+                "name": "IN3",
+                "type": "IN"
+              },
+              {
+                "number": "12",
+                "name": "IN4",
+                "type": "IN"
+              }
+            ]
+          },
+          {
+            "id": "e1190",
+            "reference": "PW OFF ON",
+            "unique_id": "gge3",
+            "xy": [
+              235,
+              680
+            ],
+            "value": null,
+            "name": "",
+            "footprint_id": "e68ad98ff2874572aa6b59d51fc70cb2",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              },
+              {
+                "number": "3",
+                "name": "3",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e1595",
+            "reference": "220k",
+            "unique_id": "gge4",
+            "xy": [
+              135,
+              375
+            ],
+            "value": "220kΩ",
+            "name": "={Value}",
+            "footprint_id": "ef02e86a3a04467da326e5ce079a94db",
+            "pins": [
+              {
+                "number": "2",
+                "name": "2",
+                "type": "IN"
+              },
+              {
+                "number": "1",
+                "name": "1",
+                "type": "IN"
+              }
+            ]
+          },
+          {
+            "id": "e1619",
+            "reference": "220k",
+            "unique_id": "gge5",
+            "xy": [
+              165,
+              355
+            ],
+            "value": "220kΩ",
+            "name": "={Value}",
+            "footprint_id": "ef02e86a3a04467da326e5ce079a94db",
+            "pins": [
+              {
+                "number": "2",
+                "name": "2",
+                "type": "IN"
+              },
+              {
+                "number": "1",
+                "name": "1",
+                "type": "IN"
+              }
+            ]
+          },
+          {
+            "id": "e1747",
+            "reference": "Servo1",
+            "unique_id": "gge6",
+            "xy": [
+              385,
+              335
+            ],
+            "value": null,
+            "name": "Servo",
+            "footprint_id": "e68ad98ff2874572aa6b59d51fc70cb2",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              },
+              {
+                "number": "3",
+                "name": "3",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e1959",
+            "reference": "sensor1",
+            "unique_id": "gge7",
+            "xy": [
+              610,
+              335
+            ],
+            "value": null,
+            "name": "={Manufacturer Part}",
+            "footprint_id": "1f47ad365ba043eabfec047f3aa79e80",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              },
+              {
+                "number": "3",
+                "name": "3",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e2154",
+            "reference": "10k",
+            "unique_id": "gge8",
+            "xy": [
+              530,
+              335
+            ],
+            "value": "10kΩ",
+            "name": "={Value}",
+            "footprint_id": "ef02e86a3a04467da326e5ce079a94db",
+            "pins": [
+              {
+                "number": "2",
+                "name": "2",
+                "type": "IN"
+              },
+              {
+                "number": "1",
+                "name": "1",
+                "type": "IN"
+              }
+            ]
+          },
+          {
+            "id": "e2660",
+            "reference": "MT1",
+            "unique_id": "gge9",
+            "xy": [
+              785,
+              560
+            ],
+            "value": null,
+            "name": "MT1",
+            "footprint_id": "cc14b79e8bf84aae88e888798c5e4da3",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e2710",
+            "reference": "MT2",
+            "unique_id": "gge10",
+            "xy": [
+              780,
+              495
+            ],
+            "value": null,
+            "name": "MT2",
+            "footprint_id": "cc14b79e8bf84aae88e888798c5e4da3",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e3133",
+            "reference": "Servo2",
+            "unique_id": "gge11",
+            "xy": [
+              390,
+              245
+            ],
+            "value": null,
+            "name": "Servo",
+            "footprint_id": "e68ad98ff2874572aa6b59d51fc70cb2",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              },
+              {
+                "number": "3",
+                "name": "3",
+                "type": "Undefined"
+              }
+            ]
+          },
+          {
+            "id": "e3296",
+            "reference": "BAT + -",
+            "unique_id": "gge9_1",
+            "xy": [
+              410,
+              660
+            ],
+            "value": null,
+            "name": "MT1",
+            "footprint_id": "cc14b79e8bf84aae88e888798c5e4da3",
+            "pins": [
+              {
+                "number": "1",
+                "name": "1",
+                "type": "Undefined"
+              },
+              {
+                "number": "2",
+                "name": "2",
+                "type": "Undefined"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "scope": "PCB pin assignments are compared independently of net spelling. Source schematic wire connectivity and filled-copper shape are not reconstructed."
+  },
+  "input_sha256": {
+    "MovingTarget_MotorConT1_2026-10-31.epro": "ad53d548a11a0d6652db9e8f0933e21c97d479a1e3235c9c981f93750b959bda"
+  },
+  "checked_comparisons_pass": null
+}

@@ -1,0 +1,37 @@
+# Generated from type_s validation/easyeda-baseline.json; see rules-mapping.md.
+
+# Global object types only. No net, reference, coordinate or DRC-ID exceptions.
+
+(version 1)
+
+(rule "EasyEDA type_s ordinary copper"
+  (constraint clearance (min 0.15200122mm)))
+
+(rule "EasyEDA type_s track to track"
+  (condition "A.Type == 'Track' && B.Type == 'Track'")
+  (constraint clearance (min 0.10199878mm)))
+
+(rule "EasyEDA type_s zone to copper"
+  (condition "A.Type == 'Zone' || B.Type == 'Zone'")
+  (constraint clearance (min 0.254mm)))
+
+(rule "EasyEDA type_s ordinary board edge"
+  (constraint edge_clearance (min 0.29999939999999997mm)))
+
+(rule "EasyEDA type_s zone to board edge"
+  (condition "A.Type == 'Zone'")
+  (constraint edge_clearance (min 0.254mm)))
+
+(rule "EasyEDA type_s ordinary hole"
+  (constraint hole_clearance (min 0.17526mm)))
+
+(rule "EasyEDA type_s zone to hole"
+  (condition "A.Type == 'Zone' || B.Type == 'Zone'")
+  (constraint hole_clearance (min 0.254mm)))
+
+(rule "EasyEDA type_s hole to hole"
+  (constraint hole_to_hole (min 0.29999939999999997mm)))
+
+(rule "EasyEDA type_s track width"
+  (condition "A.Type == 'Track'")
+  (constraint track_width (min 0.127mm) (opt 0.254mm) (max 2.54mm)))

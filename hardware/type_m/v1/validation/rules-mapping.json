@@ -1,0 +1,58 @@
+{
+  "source": "easyeda-baseline.json",
+  "source_sha256": "cbd3efdabeee05fa564595c3f36a2c88e22d3b481b51cb7bc4a924c2d052f6ab",
+  "values_mm": {
+    "track_track": 0.10199878,
+    "ordinary": 0.15200122,
+    "zone": 0.254,
+    "board_edge": 0.29999939999999997,
+    "zone_edge": 0.254,
+    "hole": 0.17526,
+    "hole_zone": 0.254,
+    "hole_hole": 0.29999939999999997,
+    "track_min": 0.127,
+    "track_opt": 0.254,
+    "track_max": 2.54
+  },
+  "changes": [
+    {
+      "field": "board.design_settings.rules.min_clearance",
+      "before": 0.0,
+      "after": 0.10199878
+    },
+    {
+      "field": "board.design_settings.rules.min_copper_edge_clearance",
+      "before": 0.5,
+      "after": 0.254
+    },
+    {
+      "field": "board.design_settings.rules.min_hole_clearance",
+      "before": 0.25,
+      "after": 0.17526
+    },
+    {
+      "field": "board.design_settings.rules.min_hole_to_hole",
+      "before": 0.25,
+      "after": 0.29999939999999997
+    },
+    {
+      "field": "board.design_settings.rules.min_track_width",
+      "before": 0.2,
+      "after": 0.127
+    },
+    {
+      "field": "net_settings.classes.Default.clearance",
+      "before": 0.2,
+      "after": 0.15200122
+    },
+    {
+      "field": "net_settings.classes.Default.track_width",
+      "before": 0.2,
+      "after": 0.254
+    }
+  ],
+  "pcb_sha256_unchanged": "3408109d7ad8c1e12a68a8e9f8bf13578ea09a246661e7f827697982b539f41c",
+  "rule_severities_unchanged": true,
+  "drc_exclusions_unchanged": true,
+  "custom_rules_sha256": "543a56aa45ca9d2d2ac9904480f01dfaa729bbfef2a42f6de400dcafa045ada3"
+}

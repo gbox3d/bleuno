@@ -1,0 +1,1062 @@
+{
+  "audit_time": "2026-11-01T05:23:35.629579+00:00",
+  "scope": "Saved original EasyEDA epro versus current KiCad files; no board I/O and no design writes. Live EasyEDA evidence is a separate parent-agent capture.",
+  "input_sha256": {
+    "hardware/type_m/v1/source/MovingTarget_MotorConT1_2026-10-31.epro": "ad53d548a11a0d6652db9e8f0933e21c97d479a1e3235c9c981f93750b959bda",
+    "hardware/type_m/v1/kicad/type_m_v1.kicad_pcb": "ec8c3e403f49f46826a1b262eb165a972bd82961a50cd1fd38dcf324aa2dfb73",
+    "hardware/type_m/v1/kicad/type_m_v1.kicad_sch": "947e733ac65ce3821aa91fe7dec3b82eb8a0269709dd73021cf90e0a19826101",
+    "hardware/type_m/v1/validation/netlist.xml": "3036ad437d5babf1e175163773e9ff4466f5b61715c588db42eaf2d433778f8c"
+  },
+  "source_schematic": {
+    "file": "SHEET/dd2cfae3a64d4b3db5dd5a512ac44bc2/1.esch",
+    "sen1_wire_segments": [
+      {
+        "id": "e335",
+        "line": 401,
+        "net": "SEN1",
+        "a": [
+          530,
+          315
+        ],
+        "b": [
+          565,
+          315
+        ]
+      },
+      {
+        "id": "e335",
+        "line": 401,
+        "net": "SEN1",
+        "a": [
+          565,
+          315
+        ],
+        "b": [
+          565,
+          335
+        ]
+      },
+      {
+        "id": "e335",
+        "line": 401,
+        "net": "SEN1",
+        "a": [
+          565,
+          335
+        ],
+        "b": [
+          590,
+          335
+        ]
+      }
+    ],
+    "physical_pins_on_sen1_wire": [
+      {
+        "component": "e1959",
+        "reference": "sensor1",
+        "pin": "2",
+        "name": "2",
+        "xy": [
+          590.0,
+          335.0
+        ],
+        "symbol": "SYMBOL/d6537b7d0a3c4921a72c7e92ea99285b.esym",
+        "symbol_line": 13,
+        "component_line": 178
+      },
+      {
+        "component": "e2154",
+        "reference": "10k",
+        "pin": "2",
+        "name": "2",
+        "xy": [
+          530.0,
+          315.0
+        ],
+        "symbol": "SYMBOL/1970f568a8d042eb887975c2466577d3.esym",
+        "symbol_line": 6,
+        "component_line": 197
+      }
+    ],
+    "mcu_pins_on_sen1_wire": [],
+    "other_wire_contacts": [],
+    "all_sen1_literal_records": [
+      {
+        "line": 297,
+        "record": [
+          "ATTR",
+          "e242",
+          "e3097",
+          "Name",
+          "SEN1",
+          0,
+          1,
+          null,
+          null,
+          0,
+          "st8",
+          0
+        ]
+      },
+      {
+        "line": 402,
+        "record": [
+          "ATTR",
+          "e336",
+          "e335",
+          "NET",
+          "SEN1",
+          0,
+          0,
+          550,
+          315,
+          90,
+          "st1",
+          0
+        ]
+      }
+    ],
+    "physical_component_pin_count": 52,
+    "schematic_sheet_count": 1,
+    "resistor_device_value": "10kΩ"
+  },
+  "source_pcb_geometry": {
+    "method": "Independent numeric outer-copper geometry; segment capsules versus rotated rectangles/circles. 1 mil=0.0254 mm. Drills do not enlarge copper; omitting drill holes is conservative for exclusion.",
+    "component_count": 12,
+    "component_pad_count": 52,
+    "track_count": 118,
+    "via_count": 0,
+    "sen1_tracks_mil": [
+      {
+        "line": 267,
+        "id": "e58",
+        "net": "SEN1",
+        "layer": 2,
+        "a": [
+          1109.993,
+          -1090
+        ],
+        "b": [
+          1125,
+          -1074.993
+        ],
+        "w": 10
+      },
+      {
+        "line": 268,
+        "id": "e59",
+        "net": "SEN1",
+        "layer": 2,
+        "a": [
+          1125,
+          -1074.993
+        ],
+        "b": [
+          1125,
+          -965
+        ],
+        "w": 10
+      },
+      {
+        "line": 269,
+        "id": "e60",
+        "net": "SEN1",
+        "layer": 2,
+        "a": [
+          1125,
+          -965
+        ],
+        "b": [
+          1390,
+          -700
+        ],
+        "w": 10
+      },
+      {
+        "line": 270,
+        "id": "e61",
+        "net": "SEN1",
+        "layer": 2,
+        "a": [
+          1390,
+          -700
+        ],
+        "b": [
+          1425,
+          -700
+        ],
+        "w": 10
+      }
+    ],
+    "sen1_pads": [
+      {
+        "id": "e200.2",
+        "component": "e200",
+        "reference": "10k",
+        "number": "2",
+        "net": "SEN1",
+        "xy": [
+          1425.0,
+          -700.0
+        ],
+        "shape": [
+          "ELLIPSE",
+          74,
+          74
+        ],
+        "angle": 0,
+        "file": "FOOTPRINT/ef02e86a3a04467da326e5ce079a94db.efoo",
+        "line": 111,
+        "component_line": 495
+      },
+      {
+        "id": "e204.2",
+        "component": "e204",
+        "reference": "sensor1\n+   S  -",
+        "number": "2",
+        "net": "SEN1",
+        "xy": [
+          1109.993,
+          -1090.0
+        ],
+        "shape": [
+          "ELLIPSE",
+          43.307,
+          43.307
+        ],
+        "angle": 180,
+        "file": "FOOTPRINT/1f47ad365ba043eabfec047f3aa79e80.efoo",
+        "line": 119,
+        "component_line": 511
+      }
+    ],
+    "track_touching_pad_ids": [
+      "e200.2",
+      "e204.2"
+    ],
+    "other_net_track_contacts": [],
+    "sen1_pad_other_track_contacts": [],
+    "sen1_pad_other_pad_contacts": [],
+    "mcu_pad_min_track_copper_gap_mm": [
+      {
+        "pad": "1",
+        "net": "CHKBAT",
+        "center_mil": [
+          815.0,
+          -860.0
+        ],
+        "gap_mm": 6.765491
+      },
+      {
+        "pad": "2",
+        "net": "D1",
+        "center_mil": [
+          815.0,
+          -760.0
+        ],
+        "gap_mm": 7.850182
+      },
+      {
+        "pad": "3",
+        "net": "",
+        "center_mil": [
+          815.0,
+          -660.0
+        ],
+        "gap_mm": 9.496018
+      },
+      {
+        "pad": "4",
+        "net": "D2",
+        "center_mil": [
+          815.0,
+          -560.0
+        ],
+        "gap_mm": 11.292069
+      },
+      {
+        "pad": "5",
+        "net": "D3",
+        "center_mil": [
+          815.0,
+          -460.0
+        ],
+        "gap_mm": 13.08812
+      },
+      {
+        "pad": "6",
+        "net": "3.3V",
+        "center_mil": [
+          815.0,
+          -360.0
+        ],
+        "gap_mm": 14.884172
+      },
+      {
+        "pad": "7",
+        "net": "GND",
+        "center_mil": [
+          815.0,
+          -260.0
+        ],
+        "gap_mm": 16.680223
+      },
+      {
+        "pad": "8",
+        "net": "VCC",
+        "center_mil": [
+          815.0,
+          -160.0
+        ],
+        "gap_mm": 18.476274
+      },
+      {
+        "pad": "9",
+        "net": "D4",
+        "center_mil": [
+          215.0,
+          -160.0
+        ],
+        "gap_mm": 29.292956
+      },
+      {
+        "pad": "10",
+        "net": "SERVO1",
+        "center_mil": [
+          215.0,
+          -260.0
+        ],
+        "gap_mm": 27.657629
+      },
+      {
+        "pad": "11",
+        "net": "SLEEP",
+        "center_mil": [
+          215.0,
+          -360.0
+        ],
+        "gap_mm": 26.166357
+      },
+      {
+        "pad": "12",
+        "net": "",
+        "center_mil": [
+          215.0,
+          -460.0
+        ],
+        "gap_mm": 24.844961
+      },
+      {
+        "pad": "13",
+        "net": "",
+        "center_mil": [
+          215.0,
+          -560.0
+        ],
+        "gap_mm": 23.721695
+      },
+      {
+        "pad": "14",
+        "net": "SERVO2",
+        "center_mil": [
+          215.0,
+          -660.0
+        ],
+        "gap_mm": 22.825665
+      },
+      {
+        "pad": "15",
+        "net": "",
+        "center_mil": [
+          215.0,
+          -760.0
+        ],
+        "gap_mm": 22.184267
+      },
+      {
+        "pad": "16",
+        "net": "",
+        "center_mil": [
+          215.0,
+          -860.0
+        ],
+        "gap_mm": 21.819836
+      }
+    ],
+    "copper_pours": [
+      {
+        "line": 330,
+        "id": "e121",
+        "net": "GND",
+        "layer": 2
+      },
+      {
+        "line": 357,
+        "id": "e148",
+        "net": "GND",
+        "layer": 1
+      }
+    ],
+    "original_poured_arc_fill_geometry_checked": false
+  },
+  "source_raw_pcb_records": [
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 267,
+      "record": [
+        "LINE",
+        "e58",
+        0,
+        "SEN1",
+        2,
+        1109.993,
+        -1090,
+        1125,
+        -1074.993,
+        10,
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 268,
+      "record": [
+        "LINE",
+        "e59",
+        0,
+        "SEN1",
+        2,
+        1125,
+        -1074.993,
+        1125,
+        -965,
+        10,
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 269,
+      "record": [
+        "LINE",
+        "e60",
+        0,
+        "SEN1",
+        2,
+        1125,
+        -965,
+        1390,
+        -700,
+        10,
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 270,
+      "record": [
+        "LINE",
+        "e61",
+        0,
+        "SEN1",
+        2,
+        1390,
+        -700,
+        1425,
+        -700,
+        10,
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 495,
+      "record": [
+        "COMPONENT",
+        "e200",
+        0,
+        1,
+        1225,
+        -700,
+        0,
+        {
+          "Unique ID": "gge8",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e2154"
+        },
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 505,
+      "record": [
+        "PAD_NET",
+        "e200",
+        "2",
+        "SEN1",
+        "e8",
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 511,
+      "record": [
+        "COMPONENT",
+        "e204",
+        0,
+        1,
+        1110,
+        -1090,
+        0,
+        {
+          "Unique ID": "gge7",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e1959"
+        },
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 529,
+      "record": [
+        "PAD_NET",
+        "e204",
+        "2",
+        "SEN1",
+        "e16",
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 569,
+      "record": [
+        "COMPONENT",
+        "e216",
+        0,
+        1,
+        515,
+        -510,
+        0,
+        {
+          "Unique ID": "gge1",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1e319"
+        },
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 612,
+      "record": [
+        "PAD_NET",
+        "e216",
+        "3",
+        "",
+        "e41",
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 621,
+      "record": [
+        "PAD_NET",
+        "e216",
+        "12",
+        "",
+        "e50",
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 622,
+      "record": [
+        "PAD_NET",
+        "e216",
+        "13",
+        "",
+        "e51",
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 624,
+      "record": [
+        "PAD_NET",
+        "e216",
+        "15",
+        "",
+        "e53",
+        0
+      ]
+    },
+    {
+      "file": "PCB/230020836b7d42a2ae0bd4e6ece12948.epcb",
+      "line": 625,
+      "record": [
+        "PAD_NET",
+        "e216",
+        "16",
+        "",
+        "e54",
+        0
+      ]
+    }
+  ],
+  "source_footprint_records": [
+    {
+      "file": "FOOTPRINT/ef02e86a3a04467da326e5ce079a94db.efoo",
+      "line": 111,
+      "record": [
+        "PAD",
+        "e8",
+        0,
+        "",
+        12,
+        "2",
+        200,
+        0,
+        0,
+        [
+          "ROUND",
+          35.4,
+          35.4
+        ],
+        [
+          "ELLIPSE",
+          74,
+          74
+        ],
+        [],
+        0,
+        0,
+        0,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0
+      ]
+    },
+    {
+      "file": "FOOTPRINT/1f47ad365ba043eabfec047f3aa79e80.efoo",
+      "line": 119,
+      "record": [
+        "PAD",
+        "e16",
+        0,
+        "",
+        12,
+        "2",
+        -0.007,
+        0,
+        180,
+        [
+          "ROUND",
+          29.528,
+          29.528
+        ],
+        [
+          "ELLIPSE",
+          43.307,
+          43.307
+        ],
+        [],
+        -0.005,
+        0,
+        0,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0
+      ]
+    },
+    {
+      "file": "FOOTPRINT/c001ad73decd48a6aac368cc74cb7e4d.efoo",
+      "line": 139,
+      "record": [
+        "STRING",
+        "e36",
+        0,
+        3,
+        -226.185,
+        -266.975,
+        "20",
+        "default",
+        40,
+        5.98424,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "FOOTPRINT/c001ad73decd48a6aac368cc74cb7e4d.efoo",
+      "line": 140,
+      "record": [
+        "STRING",
+        "e37",
+        0,
+        3,
+        -226.185,
+        -366.975,
+        "21",
+        "default",
+        40,
+        5.98424,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "FOOTPRINT/c001ad73decd48a6aac368cc74cb7e4d.efoo",
+      "line": 156,
+      "record": [
+        "PAD",
+        "e53",
+        0,
+        "",
+        12,
+        "15",
+        -300,
+        -250,
+        180,
+        [
+          "SLOT",
+          37.8,
+          36
+        ],
+        [
+          "RECT",
+          98.425,
+          60,
+          0
+        ],
+        [],
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "FOOTPRINT/c001ad73decd48a6aac368cc74cb7e4d.efoo",
+      "line": 157,
+      "record": [
+        "PAD",
+        "e54",
+        0,
+        "",
+        12,
+        "16",
+        -300,
+        -350,
+        180,
+        [
+          "SLOT",
+          37.8,
+          36
+        ],
+        [
+          "RECT",
+          98.425,
+          60,
+          0
+        ],
+        [],
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "kicad_geometry": {
+    "method": "KiCad pcbnew effective copper shapes; collisions tested without filtering on equal net names. Binary-search clearance for MCU pad-to-track gap, ~1nm resolution.",
+    "track_touching_pads": [
+      [
+        "J7",
+        "2",
+        "SEN1"
+      ],
+      [
+        "R3",
+        "2",
+        "SEN1"
+      ]
+    ],
+    "other_net_track_contacts": [],
+    "sen1_pad_other_track_contacts": [],
+    "sen1_pad_other_pad_contacts": [],
+    "tracks_mm": [
+      {
+        "start": [
+          168.194,
+          117.686
+        ],
+        "end": [
+          168.575,
+          117.305
+        ],
+        "width": 0.254,
+        "layer": "Bottom Layer"
+      },
+      {
+        "start": [
+          175.306,
+          107.78
+        ],
+        "end": [
+          176.195,
+          107.78
+        ],
+        "width": 0.254,
+        "layer": "Bottom Layer"
+      },
+      {
+        "start": [
+          168.575,
+          114.511
+        ],
+        "end": [
+          175.306,
+          107.78
+        ],
+        "width": 0.254,
+        "layer": "Bottom Layer"
+      },
+      {
+        "start": [
+          168.575,
+          117.305
+        ],
+        "end": [
+          168.575,
+          114.511
+        ],
+        "width": 0.254,
+        "layer": "Bottom Layer"
+      }
+    ],
+    "pads_mm": [
+      {
+        "ref": "R3",
+        "pad": "2",
+        "net": "SEN1",
+        "xy": [
+          176.195,
+          107.78
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "15",
+        "net": "unconnected-(U1-GPIO21-Pad15)",
+        "xy": [
+          145.461,
+          109.304
+        ]
+      },
+      {
+        "ref": "U1",
+        "pad": "16",
+        "net": "unconnected-(U1-GPIO22-Pad16)",
+        "xy": [
+          145.461,
+          111.844
+        ]
+      },
+      {
+        "ref": "J7",
+        "pad": "2",
+        "net": "SEN1",
+        "xy": [
+          168.194,
+          117.686
+        ]
+      }
+    ],
+    "mcu_pad_min_track_copper_gap_mm": [
+      {
+        "pad": "1",
+        "net": "CHKBAT",
+        "gap_mm": 6.765489
+      },
+      {
+        "pad": "2",
+        "net": "D1",
+        "gap_mm": 7.850181
+      },
+      {
+        "pad": "3",
+        "net": "unconnected-(U1-GPIO2-Pad3)",
+        "gap_mm": 9.496017
+      },
+      {
+        "pad": "4",
+        "net": "D2",
+        "gap_mm": 11.292068
+      },
+      {
+        "pad": "5",
+        "net": "D3",
+        "gap_mm": 13.088119
+      },
+      {
+        "pad": "6",
+        "net": "3.3V",
+        "gap_mm": 14.88417
+      },
+      {
+        "pad": "7",
+        "net": "GND",
+        "gap_mm": 16.680222
+      },
+      {
+        "pad": "8",
+        "net": "VCC",
+        "gap_mm": 18.476273
+      },
+      {
+        "pad": "9",
+        "net": "D4",
+        "gap_mm": 29.292955
+      },
+      {
+        "pad": "10",
+        "net": "SERVO1",
+        "gap_mm": 27.657628
+      },
+      {
+        "pad": "11",
+        "net": "SLEEP",
+        "gap_mm": 26.166356
+      },
+      {
+        "pad": "12",
+        "net": "unconnected-(U1-GPIO8-Pad12)",
+        "gap_mm": 24.844959
+      },
+      {
+        "pad": "13",
+        "net": "unconnected-(U1-GPIO9-Pad13)",
+        "gap_mm": 23.721693
+      },
+      {
+        "pad": "14",
+        "net": "SERVO2",
+        "gap_mm": 22.825663
+      },
+      {
+        "pad": "15",
+        "net": "unconnected-(U1-GPIO21-Pad15)",
+        "gap_mm": 22.184265
+      },
+      {
+        "pad": "16",
+        "net": "unconnected-(U1-GPIO22-Pad16)",
+        "gap_mm": 21.819834
+      }
+    ],
+    "zone_contacts": [
+      {
+        "net": "GND",
+        "layer": "Top Layer",
+        "track_contacts": 0,
+        "pad_contacts": 0
+      },
+      {
+        "net": "GND",
+        "layer": "Bottom Layer",
+        "track_contacts": 0,
+        "pad_contacts": 0
+      }
+    ]
+  },
+  "kicad_saved_netlist": [
+    {
+      "name": "SEN1",
+      "nodes": [
+        {
+          "ref": "J7",
+          "pin": "2",
+          "pinfunction": "2_2",
+          "pintype": "unspecified"
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "pinfunction": "2_2",
+          "pintype": "input"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-GPIO21-Pad15)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "15",
+          "pinfunction": "GPIO21_15",
+          "pintype": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "unconnected-(U1-GPIO22-Pad16)",
+      "nodes": [
+        {
+          "ref": "U1",
+          "pin": "16",
+          "pinfunction": "GPIO22_16",
+          "pintype": "unspecified"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Saved schematic and both PCB representations have SEN1 copper only at sensor1/J7 pin2 and 10k/R3 pin2; no MCU pad or other copper path touches this signal in the tested track/pad geometry. KiCad GND fills also do not touch it.",
+  "limits": [
+    "Original EasyEDA poured ARC fill geometry was not independently reimplemented; original pour metadata is GND on top/bottom. KiCad actual filled copper polygons were checked.",
+    "KiCad net membership is read from saved exported netlist.xml; no new export was performed in this audit. Current PCB copper was loaded directly.",
+    "These files do not establish what was fabricated, hidden solder/jumper continuity, a changed production revision, sensor orientation, or live electrical voltages.",
+    "U1 pad15/16 original schematic labels GPIO21/GPIO22 differ from footprint silkscreen20/21; this is a label inconsistency, not proof of a physical jumper."
+  ]
+}

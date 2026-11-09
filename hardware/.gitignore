@@ -1,0 +1,13 @@
+# KiCad local state and generated backups
+*.kicad_prl
+*.lck
+~*.lck
+_autosave-*
+*-backups/
+fp-info-cache
+.history/
+__pycache__/
+type_m/v1/validation/parity-stage/
+type_m/v1/validation/normalization-stage/
+type_s/v1/validation/parity-stage/
+type_s/v1/validation/normalization-stage/

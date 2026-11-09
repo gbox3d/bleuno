@@ -1,0 +1,996 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-01T11:55:56",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9159d041-722e-49f6-91a4-e7eb254dfd69",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 2 [GPIO2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 0.5334
+                            },
+                            "uuid": "3d5a8300-71bf-4ff8-b019-0f827d1c8426"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol 10K 핀 1 [1, Input, Line]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.1397
+                            },
+                            "uuid": "226621ae-6860-4ba2-b2af-6eb78d2082e4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR? 핀 1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.9525
+                            },
+                            "uuid": "29b141ba-f6b2-48f9-a931-fd158425aac2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol On   Off 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 1.0033
+                            },
+                            "uuid": "d2674654-aba2-423f-837d-0e6833068bf0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 8 [GPIO8, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.508
+                            },
+                            "uuid": "cc702f58-59a5-4886-964a-fed45298022a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 9 [GPIO9, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.5334
+                            },
+                            "uuid": "ab5e0823-a0a4-457e-8a82-e12731183489"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 20 [GPIO20, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.5842
+                            },
+                            "uuid": "f0a10dc3-49f4-427e-b40b-816abde9fc98"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 21 [GPIO21, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.6096
+                            },
+                            "uuid": "e0d16071-f167-4d24-a146-4c9837d7dd7e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.1557
+                            },
+                            "uuid": "e4790fce-c525-44d1-97cb-4fea76cf6aa7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol 4.7k 핀 2 [2, Input, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.7366
+                            },
+                            "uuid": "ce573d78-d983-4d2f-8500-d8bea00933b2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 ? [Drawing-Symbol_A4]",
+                            "pos": {
+                                "x": 0.0,
+                                "y": 2.0955
+                            },
+                            "uuid": "4580640a-2603-4153-a4f0-8639f3af52c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 0.2286,
+                                "y": 0.127
+                            },
+                            "uuid": "99ef83a3-30bb-4400-be6b-690f4d763169"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 1.0033
+                            },
+                            "uuid": "9ad88cb9-0b6d-4891-85ac-24e012fbda98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Unspecified 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol A1 +  s  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.9525
+                            },
+                            "uuid": "14055089-bd00-4d81-a715-be8d6b63f611"
+                        },
+                        {
+                            "description": "Symbol Tenstar 핀 3.3 [3V3, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.4318
+                            },
+                            "uuid": "72c3ff31-1a91-450e-9aee-022d938219e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Bidirectional 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol A1 +  s  - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.9779
+                            },
+                            "uuid": "047ef730-c3b7-4fc8-9ddc-d560da2d8049"
+                        },
+                        {
+                            "description": "Symbol Tenstar 핀 1 [GPIO1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 0.508
+                            },
+                            "uuid": "fb950b27-b81e-45e4-8103-98c4b5a60481"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol A1 +  s  - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.0033
+                            },
+                            "uuid": "abcf7353-e417-4b11-a479-6d8b074c62d1"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.2794,
+                                "y": 1.0033
+                            },
+                            "uuid": "58b1d829-ef33-4b9e-a20a-2da9e2d2eb10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 Tenstar [ESP32-C3_SUPERMINI_TH_ESP32-C3_SUP...]",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 0.5334
+                            },
+                            "uuid": "16d4ee59-573d-4071-be66-6d395d545188"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Power-VCC]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.9525
+                            },
+                            "uuid": "0548b0fd-5947-42fc-bb09-c0c4f7bfef0d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol On   Off 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.9525
+                            },
+                            "uuid": "120e19a1-829b-4dcc-9672-594cd54ab3c0"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.9525
+                            },
+                            "uuid": "29b141ba-f6b2-48f9-a931-fd158425aac2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Unspecified 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol On   Off 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.9779
+                            },
+                            "uuid": "1ecabf50-8cd7-4c30-b957-32ce054544d8"
+                        },
+                        {
+                            "description": "Symbol Tenstar 핀 5V [5V, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.4064
+                            },
+                            "uuid": "231004d2-ab8c-40b3-8d46-e3265ec384e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 5V [5V, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.4064
+                            },
+                            "uuid": "231004d2-ab8c-40b3-8d46-e3265ec384e7"
+                        },
+                        {
+                            "description": "Symbol 10K 핀 1 [1, Input, Line]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.1397
+                            },
+                            "uuid": "226621ae-6860-4ba2-b2af-6eb78d2082e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 3.3 [3V3, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.4318
+                            },
+                            "uuid": "72c3ff31-1a91-450e-9aee-022d938219e3"
+                        },
+                        {
+                            "description": "Symbol 10K 핀 1 [1, Input, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.4699
+                            },
+                            "uuid": "18b98f49-3442-41d0-a240-a934f4ea71e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.6858
+                            },
+                            "uuid": "7e760cce-e1d2-4745-be06-a91da1f43e92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol Tenstar 핀 G [GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.6858
+                            },
+                            "uuid": "fac863ae-1158-4734-b106-6b1360a9c711"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.6858
+                            },
+                            "uuid": "1e5cb1ff-1781-41ae-857e-f0ee9605f3da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Power-VCC]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.8636
+                            },
+                            "uuid": "533b3cdd-8747-45a6-ab1a-966f5f746a31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.9017
+                            },
+                            "uuid": "bb212422-d59b-49f4-b785-35b36209e19a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.1557
+                            },
+                            "uuid": "0fe5252f-7992-4d40-aee6-6b116cc8419d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Unspecified 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D1 +  d  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.1049
+                            },
+                            "uuid": "4f9371ae-64b0-4885-8aeb-b707111af034"
+                        },
+                        {
+                            "description": "Symbol D2 +  d  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.1049
+                            },
+                            "uuid": "508f203f-eb5a-4f57-bb41-426871e90f23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Bidirectional 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D1 +  d  - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.1303
+                            },
+                            "uuid": "0d6b7998-52d4-4fed-809c-8c9cfd43f8b3"
+                        },
+                        {
+                            "description": "Symbol Tenstar 핀 6 [GPIO6, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 0.635
+                            },
+                            "uuid": "57a0eeac-8147-485d-9079-67f94ff15428"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D1 +  d  - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.1557
+                            },
+                            "uuid": "2fb10de2-1239-4443-b424-a6ab2c6d9178"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.1557
+                            },
+                            "uuid": "e4790fce-c525-44d1-97cb-4fea76cf6aa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.3556
+                            },
+                            "uuid": "e5d596f0-4df5-47f6-9973-64f341e27308"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.5969
+                            },
+                            "uuid": "3dc7a095-5100-473a-b102-1e84c5b0f847"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol DHT +  s  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.3048
+                            },
+                            "uuid": "eced537a-13d1-4eee-8580-0f6ecc7ee98a"
+                        },
+                        {
+                            "description": "Symbol 10K 핀 1 [1, Input, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.2032
+                            },
+                            "uuid": "0f888c9b-8073-403f-88e8-d053d322f8df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol DHT +  s  - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.3302
+                            },
+                            "uuid": "eeab47a1-28c4-4065-b121-1cf88f25cc1d"
+                        },
+                        {
+                            "description": "Symbol 10K 핀 2 [2, Input, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.3048
+                            },
+                            "uuid": "5505a385-c4d4-44a1-8eb9-ab8ce1aa4292"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol DHT +  s  - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.3556
+                            },
+                            "uuid": "a5d251be-5727-48c7-8ef8-4539f2bde4c9"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.3556
+                            },
+                            "uuid": "de782cce-8541-4084-9879-91accc0a15ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol CDS +  s  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.5461
+                            },
+                            "uuid": "6c6f6da9-0596-4c69-817b-3f8ecbb17747"
+                        },
+                        {
+                            "description": "Symbol 10K 핀 1 [1, Input, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.4699
+                            },
+                            "uuid": "18b98f49-3442-41d0-a240-a934f4ea71e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol CDS +  s  - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.5715
+                            },
+                            "uuid": "54cc4150-3c48-4fda-a661-2d6b295b0f5b"
+                        },
+                        {
+                            "description": "Symbol 10K 핀 2 [2, Input, Line]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.5715
+                            },
+                            "uuid": "0c7f4a50-ec35-4133-b42c-1a49079d9be2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol CDS +  s  - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.5969
+                            },
+                            "uuid": "71f4f03c-ffa0-4fd9-ad6c-4f101fd7896f"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.5969
+                            },
+                            "uuid": "89eb1682-cfc4-4c11-8d30-b307f4d03e35"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 1.1557
+                            },
+                            "uuid": "be23d8a0-2d50-43f2-98a0-bc9b62dcecf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Unspecified 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D2 +  d  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.1049
+                            },
+                            "uuid": "508f203f-eb5a-4f57-bb41-426871e90f23"
+                        },
+                        {
+                            "description": "Symbol D3 +  d  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.1049
+                            },
+                            "uuid": "36a57748-e90e-4e89-8154-0e881a3bc3bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Bidirectional 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D2 +  d  - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.1303
+                            },
+                            "uuid": "82d83367-cee3-4f19-98fb-8e6e7ca4f963"
+                        },
+                        {
+                            "description": "Symbol Tenstar 핀 7 [GPIO7, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.4826
+                            },
+                            "uuid": "d396f45d-94c1-427b-82a6-429649b49110"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D2 +  d  - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.1557
+                            },
+                            "uuid": "0281181c-8b04-4857-83d6-999d1ec0a2bb"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 1.1557
+                            },
+                            "uuid": "413beae7-5d50-4fd3-805b-2f702139bdc6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.9271
+                            },
+                            "uuid": "b51b5a6e-c3c9-4875-ad9b-0cb7f56638a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "현재 구성에 풋프린트 라이브러리 'ZeroFactor-easyedapro'이(가) 포함되어 있지 않습니다",
+                    "items": [
+                        {
+                            "description": "심볼 #PWR? [Ground-GND]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 1.1557
+                            },
+                            "uuid": "501270cd-8018-4cf0-9a62-1632598d6221"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol DS18B20\n+   s   - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.8763
+                            },
+                            "uuid": "fbb4d0bf-edb4-4b5a-a9a9-3fcc63ec18b0"
+                        },
+                        {
+                            "description": "Symbol 4.7k 핀 2 [2, Input, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.7366
+                            },
+                            "uuid": "ce573d78-d983-4d2f-8500-d8bea00933b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol DS18B20\n+   s   - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.9017
+                            },
+                            "uuid": "c250c36f-c2fb-4dea-af42-436cf9df649b"
+                        },
+                        {
+                            "description": "Symbol 4.7k 핀 1 [1, Input, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.8382
+                            },
+                            "uuid": "ee8cea0c-d5fe-400a-93a2-8a7d90f263a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol DS18B20\n+   s   - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.9271
+                            },
+                            "uuid": "965736ea-7fda-45a5-877c-af748154f9aa"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.9271
+                            },
+                            "uuid": "32e9eff2-e123-4b5b-b150-01eda25f46f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Unspecified 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D3 +  d  - 핀 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.1049
+                            },
+                            "uuid": "36a57748-e90e-4e89-8154-0e881a3bc3bb"
+                        },
+                        {
+                            "description": "Symbol On   Off 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.9779
+                            },
+                            "uuid": "1ecabf50-8cd7-4c30-b957-32ce054544d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Bidirectional 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D3 +  d  - 핀 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.1303
+                            },
+                            "uuid": "fd5fcc03-e573-4b9d-9261-5cd20473fae7"
+                        },
+                        {
+                            "description": "Symbol Tenstar 핀 10 [GPIO10, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.5588
+                            },
+                            "uuid": "aba0d276-c334-4acd-bfa4-692e65d6c1dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Unspecified 및 Power input 유형의 핀이 연결됨",
+                    "items": [
+                        {
+                            "description": "Symbol D3 +  d  - 핀 3 [3, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 1.1557
+                            },
+                            "uuid": "a2f1cd0b-97c0-4bfe-8f69-b062aaade8c3"
+                        },
+                        {
+                            "description": "Symbol #PWR? 핀 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 1.1557
+                            },
+                            "uuid": "0bae7d23-d175-448f-a7a3-0d2c59fa07c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"
+}

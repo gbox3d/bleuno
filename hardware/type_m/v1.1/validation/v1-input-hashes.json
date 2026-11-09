@@ -1,0 +1,230 @@
+[
+  {
+    "path": "pinmap.md",
+    "sha256": "EFCC3F91C5CEE1978115022E58724B7671FDA06B32AB165FE767FE68E1386C73"
+  },
+  {
+    "path": "README.md",
+    "sha256": "02A576FA9CA641C7453CFE3BADB3CF77ACDAE2E383E482B52869813BE963CA2F"
+  },
+  {
+    "path": "kicad\\empty.kicad_wks",
+    "sha256": "CAC9A4AC51C6C78F04E5B12A81F9C2FE5E3DA09B63A653EA85F0F9509C3086D9"
+  },
+  {
+    "path": "kicad\\fp-lib-table",
+    "sha256": "EDEE06BA53D919459FD36CFDC30021524697A9E61B4BE16BFD3D905AA95DE9C7"
+  },
+  {
+    "path": "kicad\\sym-lib-table",
+    "sha256": "FA28DD1BCE98244D9ED0127F6967D5CA58BC8BCF7F9F909BCE9ACE6C633730C0"
+  },
+  {
+    "path": "kicad\\type_m_v1.kicad_dru",
+    "sha256": "543A56AA45CA9D2D2AC9904480F01DFAA729BBFEF2A42F6DE400DCAFA045ADA3"
+  },
+  {
+    "path": "kicad\\type_m_v1.kicad_pcb",
+    "sha256": "EC8C3E403F49F46826A1B262EB165A972BD82961A50CD1FD38DCF324AA2DFB73"
+  },
+  {
+    "path": "kicad\\type_m_v1.kicad_prl",
+    "sha256": "C3B693FA2CD742E5E9E22288C1227276B1B8AB49E72DDBD9D4FEE08FDC814E28"
+  },
+  {
+    "path": "kicad\\type_m_v1.kicad_pro",
+    "sha256": "6BAA268D6FAEC78F46FB9020FFA2D5436E6E14D057A4D4F7391F900A514AFBC4"
+  },
+  {
+    "path": "kicad\\type_m_v1.kicad_sch",
+    "sha256": "947E733AC65CE3821AA91FE7DEC3B82EB8A0269709DD73021CF90E0A19826101"
+  },
+  {
+    "path": "kicad\\type_m_v1.kicad_sym",
+    "sha256": "DBEF2AB105FE36B55B39E52313D2EB028FB8E655FC53502F2874DEAF7EDED0AE"
+  },
+  {
+    "path": "kicad\\.history\\.gitignore",
+    "sha256": "C3312A64286DDC9011ADB4ECBF90E1611D7F2C4653AF14D2849FB7DA2EA90421"
+  },
+  {
+    "path": "kicad\\.history\\MovingTarget_MotorConT1_2026-10-31.kicad_pcb",
+    "sha256": "9D1A99BA1B8D63B081CF2095836CE952FA12E223D0B56DFE7EE089367624EF92"
+  },
+  {
+    "path": "kicad\\.history\\README.txt",
+    "sha256": "15B177287F6D16D6517FBC6A27D7124D206FC05EED3DEC20AE0B524FE2955C35"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW.kicad_mod",
+    "sha256": "33701CC0C68CB5F4EE32F5E3E33ED4076A59F736DDAAB50636C8AB74407577AA"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\CONN-TH_3P-P1.50_A1500WV-03P.kicad_mod",
+    "sha256": "393A7C1AAB7714F3DC561E2400F863D2522EA9AA95C050677E5B7BA2903D6A7F"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\DRV8833.kicad_mod",
+    "sha256": "83A94E2648663AA74E117EA2B577192FA61CD423580ABC189C0FC8FE96DDB66A"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\ESP32C3 SM.kicad_mod",
+    "sha256": "429789D2D68D903CA7A34D123B015CF49074F79E05A1CCF5BAD7C28C3773A0A0"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\HDR-TH_3P-P2.54-V-M.kicad_mod",
+    "sha256": "870DE5E2FCFACA7657311CE8571C5EFB195291F6DF4C2F3F73986AE3A987F4BA"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\Pad_e1.kicad_mod",
+    "sha256": "F238CF07CE2219527263763E33EE314AB5B072AE36602F112119C6770FED89C6"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\Pad_e2.kicad_mod",
+    "sha256": "3244F49878D638416DC4611500A3DB430223FDED1C4C04CDA6BD396B17203F63"
+  },
+  {
+    "path": "kicad\\type_m_v1.pretty\\R_AXIAL-0.4.kicad_mod",
+    "sha256": "6AA846FBC47931D07DAE3AC5A257A3986A78A3B90F5DCDB4C85C77C6606D2FA7"
+  },
+  {
+    "path": "source\\MovingTarget_MotorConT1_2026-10-31_native.epro2",
+    "sha256": "B3CEB33C0E6DD1BCDCBFDF5A93C2447477274820E0BC2EFB70D7159924909487"
+  },
+  {
+    "path": "source\\MovingTarget_MotorConT1_2026-10-31.epro",
+    "sha256": "AD53D548A11A0D6652DB9E8F0933E21C97D479A1E3235C9C981F93750B959BDA"
+  },
+  {
+    "path": "source\\README.md",
+    "sha256": "5F9E9A74563AD2C65CEFCC8A3D81BA5873E7E457D0D4C53C6827D80213457311"
+  },
+  {
+    "path": "validation\\before-refill.kicad_pcb",
+    "sha256": "BCDBE27D51F960A010E42ED7FC33A665B0F786EABA996C15E6610C561B4D89DB"
+  },
+  {
+    "path": "validation\\drc-before-refill.json",
+    "sha256": "4DE962F1A3C0B5002B765A8E364AB9A1FBFE93F3A2410BA4DB1F601BA5A1A33A"
+  },
+  {
+    "path": "validation\\drc.json",
+    "sha256": "363BC307C0E6E961FB6BEC60AB99E18527E1FF979E6C61F010F1879A90589E5A"
+  },
+  {
+    "path": "validation\\easyeda-baseline.json",
+    "sha256": "CBD3EFDABEEE05FA564595C3F36A2C88E22D3B481B51CB7BC4A924C2D052F6AB"
+  },
+  {
+    "path": "validation\\erc.json",
+    "sha256": "0D2A499D81B9122296BAF7DC91D3EA531FEF83652614F3E0BC6CBB25C151B137"
+  },
+  {
+    "path": "validation\\import-comparison.json",
+    "sha256": "5BC92238453AC2C9E92E3B6D936A4AEEA8A3BA7FE74BFAAF596B6ECEEFBFE9E8"
+  },
+  {
+    "path": "validation\\initial-drc.json",
+    "sha256": "86A5C474A214E14A8C510B58EA15D740DDEC88FB9548D37EEDA67D193C3D43EB"
+  },
+  {
+    "path": "validation\\initial-erc.json",
+    "sha256": "50BE212B211B41F56C36B07744C7AC125A064E9C5C2A3922AEC93B7756530225"
+  },
+  {
+    "path": "validation\\initial-import-comparison.json",
+    "sha256": "3EBFF55231501B3312B864776DC72A66C14A9A966511B6C58F579D8F628B0326"
+  },
+  {
+    "path": "validation\\initial-kicad-import.zip",
+    "sha256": "1C7BAB0218B3BD6CBFB064798337DF6264562AB0B5CABC914AC40A92287967FF"
+  },
+  {
+    "path": "validation\\initial-netlist.xml",
+    "sha256": "AF2B7E8CE1F08468F4C86E6DF69E76414E0BA272EEDB2F54FAAB36D8ABB57630"
+  },
+  {
+    "path": "validation\\netlist.xml",
+    "sha256": "3036AD437D5BABF1E175163773E9FF4466F5B61715C588DB42EAF2D433778F8C"
+  },
+  {
+    "path": "validation\\normalization-report.json",
+    "sha256": "2221667F165A9CD17D9614BAF35EF762DC1FBC42AFEF66F451F67156966AC8D6"
+  },
+  {
+    "path": "validation\\normalize_import.py",
+    "sha256": "313A62FABA35FBBBC812B36E5FBC0BE8F1CEE6EF8F651958D22FF8FE6FD1BDFE"
+  },
+  {
+    "path": "validation\\parity-drc.json",
+    "sha256": "925EA3595B8AE538AFB09C6A8A8EFDA834475615045B3A5D24B8374D50C5DCC0"
+  },
+  {
+    "path": "validation\\parity-metadata-report.json",
+    "sha256": "199D2C0D9EECD644D8B1B9F33F2EE8D74137AFB4AB406CB863DCC8157D893894"
+  },
+  {
+    "path": "validation\\README.md",
+    "sha256": "6162A93511CEC87B61390FB952D7BE16EB4AD66EF0FB9F3D4EEDE741DFEF9363"
+  },
+  {
+    "path": "validation\\rename-report.json",
+    "sha256": "F0723753472AD76715FC64001A44CECBB08C158F62CAD3624A715AED7B674480"
+  },
+  {
+    "path": "validation\\rules-mapping.json",
+    "sha256": "CC9578E544EA9D35A674523DA948DC3E49820224EB27E6A2D2B08DB1627D76BA"
+  },
+  {
+    "path": "validation\\rules-mapping.md",
+    "sha256": "D1AAFF388B839C7C29024245925FFA67F81598446A44FA885F4FA5EAB7DDCBEE"
+  },
+  {
+    "path": "validation\\source-inventory.json",
+    "sha256": "1D5E3A09A1B001A7AFA54B383F6631E3FF20EDF2D5D683844EFB14701832A2DE"
+  },
+  {
+    "path": "validation\\sync_parity_metadata.py",
+    "sha256": "C1DBCBD6BAFA43F6BFF2FE4029AD1EEF93AB2CD413E9465B2DA724DADCC2147B"
+  },
+  {
+    "path": "validation\\verify_migration.py",
+    "sha256": "182A342D2DC1B8036CCC56475CD6C1251F1AB8E51876EC31A5FFD9E8D2682B73"
+  },
+  {
+    "path": "validation\\parity-stage\\before-parity.kicad_pcb",
+    "sha256": "3408109D7AD8C1E12A68A8E9F8BF13578EA09A246661E7F827697982B539F41C"
+  },
+  {
+    "path": "validation\\preview\\type_m_v1-pcb.svg",
+    "sha256": "3E6C158040440801FA949AF2E2F46EC965B839FB0348D360F2ECEC338EA039CF"
+  },
+  {
+    "path": "validation\\preview\\type_m_v1.svg",
+    "sha256": "A5241A74DF6F5CA2E7588F284A4C1E68D7D682C89BA7F11D2669890888F81654"
+  },
+  {
+    "path": "validation\\sen1-evidence-2026-11-01\\easyeda-sen1-highlight.png",
+    "sha256": "FE28D129FC41604EDD6ED93E859993DBBCB4EBF29009E8CE92CA5D5CB87CDA43"
+  },
+  {
+    "path": "validation\\sen1-evidence-2026-11-01\\live-pcb-connectivity.json",
+    "sha256": "37B3B1E3847B67FDB0B5313F15283228388296A72F600198C787B2FF2C712A7E"
+  },
+  {
+    "path": "validation\\sen1-evidence-2026-11-01\\source-audit.json",
+    "sha256": "7ECBA5BBBF937B0E5F0F3E3399DD04C713940EDF3AA45F862DF29799DF41FBBE"
+  },
+  {
+    "path": "validation\\sen1-evidence-2026-11-01\\source-audit.md",
+    "sha256": "AD6E039A88A44998AFA7A4E70CD0A2B780405FA2A6A34C48258627674736A2F2"
+  },
+  {
+    "path": "validation\\__pycache__\\normalize_import.cpython-311.pyc",
+    "sha256": "15C03FD3FEC58F2C33A20B6E813B2370E93883218EFE40F38481BA977E85D6B0"
+  },
+  {
+    "path": "validation\\__pycache__\\verify_migration.cpython-311.pyc",
+    "sha256": "98330E521144888982625BB16487578D8CCF2E531A8C79063BC6ED202DAA4312"
+  }
+]

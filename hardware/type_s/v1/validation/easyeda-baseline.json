@@ -1,0 +1,1324 @@
+{
+  "capturedAt": "2026-11-01T02:51:31.843Z",
+  "version": "3.2.209",
+  "project": {
+    "itemType": "Project",
+    "uuid": "cdcbe964907a4283a8597f5fe1b00431",
+    "friendlyName": "ZeroFactorySensorBoard",
+    "name": "topdown lee (도플광어)/ZeroFactorySensorBoard",
+    "teamUuid": "70e35e5f67ed4edbb6a5dc33fcab47f6",
+    "description": "",
+    "data": [
+      {
+        "itemType": "Board",
+        "name": "Board_DHT",
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "170357fab581471f8a718f854fc9f31b",
+          "name": "Schematic1",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "1056de0b4f7d41fa936977e612ff4c55",
+              "name": "P1",
+              "parentSchematicUuid": "170357fab581471f8a718f854fc9f31b",
+              "showTitleBlock": true,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "ZeroFactorySensorBoard"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 1
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-04-11"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-04-11"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 1
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "P1"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "EasyEDA.com"
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "V1.0"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A4"
+                },
+                "Drawn": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "23:49:50"
+                },
+                "@Update Time": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "23:49:50"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "825"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "@Board Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Board_DHT"
+                },
+                "Footprint": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Description": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Device": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "ID": {}
+              }
+            }
+          ],
+          "parentProjectUuid": "cdcbe964907a4283a8597f5fe1b00431",
+          "parentBoardName": "Board_DHT"
+        },
+        "pcb": {
+          "itemType": "PCB",
+          "name": "PCB1",
+          "uuid": "287e5461706743eeb18d8d86160a742f",
+          "parentBoardName": "Board_DHT",
+          "parentProjectUuid": "cdcbe964907a4283a8597f5fe1b00431"
+        },
+        "parentProjectUuid": "cdcbe964907a4283a8597f5fe1b00431"
+      }
+    ]
+  },
+  "pcb": {
+    "itemType": "PCB",
+    "uuid": "287e5461706743eeb18d8d86160a742f",
+    "name": "PCB1",
+    "parentProjectUuid": "cdcbe964907a4283a8597f5fe1b00431",
+    "parentBoardName": "Board_DHT"
+  },
+  "configuration": {
+    "config": {
+      "Spacing": {
+        "Safe Spacing": {
+          "copperThickness1oz": {
+            "editName": "copperThickness1oz",
+            "unit": "mm",
+            "isSetDefault": true,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.10199878
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.29999939999999997,
+                    0.254,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.254,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997
+                  ],
+                  [
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.254,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526
+                  ]
+                ]
+              }
+            }
+          },
+          "copperThickness2oz": {
+            "editName": "copperThickness2oz",
+            "unit": "mm",
+            "isSetDefault": false,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.20299933999999997
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.29999939999999997,
+                    0.254,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.254,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997
+                  ],
+                  [
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.254,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526
+                  ]
+                ]
+              }
+            }
+          },
+          "Plane_innerPlane": {
+            "editName": "Plane_innerPlane",
+            "unit": "mm",
+            "isSetDefault": false,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.10199878
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.29999939999999997,
+                    0.254,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.254,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997
+                  ],
+                  [
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.254,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526
+                  ]
+                ]
+              }
+            }
+          },
+          "Copper_copperRegion": {
+            "editName": "Copper_copperRegion",
+            "unit": "mm",
+            "isSetDefault": false,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.10199878
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.29999939999999997,
+                    0.254,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.254,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997
+                  ],
+                  [
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.254,
+                    0.17526,
+                    0.17526,
+                    0.17526,
+                    0.17526
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "Other Spacing": {
+          "otherClearance": {
+            "editName": "otherClearance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "device2device": 0,
+              "thru2Smd": 0,
+              "hole2Hole": 0.29999939999999997
+            }
+          }
+        },
+        "Creepage Distance": {
+          "creepage": {
+            "editName": "creepage",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "creepageDistance": 0,
+              "ignoreLayer": true
+            }
+          }
+        }
+      },
+      "Physics": {
+        "Track": {
+          "copperThickness1oz": {
+            "editName": "copperThickness1oz",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "minValue": 0.127,
+                  "defaultValue": 0.254,
+                  "maxValue": 2.54
+                }
+              }
+            }
+          },
+          "copperThickness2oz": {
+            "editName": "copperThickness2oz",
+            "unit": "mm",
+            "isSetDefault": false,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "minValue": 0.20299933999999997,
+                  "defaultValue": 0.254,
+                  "maxValue": 2.54
+                }
+              }
+            }
+          }
+        },
+        "Net Length Range": {
+          "netLength": {
+            "editName": "netLength",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "netLengthMin": 0,
+              "netLengthMax": 0
+            }
+          }
+        },
+        "Net Length Tolerance": {
+          "netLengthTolerance": {
+            "editName": "netLengthTolerance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "netLengthTolerance": 25.4
+            }
+          }
+        },
+        "Differential Pair": {
+          "differentialPair": {
+            "editName": "differentialPair",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "strokeWidthTables": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "minValue": 0.127,
+                    "defaultValue": 0.254,
+                    "maxValue": 2.54
+                  }
+                }
+              },
+              "diffPairSpacingTables": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "minValue": 0.15239999999999998,
+                    "defaultValue": 0.15239999999999998,
+                    "maxValue": null
+                  }
+                }
+              },
+              "differentailPairLenTolerMax": 0.254
+            }
+          }
+        },
+        "Blind/Buried Via": {
+          "blindVia": {
+            "editName": "blindVia",
+            "isSetDefault": true,
+            "table": []
+          }
+        },
+        "Via Size": {
+          "viaSize": {
+            "editName": "viaSize",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "viaOuterdiameterMin": 0.49999899999999997,
+              "viaOuterdiameterMax": 10.00000032,
+              "viaOuterdiameterDefault": 0.61000132,
+              "viaInnerdiameterMin": 0.29999939999999997,
+              "viaInnerdiameterMax": 6.2999975599999996,
+              "viaInnerdiameterDefault": 0.30499812
+            }
+          }
+        }
+      },
+      "Plane": {
+        "Plane Zone": {
+          "innerPlane": {
+            "editName": "innerPlane",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "connectMode": 0,
+                  "lineClearance": 0.254,
+                  "lineWidth": 0.254,
+                  "lineAngle": 90
+                }
+              }
+            }
+          }
+        },
+        "Copper Zone": {
+          "copperRegion": {
+            "editName": "copperRegion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "singleLayerPadModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "connectMode": 0,
+                    "lineClearance": 0.254,
+                    "lineWidth": 0.254,
+                    "lineAngle": 90
+                  }
+                }
+              },
+              "multiLayerPadModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "connectMode": 0,
+                    "lineClearance": 0.254,
+                    "lineWidth": 0.254,
+                    "lineAngle": 90
+                  }
+                }
+              },
+              "trackConnectModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "trackConnectMode": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Expansion": {
+        "Solder Mask Expansion": {
+          "solderMaskExpansion": {
+            "editName": "solderMaskExpansion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "padToplayerExpansion": 0.0508,
+              "padBottomlayerExpansion": 0.0508,
+              "viaToplayerExpansion": -25.4,
+              "viaBottomlayerExpansion": -25.4,
+              "testPointToplayerExpansion": 0.0508,
+              "testPointBottomlayerExpansion": 0.0508
+            }
+          }
+        },
+        "Paste Mask Expansion": {
+          "pasteMaskExpansion": {
+            "editName": "pasteMaskExpansion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "padToplayerExpansion": 0,
+              "padBottomlayerExpansion": 0,
+              "testPointToplayerExpansion": -25.4,
+              "testPointBottomlayerExpansion": -25.4
+            }
+          }
+        }
+      }
+    },
+    "name": "JLCPCB Capability(Two Layers Board)"
+  },
+  "netRules": [
+    {
+      "type": "net",
+      "name": "GND",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "SENSOR1",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "3.3V",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "A1",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "SENSOR2",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "SENSOR3",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "5V",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "D1",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "D2",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "D3",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "VCC",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    },
+    {
+      "type": "net",
+      "name": "BATCHK",
+      "Safe Spacing": "default",
+      "Copper Safe Spacing": "Copper_copperRegion",
+      "Plane Safe Spacing": "Plane_innerPlane",
+      "Track": "default",
+      "Net Length Range": "default",
+      "Net Length Tolerance": null,
+      "Blind/Buried Via": "default",
+      "Via Size": "default",
+      "Plane Zone": "default",
+      "Copper Zone": "default",
+      "Solder Mask Expansion": "default",
+      "Paste Mask Expansion": "default",
+      "Creepage Distance": null,
+      "targetNet": null
+    }
+  ],
+  "drc": [
+    {
+      "name": "Netlist Error",
+      "list": [
+        {
+          "name": "Netlist Error",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Netlist Error",
+              "errorObjType": "Netlist Error",
+              "ruleName": "Import Changes",
+              "ruleTypeName": "Import Changes",
+              "obj1": {
+                "typeName": "Schematic Netlist",
+                "suffix": ""
+              },
+              "obj2": {
+                "typeName": "PCB Netlist",
+                "suffix": ""
+              },
+              "objs": [
+                "err0"
+              ],
+              "explanation": {
+                "str": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+                "param": {}
+              },
+              "globalIndex": "err0",
+              "parentId": "DRCTab|_|Errors|_|Netlist Error|_|Netlist Error"
+            }
+          ],
+          "count": 1,
+          "title": [
+            "Netlist Error",
+            "(1)"
+          ],
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 1,
+      "title": [
+        "Netlist Error",
+        "(1)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "connectors": [
+    {
+      "reference": "J9",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J5",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J1",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J3",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J2",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J6",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J7",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J4",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    },
+    {
+      "reference": "J8",
+      "source_schematic_display": "",
+      "source_pcb_display": "",
+      "netlist_empty_value_token": "~",
+      "pcb_value_before": "",
+      "pcb_value_after": "~",
+      "pcb_value_hidden": true
+    }
+  ],
+  "input_pcb_sha256": "c8163fdebba6c37bd1beebb364318f3e168f6255711dc8f908775285320b08d0",
+  "output_pcb_sha256": "95dfdf86e606b5c7337c0123fc4e264fc4e99f209a695fb32967344c52d3decd",
+  "checks": {
+    "only_empty_value_token_and_visibility_changed": true,
+    "all_geometry_nets_and_refilled_copper_unchanged": true,
+    "source_resistor_value_disagreements_preserved": true,
+    "schematic_project_and_rules_unchanged": true,
+    "native_reload": true
+  }
+}

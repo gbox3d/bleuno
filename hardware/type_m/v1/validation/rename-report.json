@@ -1,0 +1,47 @@
+{
+  "model": "type_m",
+  "version": "v1",
+  "previous_project": "bleuno_v1",
+  "project": "type_m_v1",
+  "previous_path": "hardware/v1",
+  "path": "hardware/type_m/v1",
+  "changes": [
+    {
+      "file": "kicad/bleuno_v1.kicad_pcb",
+      "before_sha256": "c585acf63ee59bd8355f69b8ed500beed92424a14471914f90dbbb7f86a54602",
+      "after_sha256": "ec8c3e403f49f46826a1b262eb165a972bd82961a50cd1fd38dcf324aa2dfb73",
+      "only_project_name_changed": true
+    },
+    {
+      "file": "kicad/bleuno_v1.kicad_pro",
+      "before_sha256": "814b6a9acca6596c5256030fdb4efd5c7edae86c9bf9dfa06b1f02828ec4f195",
+      "after_sha256": "6baa268d6faec78f46fb9020ffa2d5436e6e14d057a4d4f7391f900a514afbc4",
+      "only_project_name_changed": true
+    },
+    {
+      "file": "kicad/bleuno_v1.kicad_sch",
+      "before_sha256": "d0372d7dc741cfd1cf13b9e704a71b4180e01e9cc86da7cccafbb51718d542bc",
+      "after_sha256": "947e733ac65ce3821aa91fe7dec3b82eb8a0269709dd73021cf90e0a19826101",
+      "only_project_name_changed": true
+    },
+    {
+      "file": "kicad/bleuno_v1.kicad_sym",
+      "before_sha256": "266eb6801ae44411b33cfbf1a47a4c3bcce8866c8429c9590d61c21ce3d061aa",
+      "after_sha256": "dbef2ab105fe36b55b39e52313d2eb028fb8e655fc53502f2874deaf7eded0ae",
+      "only_project_name_changed": true
+    },
+    {
+      "file": "kicad/fp-lib-table",
+      "before_sha256": "cec05482d1002ca48f4d6090d922894ffb4d57ba3cad07ceafd6685c6ac3b235",
+      "after_sha256": "edee06ba53d919459fd36cfdc30021524697a9e61b4be16bfd3d905aa95de9c7",
+      "only_project_name_changed": true
+    },
+    {
+      "file": "kicad/sym-lib-table",
+      "before_sha256": "c37eaf83941aab9a08aeaf6696b72d3e79d39bfeef1c791848e4f2bf4258834f",
+      "after_sha256": "fa28dd1bce98244d9ed0127f6967d5ca58bc8bcf7f9f909bce9ace6c633730c0",
+      "only_project_name_changed": true
+    }
+  ],
+  "historical_evidence": "Original archives, initial reports and before-refill PCB remain unchanged; latest reports are regenerated."
+}

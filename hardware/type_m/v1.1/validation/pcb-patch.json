@@ -1,0 +1,103 @@
+{
+  "input_sha256": "f4c4c280227de9a26089ef21b07663884999ed6152535efc0530077e6399f1f9",
+  "output_sha256_before_zone_refill": "79a56ecea1f8686e0deb992e824a63a40e4585b90b91425e37d48bfff4523a00",
+  "connection": [
+    "J7.2",
+    "R3.2",
+    "U1.15 GPIO20"
+  ],
+  "new_tracks": [
+    {
+      "uuid": "7c861cd2-89dc-4d0f-b122-0ea2e7cf834f",
+      "layer": "F.Cu",
+      "start_mm": [
+        145.461,
+        109.304
+      ],
+      "end_mm": [
+        147.955,
+        109.304
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "54492d16-d9ff-4f39-95db-664e322fbac1",
+      "layer": "F.Cu",
+      "start_mm": [
+        147.955,
+        109.304
+      ],
+      "end_mm": [
+        148.25,
+        109.599
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "43f0431d-6654-4a01-ac19-5e9488bf6f31",
+      "layer": "F.Cu",
+      "start_mm": [
+        148.25,
+        109.599
+      ],
+      "end_mm": [
+        148.25,
+        112.75
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "bb5f3ebb-0365-43c1-a6e7-aaf138bf2b6e",
+      "layer": "B.Cu",
+      "start_mm": [
+        148.25,
+        112.75
+      ],
+      "end_mm": [
+        157.7,
+        112.75
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "5b045a1c-9924-403d-8238-4299110183ba",
+      "layer": "B.Cu",
+      "start_mm": [
+        157.7,
+        112.75
+      ],
+      "end_mm": [
+        159.461,
+        114.511
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "1081a1da-0fbf-4e2f-beb7-eb82ffcf0a6b",
+      "layer": "B.Cu",
+      "start_mm": [
+        159.461,
+        114.511
+      ],
+      "end_mm": [
+        168.575,
+        114.511
+      ],
+      "width_mm": 0.254
+    }
+  ],
+  "new_via": {
+    "uuid": "b81184d0-1382-4ce0-b432-4f1c52b9dc79",
+    "xy_mm": [
+      148.25,
+      112.75
+    ],
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3
+  },
+  "revision_text": {
+    "uuid": "4c420a3f-2c15-49ae-ba1d-7f358f5f4a0d",
+    "text": "type_m v1.1"
+  },
+  "note": "Run native zone refill, DRC with schematic parity, and independent comparison next."
+}

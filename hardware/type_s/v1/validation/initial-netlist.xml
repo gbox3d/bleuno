@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\user\Desktop\work\cronos\bleuno\hardware\type_s\v1\kicad\ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch</source>
+    <date>2026-11-01T11:55:14</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="4.7k">
+      <value>R</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="Res" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3f53d50-6fe6-4e65-aabb-89f1c7424ca5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="10K">
+      <value>10kΩ</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="Res" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8e4fa50-cad0-45a1-b6b0-7550e3e23d16 69c5d9b7-2043-4934-91da-45bb99ce6eb7 763a134d-4751-4cb2-9c93-a1829e076003 35512c5a-39eb-4fa0-a848-4eddbe0ad80b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="?">
+      <value>~</value>
+      <footprint>ZeroFactor-easyedapro:</footprint>
+      <fields>
+        <field name="@Board Name">Board_DHT</field>
+        <field name="@Create Date">2026-02-08</field>
+        <field name="@Create Time">22:07:08</field>
+        <field name="@Page Count">1</field>
+        <field name="@Page Name">P1</field>
+        <field name="@Page No">1</field>
+        <field name="@Project Name">ZeroFactorySensorBoard</field>
+        <field name="@Schematic Name">Schematic1</field>
+        <field name="@Update Date">2026-03-15</field>
+        <field name="@Update Time">23:24:40</field>
+        <field name="Blade Width">10</field>
+        <field name="Border">1</field>
+        <field name="Company">EasyEDA.com</field>
+        <field name="Height">825</field>
+        <field name="Page Size">A4</field>
+        <field name="Region Start">1</field>
+        <field name="Title Block">1</field>
+        <field name="Title Block Position">3</field>
+        <field name="Version">V1.0</field>
+        <field name="Width">1170</field>
+        <field name="X Region Count">6</field>
+        <field name="Y Region Count">4</field>
+        <field name="Footprint">ZeroFactor-easyedapro:</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="Drawing-Symbol_A4" description=""/>
+      <property name="@Board Name" value="Board_DHT"/>
+      <property name="@Create Date" value="2026-02-08"/>
+      <property name="@Create Time" value="22:07:08"/>
+      <property name="@Page Count" value="1"/>
+      <property name="@Page Name" value="P1"/>
+      <property name="@Page No" value="1"/>
+      <property name="@Project Name" value="ZeroFactorySensorBoard"/>
+      <property name="@Schematic Name" value="Schematic1"/>
+      <property name="@Update Date" value="2026-03-15"/>
+      <property name="@Update Time" value="23:24:40"/>
+      <property name="Blade Width" value="10"/>
+      <property name="Border" value="1"/>
+      <property name="Company" value="EasyEDA.com"/>
+      <property name="Height" value="825"/>
+      <property name="Page Size" value="A4"/>
+      <property name="Region Start" value="1"/>
+      <property name="Title Block" value="1"/>
+      <property name="Title Block Position" value="3"/>
+      <property name="Version" value="V1.0"/>
+      <property name="Width" value="1170"/>
+      <property name="X Region Count" value="6"/>
+      <property name="Y Region Count" value="4"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4580640a-2603-4153-a4f0-8639f3af52c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="A1 +  s  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PM254V-11-03-H85" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>606f25ce-2b2e-4194-8c15-fbabf5bb8108</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="BAT +  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_2P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_2P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="Header-Female-2.54_1x2" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c377d1d4-397f-4823-81d6-9ee191841484</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="CDS +  s  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f1c882e-4915-4fe8-ab4a-4e23b900f3eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1 +  d  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PM254V-11-03-H85" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5f20d52-c4a2-4208-8b68-b028b1dd5396</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2 +  d  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PM254V-11-03-H85" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d6138bc-81ee-48fd-8873-b39e15fb587e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3 +  d  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PM254V-11-03-H85" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffc490d6-8d30-4b80-b31c-07edfb255e55</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="DHT +  s  -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38089453-1421-4c2c-9de9-c0e682179ab6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="DS18B20&#xA;+   s   -">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b5369e-cf3e-4a67-80cd-9414af8437d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="On   Off">
+      <value>~</value>
+      <footprint>ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactorySensorBoard_Board_DHT_2026-11-01-import-fps:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="PM254V-11-03-H85" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65bdba75-5926-4509-b8e7-823c47d15bdc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Tenstar">
+      <value>ESP32-C3</value>
+      <footprint>ZeroFactor-easyedapro:ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI</footprint>
+      <fields>
+        <field name="Footprint">ZeroFactor-easyedapro:ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZeroFactor-easyedapro" part="ESP32-C3_SUPERMINI_TH_ESP32-C3_SUPERMINI_TH" description=""/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="ZeroFactorySensorBoard_Board_DHT_2026-11-01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16d4ee59-573d-4071-be66-6d395d545188</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="0"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="5V"/>
+            <pin num="3.3"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="G"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ZeroFactor-easyedapro" part="Drawing-Symbol_A4">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint">ZeroFactor-easyedapro:</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="ZeroFactor-easyedapro" part="ESP32-C3_SUPERMINI_TH_ESP32-C3_SUPERMINI_TH">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value">ESP32-C3_SUPERMINI_TH</field>
+        <field name="Footprint">ZeroFactor-easyedapro:ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="0" name="GPIO0" type="bidirectional"/>
+        <pin num="1" name="GPIO1" type="bidirectional"/>
+        <pin num="2" name="GPIO2" type="bidirectional"/>
+        <pin num="3" name="GPIO3" type="bidirectional"/>
+        <pin num="3.3" name="3V3" type="unspecified"/>
+        <pin num="4" name="GPIO4" type="bidirectional"/>
+        <pin num="5" name="GPIO5" type="bidirectional"/>
+        <pin num="5V" name="5V" type="unspecified"/>
+        <pin num="6" name="GPIO6" type="bidirectional"/>
+        <pin num="7" name="GPIO7" type="bidirectional"/>
+        <pin num="8" name="GPIO8" type="bidirectional"/>
+        <pin num="9" name="GPIO9" type="bidirectional"/>
+        <pin num="10" name="GPIO10" type="bidirectional"/>
+        <pin num="20" name="GPIO20" type="bidirectional"/>
+        <pin num="21" name="GPIO21" type="bidirectional"/>
+        <pin num="G" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZeroFactor-easyedapro" part="Header-Female-2.54_1x2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint">ZeroFactor-easyedapro:HDR-TH_2P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZeroFactor-easyedapro" part="PM254V-11-03-H85">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value"/>
+        <field name="Footprint">ZeroFactor-easyedapro:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZeroFactor-easyedapro" part="PZ254V-11-03P_C2937625">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value"/>
+        <field name="Footprint">ZeroFactor-easyedapro:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZeroFactor-easyedapro" part="Res">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value">10kΩ</field>
+        <field name="Footprint">ZeroFactor-easyedapro:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ZeroFactor-easyedapro">
+      <uri>${KIPRJMOD}/ZeroFactor-easyedapro.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3V" class="Default">
+      <node ref="10K" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="4.7k" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="A1 +  s  -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="CDS +  s  -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="DHT +  s  -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="DS18B20&#xA;+   s   -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="Tenstar" pin="3.3" pinfunction="3V3_3.3" pintype="unspecified"/>
+    </net>
+    <net code="2" name="5V" class="Default">
+      <node ref="10K" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="D1 +  d  -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="D2 +  d  -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="D3 +  d  -" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="On   Off" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="5V" pinfunction="5V_5V" pintype="unspecified"/>
+    </net>
+    <net code="3" name="A1" class="Default">
+      <node ref="A1 +  s  -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="1" pinfunction="GPIO1_1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="BATCHK" class="Default">
+      <node ref="10K" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="10K" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="Tenstar" pin="0" pinfunction="GPIO0_0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="D1" class="Default">
+      <node ref="D1 +  d  -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="6" pinfunction="GPIO6_6" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D2" class="Default">
+      <node ref="D2 +  d  -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="7" pinfunction="GPIO7_7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="D3" class="Default">
+      <node ref="D3 +  d  -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="10" pinfunction="GPIO10_10" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="10K" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="A1 +  s  -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="BAT +  -" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="CDS +  s  -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="D1 +  d  -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="D2 +  d  -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="D3 +  d  -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="DHT +  s  -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="DS18B20&#xA;+   s   -" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="Tenstar" pin="G" pinfunction="GND_G" pintype="unspecified"/>
+    </net>
+    <net code="9" name="SENSOR1" class="Default">
+      <node ref="10K" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="DHT +  s  -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="3" pinfunction="GPIO3_3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="SENSOR2" class="Default">
+      <node ref="10K" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="CDS +  s  -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="4" pinfunction="GPIO4_4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="SENSOR3" class="Default">
+      <node ref="4.7k" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="DS18B20&#xA;+   s   -" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="Tenstar" pin="5" pinfunction="GPIO5_5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="VCC" class="Default">
+      <node ref="BAT +  -" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="On   Off" pin="1" pinfunction="1_1" pintype="unspecified"/>
+    </net>
+    <net code="13" name="unconnected-(On   Off-Pad3)" class="Default">
+      <node ref="On   Off" pin="3" pinfunction="3_3" pintype="unspecified"/>
+    </net>
+    <net code="14" name="unconnected-(Tenstar-GPIO2-Pad2)" class="Default">
+      <node ref="Tenstar" pin="2" pinfunction="GPIO2_2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(Tenstar-GPIO8-Pad8)" class="Default">
+      <node ref="Tenstar" pin="8" pinfunction="GPIO8_8" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(Tenstar-GPIO9-Pad9)" class="Default">
+      <node ref="Tenstar" pin="9" pinfunction="GPIO9_9" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(Tenstar-GPIO20-Pad20)" class="Default">
+      <node ref="Tenstar" pin="20" pinfunction="GPIO20_20" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(Tenstar-GPIO21-Pad21)" class="Default">
+      <node ref="Tenstar" pin="21" pinfunction="GPIO21_21" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

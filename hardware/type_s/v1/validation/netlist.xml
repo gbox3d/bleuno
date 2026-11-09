@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\user\Desktop\work\cronos\bleuno\hardware\type_s\v1\kicad\type_s_v1.kicad_sch</source>
+    <date>2026-11-01T12:03:04</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>type_s_v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_2P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Original Reference">BAT +  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_2P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="Header-Female-2.54_1x2" description=""/>
+      <property name="Original Reference" value="BAT +  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c377d1d4-397f-4823-81d6-9ee191841484</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Original Reference">On   Off</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PM254V-11-03-H85" description=""/>
+      <property name="Original Reference" value="On   Off"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65bdba75-5926-4509-b8e7-823c47d15bdc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Original Reference">DHT +  s  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Original Reference" value="DHT +  s  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38089453-1421-4c2c-9de9-c0e682179ab6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Original Reference">CDS +  s  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Original Reference" value="CDS +  s  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f1c882e-4915-4fe8-ab4a-4e23b900f3eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Original Reference">DS18B20
++   s   -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Original Reference" value="DS18B20&#xA;+   s   -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b5369e-cf3e-4a67-80cd-9414af8437d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Original Reference">A1 +  s  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PM254V-11-03-H85" description=""/>
+      <property name="Original Reference" value="A1 +  s  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>606f25ce-2b2e-4194-8c15-fbabf5bb8108</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Original Reference">D1 +  d  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PM254V-11-03-H85" description=""/>
+      <property name="Original Reference" value="D1 +  d  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5f20d52-c4a2-4208-8b68-b028b1dd5396</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Original Reference">D2 +  d  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PM254V-11-03-H85" description=""/>
+      <property name="Original Reference" value="D2 +  d  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d6138bc-81ee-48fd-8873-b39e15fb587e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>~</value>
+      <footprint>type_s_v1:HDR-TH_3P-P2.54-V-F</footprint>
+      <fields>
+        <field name="Original Reference">D3 +  d  -</field>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="PM254V-11-03-H85" description=""/>
+      <property name="Original Reference" value="D3 +  d  -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffc490d6-8d30-4b80-b31c-07edfb255e55</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>220kΩ</value>
+      <footprint>type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Original Reference">10K</field>
+        <field name="Source Schematic Value">220kΩ</field>
+        <field name="Source PCB Value">10kΩ</field>
+        <field name="Footprint">type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="Res" description=""/>
+      <property name="Original Reference" value="10K"/>
+      <property name="Source Schematic Value" value="220kΩ"/>
+      <property name="Source PCB Value" value="10kΩ"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>763a134d-4751-4cb2-9c93-a1829e076003</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>220kΩ</value>
+      <footprint>type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Original Reference">10K</field>
+        <field name="Source Schematic Value">220kΩ</field>
+        <field name="Source PCB Value">10kΩ</field>
+        <field name="Footprint">type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="Res" description=""/>
+      <property name="Original Reference" value="10K"/>
+      <property name="Source Schematic Value" value="220kΩ"/>
+      <property name="Source PCB Value" value="10kΩ"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69c5d9b7-2043-4934-91da-45bb99ce6eb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ</value>
+      <footprint>type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Original Reference">10K</field>
+        <field name="Source Schematic Value">10kΩ</field>
+        <field name="Source PCB Value">10kΩ</field>
+        <field name="Footprint">type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="Res" description=""/>
+      <property name="Original Reference" value="10K"/>
+      <property name="Source Schematic Value" value="10kΩ"/>
+      <property name="Source PCB Value" value="10kΩ"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8e4fa50-cad0-45a1-b6b0-7550e3e23d16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10kΩ</value>
+      <footprint>type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Original Reference">10K</field>
+        <field name="Source Schematic Value">10kΩ</field>
+        <field name="Source PCB Value">10kΩ</field>
+        <field name="Footprint">type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="Res" description=""/>
+      <property name="Original Reference" value="10K"/>
+      <property name="Source Schematic Value" value="10kΩ"/>
+      <property name="Source PCB Value" value="10kΩ"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35512c5a-39eb-4fa0-a848-4eddbe0ad80b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</footprint>
+      <fields>
+        <field name="Original Reference">4.7k</field>
+        <field name="Source Schematic Value">4.7kΩ</field>
+        <field name="Source PCB Value">4.7kΩ</field>
+        <field name="Footprint">type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="Res" description=""/>
+      <property name="Original Reference" value="4.7k"/>
+      <property name="Source Schematic Value" value="4.7kΩ"/>
+      <property name="Source PCB Value" value="4.7kΩ"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3f53d50-6fe6-4e65-aabb-89f1c7424ca5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-C3</value>
+      <footprint>type_s_v1:ESP32C3_SUPERMINI_CUSTOM</footprint>
+      <fields>
+        <field name="Original Reference">Tenstar</field>
+        <field name="Source Schematic Value">ESP32-C3_SUPERMINI_TH</field>
+        <field name="Source PCB Value">ESP32-C3_SUPERMINI_TH</field>
+        <field name="Footprint">type_s_v1:ESP32C3_SUPERMINI_CUSTOM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_s_v1" part="ESP32-C3_SUPERMINI_TH_ESP32-C3_SUPERMINI_TH" description=""/>
+      <property name="Original Reference" value="Tenstar"/>
+      <property name="Source Schematic Value" value="ESP32-C3_SUPERMINI_TH"/>
+      <property name="Source PCB Value" value="ESP32-C3_SUPERMINI_TH"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_s_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16d4ee59-573d-4071-be66-6d395d545188</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="0"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="5V"/>
+            <pin num="3.3"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="G"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="type_s_v1" part="ESP32-C3_SUPERMINI_TH_ESP32-C3_SUPERMINI_TH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3_SUPERMINI_TH</field>
+        <field name="Footprint">type_s_v1:ESP32C3_SUPERMINI_CUSTOM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="0" name="GPIO0" type="bidirectional"/>
+        <pin num="1" name="GPIO1" type="bidirectional"/>
+        <pin num="2" name="GPIO2" type="bidirectional"/>
+        <pin num="3" name="GPIO3" type="bidirectional"/>
+        <pin num="3.3" name="3V3" type="unspecified"/>
+        <pin num="4" name="GPIO4" type="bidirectional"/>
+        <pin num="5" name="GPIO5" type="bidirectional"/>
+        <pin num="5V" name="5V" type="unspecified"/>
+        <pin num="6" name="GPIO6" type="bidirectional"/>
+        <pin num="7" name="GPIO7" type="bidirectional"/>
+        <pin num="8" name="GPIO8" type="bidirectional"/>
+        <pin num="9" name="GPIO9" type="bidirectional"/>
+        <pin num="10" name="GPIO10" type="bidirectional"/>
+        <pin num="20" name="GPIO20" type="bidirectional"/>
+        <pin num="21" name="GPIO21" type="bidirectional"/>
+        <pin num="G" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_s_v1" part="Header-Female-2.54_1x2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">type_s_v1:HDR-TH_2P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_s_v1" part="PM254V-11-03-H85">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_s_v1" part="PZ254V-11-03P_C2937625">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">type_s_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_s_v1" part="Res">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10kΩ</field>
+        <field name="Footprint">type_s_v1:RES-TH_BD1.8-L3.2-P7.20-D0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="type_s_v1">
+      <uri>${KIPRJMOD}/type_s_v1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3V" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="U1" pin="3.3" pinfunction="3V3_3.3" pintype="unspecified"/>
+    </net>
+    <net code="2" name="5V" class="Default">
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J8" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J9" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="5V" pinfunction="5V_5V" pintype="unspecified"/>
+    </net>
+    <net code="3" name="A1" class="Default">
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U1" pin="1" pinfunction="GPIO1_1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="BATCHK" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="0" pinfunction="GPIO0_0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="D1" class="Default">
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U1" pin="6" pinfunction="GPIO6_6" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D2" class="Default">
+      <node ref="J8" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U1" pin="7" pinfunction="GPIO7_7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="D3" class="Default">
+      <node ref="J9" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U1" pin="10" pinfunction="GPIO10_10" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J7" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J8" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J9" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="U1" pin="G" pinfunction="GND_G" pintype="unspecified"/>
+    </net>
+    <net code="9" name="SENSOR1" class="Default">
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="GPIO3_3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="SENSOR2" class="Default">
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="GPIO4_4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="SENSOR3" class="Default">
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="GPIO5_5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="VCC" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="unspecified"/>
+    </net>
+    <net code="13" name="unconnected-(J2-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="unspecified"/>
+    </net>
+    <net code="14" name="unconnected-(U1-GPIO2-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="GPIO2_2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(U1-GPIO8-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="GPIO8_8" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(U1-GPIO9-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="GPIO9_9" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(U1-GPIO20-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="GPIO20_20" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(U1-GPIO21-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="GPIO21_21" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

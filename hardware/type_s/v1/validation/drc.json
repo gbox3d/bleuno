@@ -1,0 +1,846 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-01T12:08:23",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "값(R1)이 심볼 값(10kΩ)과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 R1",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 101.811
+                    },
+                    "uuid": "2de39a15-423e-46dd-88ae-52d09540f3a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "값(R2)이 심볼 값(10kΩ)과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 R2",
+                    "pos": {
+                        "x": 162.672,
+                        "y": 101.938
+                    },
+                    "uuid": "798fe9e6-e91f-4674-93cc-2a2d59465165"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
+    "source": "type_s_v1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 179.361,
+                        "y": 90.635
+                    },
+                    "uuid": "d0d267a3-b685-47a9-a32f-a689b0b41c02"
+                },
+                {
+                    "description": "풋프린트 텍스트 J3 (DHT +  s  -)",
+                    "pos": {
+                        "x": 179.944,
+                        "y": 96.223
+                    },
+                    "uuid": "4ff9e4b9-0001-52d5-8627-c3690af09b3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J9 (D3 +  d  -)",
+                    "pos": {
+                        "x": 123.814,
+                        "y": 118.849
+                    },
+                    "uuid": "0d63fafc-93e7-5996-8533-e2ea68536fa3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J5 (DS18B20\n+   s   -)",
+                    "pos": {
+                        "x": 124.191,
+                        "y": 97.112
+                    },
+                    "uuid": "96ff182a-dd72-5977-b2c8-c7d6663cc024"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J1 (BAT +  -)",
+                    "pos": {
+                        "x": 170.038,
+                        "y": 92.413
+                    },
+                    "uuid": "95dabc56-05aa-536e-b22b-47495cd5b59e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R1 (10K)",
+                    "pos": {
+                        "x": 164.958,
+                        "y": 100.668
+                    },
+                    "uuid": "95e3547f-c34a-5225-bf0f-5782311e4669"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R5 (4.7k)",
+                    "pos": {
+                        "x": 126.985,
+                        "y": 104.732
+                    },
+                    "uuid": "d81ba370-d884-53b1-87dd-65b6bf6d12e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J3 (DHT +  s  -)",
+                    "pos": {
+                        "x": 179.944,
+                        "y": 96.223
+                    },
+                    "uuid": "4ff9e4b9-0001-52d5-8627-c3690af09b3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J2 (On   Off)",
+                    "pos": {
+                        "x": 161.275,
+                        "y": 92.413
+                    },
+                    "uuid": "99b20c3b-7779-5e62-975b-1f612f6c7fb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J6 (A1 +  s  -)",
+                    "pos": {
+                        "x": 166.228,
+                        "y": 110.32
+                    },
+                    "uuid": "2bb4603c-754a-5bc1-be11-05dde762ab6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R2 (10K)",
+                    "pos": {
+                        "x": 162.164,
+                        "y": 100.795
+                    },
+                    "uuid": "8eb944e0-55b0-59a5-bc59-3e34aa746f35"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R4 (10K)",
+                    "pos": {
+                        "x": 170.927,
+                        "y": 112.987
+                    },
+                    "uuid": "89d16e4e-de06-5899-ae5f-085e4f98dc8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 U1 (Tenstar)",
+                    "pos": {
+                        "x": 138.03,
+                        "y": 92.442
+                    },
+                    "uuid": "74b7d739-022d-5330-9aa7-4d62b008a90e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J7 (D1 +  d  -)",
+                    "pos": {
+                        "x": 123.814,
+                        "y": 107.292
+                    },
+                    "uuid": "1b47c89a-5501-52ff-90bc-17edffb3ed28"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J4 (CDS +  s  -)",
+                    "pos": {
+                        "x": 179.69,
+                        "y": 108.415
+                    },
+                    "uuid": "48c03008-f5f4-53e3-837c-1d513710353e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R3 (10K)",
+                    "pos": {
+                        "x": 171.054,
+                        "y": 100.922
+                    },
+                    "uuid": "e729fb8d-e897-5b8b-93a0-c75234321987"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J8 (D2 +  d  -)",
+                    "pos": {
+                        "x": 123.814,
+                        "y": 113.0705
+                    },
+                    "uuid": "948bc63f-5a9e-580f-b359-80aafabcc99b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J4 (CDS +  s  -)",
+                    "pos": {
+                        "x": 179.69,
+                        "y": 108.415
+                    },
+                    "uuid": "48c03008-f5f4-53e3-837c-1d513710353e"
+                },
+                {
+                    "description": "세그먼트 of J3 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 179.67,
+                        "y": 97.62
+                    },
+                    "uuid": "d9f8c2ec-0363-483f-86f6-6c96591fbe53"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J4 (CDS +  s  -)",
+                    "pos": {
+                        "x": 179.69,
+                        "y": 108.415
+                    },
+                    "uuid": "48c03008-f5f4-53e3-837c-1d513710353e"
+                },
+                {
+                    "description": "세그먼트 of J3 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 179.67,
+                        "y": 105.239
+                    },
+                    "uuid": "7b2615aa-7f8c-48b1-95a4-1a11cb63c1a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R3 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 170.662,
+                        "y": 100.211
+                    },
+                    "uuid": "e065a9d3-8328-44cf-9f88-20af5087f197"
+                },
+                {
+                    "description": "풋프린트 텍스트 R3 (10K)",
+                    "pos": {
+                        "x": 171.054,
+                        "y": 100.922
+                    },
+                    "uuid": "e729fb8d-e897-5b8b-93a0-c75234321987"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R3 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 170.662,
+                        "y": 103.411
+                    },
+                    "uuid": "cdc4ab3b-d50d-4bd4-8555-7c40b4c545af"
+                },
+                {
+                    "description": "풋프린트 텍스트 R3 (10K)",
+                    "pos": {
+                        "x": 171.054,
+                        "y": 100.922
+                    },
+                    "uuid": "e729fb8d-e897-5b8b-93a0-c75234321987"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 164.566,
+                        "y": 100.211
+                    },
+                    "uuid": "0a731cbb-34b4-47bf-80a6-88a8eecdf5b0"
+                },
+                {
+                    "description": "풋프린트 텍스트 R1 (10K)",
+                    "pos": {
+                        "x": 164.958,
+                        "y": 100.668
+                    },
+                    "uuid": "95e3547f-c34a-5225-bf0f-5782311e4669"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 164.566,
+                        "y": 103.411
+                    },
+                    "uuid": "055b07e7-894b-460c-bcca-34e96bcce63b"
+                },
+                {
+                    "description": "풋프린트 텍스트 R1 (10K)",
+                    "pos": {
+                        "x": 164.958,
+                        "y": 100.668
+                    },
+                    "uuid": "95e3547f-c34a-5225-bf0f-5782311e4669"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R2 (10K)",
+                    "pos": {
+                        "x": 162.164,
+                        "y": 100.795
+                    },
+                    "uuid": "8eb944e0-55b0-59a5-bc59-3e34aa746f35"
+                },
+                {
+                    "description": "세그먼트 of R2 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 161.772,
+                        "y": 100.338
+                    },
+                    "uuid": "e9628a23-50b0-464d-9d31-710e993ee0c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R2 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 161.772,
+                        "y": 103.538
+                    },
+                    "uuid": "4829abf0-fc17-4ff7-bafc-18b23d293825"
+                },
+                {
+                    "description": "풋프린트 텍스트 R2 (10K)",
+                    "pos": {
+                        "x": 162.164,
+                        "y": 100.795
+                    },
+                    "uuid": "8eb944e0-55b0-59a5-bc59-3e34aa746f35"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R4 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 170.535,
+                        "y": 112.149
+                    },
+                    "uuid": "184a4384-60d3-4482-96d4-ae55e6ddf1ed"
+                },
+                {
+                    "description": "풋프린트 텍스트 R4 (10K)",
+                    "pos": {
+                        "x": 170.927,
+                        "y": 112.987
+                    },
+                    "uuid": "89d16e4e-de06-5899-ae5f-085e4f98dc8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "세그먼트 of R4 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 170.535,
+                        "y": 115.349
+                    },
+                    "uuid": "0cd5a978-6fa1-4248-8ce1-47636eca600b"
+                },
+                {
+                    "description": "풋프린트 텍스트 R4 (10K)",
+                    "pos": {
+                        "x": 170.927,
+                        "y": 112.987
+                    },
+                    "uuid": "89d16e4e-de06-5899-ae5f-085e4f98dc8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 138.305,
+                        "y": 116.844
+                    },
+                    "uuid": "1d6cec4a-0629-46a1-9294-89a7da0bc85f"
+                },
+                {
+                    "description": "10의 PTH 패드[D3]U1",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 108.294
+                    },
+                    "uuid": "0c201082-b6b2-454f-a63e-5cc6c1991b8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 138.305,
+                        "y": 116.844
+                    },
+                    "uuid": "1d6cec4a-0629-46a1-9294-89a7da0bc85f"
+                },
+                {
+                    "description": "5의 PTH 패드[SENSOR3]U1",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 95.594
+                    },
+                    "uuid": "230741e0-372d-42cf-a93c-d2fde4168641"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 138.305,
+                        "y": 116.844
+                    },
+                    "uuid": "1d6cec4a-0629-46a1-9294-89a7da0bc85f"
+                },
+                {
+                    "description": "7의 PTH 패드[D2]U1",
+                    "pos": {
+                        "x": 139.685,
+                        "y": 100.674
+                    },
+                    "uuid": "706c81a3-418f-4b35-9166-c9f47a5201ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "0의 PTH 패드[BATCHK]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 113.374
+                    },
+                    "uuid": "96164afb-ca20-44cd-ba57-33782b0c8fc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "1의 PTH 패드[A1]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 110.834
+                    },
+                    "uuid": "67bb8630-d440-4827-8487-de173a4655eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "3의 PTH 패드[SENSOR1]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 105.754
+                    },
+                    "uuid": "517fd27c-6792-496b-abf3-69552a9095ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "3.3의 PTH 패드[3.3V]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 100.674
+                    },
+                    "uuid": "6ff81ad0-5f1d-4662-8df1-d87f8125e958"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "4의 PTH 패드[SENSOR2]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 103.214
+                    },
+                    "uuid": "7485ce34-cacc-43d2-b3b5-95440e69d913"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "5V의 PTH 패드[5V]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 95.594
+                    },
+                    "uuid": "af9e1ccb-8bbf-46f2-b139-eb640be75645"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U1 on Top Silkscreen Layer",
+                    "pos": {
+                        "x": 156.305,
+                        "y": 116.844
+                    },
+                    "uuid": "014ea7cb-7c35-4acf-8b54-c7a443a5b62e"
+                },
+                {
+                    "description": "G의 PTH 패드[GND]U1",
+                    "pos": {
+                        "x": 154.925,
+                        "y": 98.134
+                    },
+                    "uuid": "00f90579-b030-4338-9f48-ce92773d4166"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J3 (DHT +  s  -)",
+                    "pos": {
+                        "x": 179.944,
+                        "y": 96.223
+                    },
+                    "uuid": "4ff9e4b9-0001-52d5-8627-c3690af09b3d"
+                },
+                {
+                    "description": "1의 PTH 패드[<no net>]MP1",
+                    "pos": {
+                        "x": 179.182,
+                        "y": 93.429
+                    },
+                    "uuid": "31479de3-7f99-4194-a0cb-82d157c47f58"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J6 (A1 +  s  -)",
+                    "pos": {
+                        "x": 166.228,
+                        "y": 110.32
+                    },
+                    "uuid": "2bb4603c-754a-5bc1-be11-05dde762ab6c"
+                },
+                {
+                    "description": "2의 PTH 패드[BATCHK]R1",
+                    "pos": {
+                        "x": 165.466,
+                        "y": 105.411
+                    },
+                    "uuid": "e7670ea2-c349-49ea-a172-8ce451ca98f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J4 (CDS +  s  -)",
+                    "pos": {
+                        "x": 179.69,
+                        "y": 108.415
+                    },
+                    "uuid": "48c03008-f5f4-53e3-837c-1d513710353e"
+                },
+                {
+                    "description": "3의 PTH 패드[GND]J3",
+                    "pos": {
+                        "x": 178.42,
+                        "y": 103.97
+                    },
+                    "uuid": "8d0856ba-44fb-47a1-b9d3-63af3cac53e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

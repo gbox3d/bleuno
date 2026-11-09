@@ -1,0 +1,564 @@
+{
+  "capturedAt": "2026-11-01T05:19:54.778Z",
+  "projectUuid": "a6f9cc95756f415597ebfd40a028dfdd",
+  "pcb": {
+    "itemType": "PCB",
+    "uuid": "230020836b7d42a2ae0bd4e6ece12948",
+    "name": "PCB1",
+    "parentProjectUuid": "a6f9cc95756f415597ebfd40a028dfdd",
+    "parentBoardName": "MotorConT1"
+  },
+  "fit": {
+    "left": -1218.8873483535526,
+    "right": 2217.4072790294626,
+    "bottom": -1493.800173310225,
+    "top": 197.3201039861351
+  },
+  "highlight": true,
+  "net": {
+    "net": "SEN1",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "alpha": 1
+    },
+    "length": 540.9826969594033
+  },
+  "sen1Objects": [
+    {
+      "globalIndex": "e114",
+      "partition": "",
+      "layerId": 2,
+      "start": {
+        "x": 1110,
+        "y": -1090
+      },
+      "end": {
+        "x": 1125,
+        "y": -1075
+      },
+      "width": 10,
+      "locked": false,
+      "net": "SEN1",
+      "startX": 1110,
+      "startY": -1090,
+      "endX": 1125,
+      "endY": -1075,
+      "pcbItemPrimitiveType": "Track"
+    },
+    {
+      "globalIndex": "e115",
+      "partition": "",
+      "layerId": 2,
+      "start": {
+        "x": 1125,
+        "y": -1075
+      },
+      "end": {
+        "x": 1125,
+        "y": -965
+      },
+      "width": 10,
+      "locked": false,
+      "net": "SEN1",
+      "startX": 1125,
+      "startY": -1075,
+      "endX": 1125,
+      "endY": -965,
+      "pcbItemPrimitiveType": "Track"
+    },
+    {
+      "globalIndex": "e116",
+      "partition": "",
+      "layerId": 2,
+      "start": {
+        "x": 1125,
+        "y": -965
+      },
+      "end": {
+        "x": 1390,
+        "y": -700
+      },
+      "width": 10,
+      "locked": false,
+      "net": "SEN1",
+      "startX": 1125,
+      "startY": -965,
+      "endX": 1390,
+      "endY": -700,
+      "pcbItemPrimitiveType": "Track"
+    },
+    {
+      "globalIndex": "e117",
+      "partition": "",
+      "layerId": 2,
+      "start": {
+        "x": 1390,
+        "y": -700
+      },
+      "end": {
+        "x": 1425,
+        "y": -700
+      },
+      "width": 10,
+      "locked": false,
+      "net": "SEN1",
+      "startX": 1390,
+      "startY": -700,
+      "endX": 1425,
+      "endY": -700,
+      "pcbItemPrimitiveType": "Track"
+    },
+    {
+      "globalIndex": "e7e6",
+      "partition": "",
+      "layerId": 12,
+      "type": 1,
+      "num": "2",
+      "center": {
+        "x": 1425,
+        "y": -700
+      },
+      "topType": "ELLIPSE",
+      "topWidth": 7.4,
+      "topHeight": 7.4,
+      "topRatio": 0,
+      "bottomType": "ELLIPSE",
+      "bottomWidth": 7.4,
+      "bottomHeight": 7.4,
+      "bottomRatio": 0,
+      "innerType": "ELLIPSE",
+      "innerWidth": 7.4,
+      "innerHeight": 7.4,
+      "innerRatio": 0,
+      "rotation": 0,
+      "locked": false,
+      "net": "SEN1",
+      "expansionType": 1,
+      "pasteExpansion": 0,
+      "topSolderExpansion": 2,
+      "bottomSolderExpansion": 2,
+      "unusedInnerLayers": [],
+      "plated": true,
+      "holeLength": 3.54,
+      "holeRadius": 1.77,
+      "holeShape": "ROUND",
+      "holeRotation": 0,
+      "holeOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "isTestPad": false,
+      "padRule": null,
+      "padLen": 0,
+      "attrsMap": {},
+      "holeAspect": [
+        "ROUND",
+        35.4,
+        35.4
+      ],
+      "padTypeAspect": 0,
+      "defaultPadShapeAspect": [
+        "ELLIPSE",
+        74,
+        74
+      ],
+      "specialPadShapeAspect": [],
+      "pcbItemPrimitiveType": "Pad",
+      "parentId": "e7"
+    },
+    {
+      "globalIndex": "e8e14",
+      "partition": "",
+      "layerId": 12,
+      "type": 1,
+      "num": "2",
+      "center": {
+        "x": 1110,
+        "y": -1090
+      },
+      "topType": "ELLIPSE",
+      "topWidth": 4.3307,
+      "topHeight": 4.3307,
+      "topRatio": 0,
+      "bottomType": "ELLIPSE",
+      "bottomWidth": 4.3307,
+      "bottomHeight": 4.3307,
+      "bottomRatio": 0,
+      "innerType": "ELLIPSE",
+      "innerWidth": 4.3307,
+      "innerHeight": 4.3307,
+      "innerRatio": 0,
+      "rotation": 180,
+      "locked": false,
+      "net": "SEN1",
+      "expansionType": 1,
+      "pasteExpansion": 0,
+      "topSolderExpansion": 2,
+      "bottomSolderExpansion": 2,
+      "unusedInnerLayers": [],
+      "plated": true,
+      "holeLength": 2.9528,
+      "holeRadius": 1.4764,
+      "holeShape": "ROUND",
+      "holeRotation": 0,
+      "holeOffset": {
+        "x": -0.0005,
+        "y": 0
+      },
+      "isTestPad": false,
+      "padRule": null,
+      "padLen": 0,
+      "attrsMap": {},
+      "holeAspect": [
+        "ROUND",
+        29.528,
+        29.528
+      ],
+      "padTypeAspect": 0,
+      "defaultPadShapeAspect": [
+        "ELLIPSE",
+        43.3,
+        43.3
+      ],
+      "specialPadShapeAspect": [],
+      "pcbItemPrimitiveType": "Pad",
+      "parentId": "e8"
+    }
+  ],
+  "components": [
+    {
+      "id": "e1",
+      "designator": "220k",
+      "pads": [
+        {
+          "primitiveId": "e5",
+          "net": "VCC",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e6",
+          "net": "CHKBAT",
+          "padNumber": "2"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "designator": "220k",
+      "pads": [
+        {
+          "primitiveId": "e5",
+          "net": "GND",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e6",
+          "net": "CHKBAT",
+          "padNumber": "2"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "designator": "DRV8833",
+      "pads": [
+        {
+          "primitiveId": "e3",
+          "net": "SLEEP",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e6",
+          "net": "OUT1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e7",
+          "net": "D4",
+          "padNumber": "12"
+        },
+        {
+          "primitiveId": "e8",
+          "net": "OUT2",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "e9",
+          "net": "OUT3",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "e10",
+          "net": "OUT4",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "e11",
+          "net": "",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "D3",
+          "padNumber": "11"
+        },
+        {
+          "primitiveId": "e13",
+          "net": "GND",
+          "padNumber": "10"
+        },
+        {
+          "primitiveId": "e14",
+          "net": "VCC",
+          "padNumber": "9"
+        },
+        {
+          "primitiveId": "e15",
+          "net": "D2",
+          "padNumber": "8"
+        },
+        {
+          "primitiveId": "e16",
+          "net": "D1",
+          "padNumber": "7"
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "designator": "PW OFF ON",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "VCC",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e13",
+          "net": "VIN",
+          "padNumber": "3"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "designator": "MT1",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "OUT1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "OUT2",
+          "padNumber": "2"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "designator": "MT2",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "OUT3",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "OUT4",
+          "padNumber": "2"
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "designator": "10k",
+      "pads": [
+        {
+          "primitiveId": "e5",
+          "net": "3.3V",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e6",
+          "net": "SEN1",
+          "padNumber": "2"
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "designator": "sensor1\n+   S  -",
+      "pads": [
+        {
+          "primitiveId": "e13",
+          "net": "GND",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "e14",
+          "net": "SEN1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e15",
+          "net": "3.3V",
+          "padNumber": "1"
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "designator": "Servo1\n+    S   -",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "VCC",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "SERVO1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e13",
+          "net": "GND",
+          "padNumber": "3"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "designator": "Servo2\n+   S   -",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "VCC",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "SERVO2",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e13",
+          "net": "GND",
+          "padNumber": "3"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "designator": "Tenstar",
+      "pads": [
+        {
+          "primitiveId": "e38",
+          "net": "CHKBAT",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e39",
+          "net": "D1",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e40",
+          "net": "",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "e41",
+          "net": "D2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "e42",
+          "net": "D3",
+          "padNumber": "5"
+        },
+        {
+          "primitiveId": "e43",
+          "net": "3.3V",
+          "padNumber": "6"
+        },
+        {
+          "primitiveId": "e44",
+          "net": "GND",
+          "padNumber": "7"
+        },
+        {
+          "primitiveId": "e45",
+          "net": "VCC",
+          "padNumber": "8"
+        },
+        {
+          "primitiveId": "e46",
+          "net": "D4",
+          "padNumber": "9"
+        },
+        {
+          "primitiveId": "e47",
+          "net": "SERVO1",
+          "padNumber": "10"
+        },
+        {
+          "primitiveId": "e48",
+          "net": "SLEEP",
+          "padNumber": "11"
+        },
+        {
+          "primitiveId": "e49",
+          "net": "",
+          "padNumber": "12"
+        },
+        {
+          "primitiveId": "e50",
+          "net": "",
+          "padNumber": "13"
+        },
+        {
+          "primitiveId": "e51",
+          "net": "SERVO2",
+          "padNumber": "14"
+        },
+        {
+          "primitiveId": "e52",
+          "net": "",
+          "padNumber": "15"
+        },
+        {
+          "primitiveId": "e53",
+          "net": "",
+          "padNumber": "16"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "designator": "BAT + -",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "VCC",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "GND",
+          "padNumber": "2"
+        }
+      ]
+    }
+  ]
+}

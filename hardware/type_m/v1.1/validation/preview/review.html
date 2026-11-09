@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>type_m v1.1 연결 확인</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf1f5;color:#172334;font:16px/1.6 'Malgun Gothic',sans-serif}main{max-width:1180px;margin:auto;padding:28px}h1{font-size:28px;margin:0 0 8px}h2{font-size:21px;margin:0 0 12px}p{margin:8px 0}section{background:white;border:1px solid #d9e0e8;border-radius:12px;padding:22px;margin:20px 0}a{color:#0758a3}nav{display:flex;gap:20px;flex-wrap:wrap;margin:18px 0}svg{display:block;width:100%;height:auto;background:white}.legend{display:flex;gap:22px;flex-wrap:wrap;font-weight:600}.dot{display:inline-block;width:12px;height:12px;border:1px solid #182536;border-radius:50%;margin-right:7px}.steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:18px}.step{padding:12px;background:#f3f6fa;border-radius:8px}.small{font-size:14px;color:#526276}.status{display:flex;gap:12px;flex-wrap:wrap}.status span{background:#e9f5ef;padding:8px 14px;border-radius:6px}.note{border-left:4px solid #d89321;padding-left:14px}.schematic{width:100%;display:block}code{background:#eef2f6;padding:2px 5px}@media(max-width:700px){main{padding:14px}.steps{grid-template-columns:1fr}}
+</style>
+<main>
+<h1>type_m v1.1 · SENSOR1 연결 확인</h1>
+<p><strong>SENSOR1 가운데 신호 핀을 C3의 GPIO20에 PCB 배선으로 연결했습니다.</strong></p>
+<p class="note"><strong>센서 단계(2026-11-01 1단계) 기록입니다.</strong> 이 페이지의 바탕 그림은 현재 파일에서 다시 내보낸 SVG라 같은 날 2단계 전원부 수정(J1 <code>BAT − +</code> 표시, J1.1 → VIN)도 함께 보입니다. 전원부 수정 내용과 현재 검사 수치(ERC 오류 20·경고 26)는 <a href="../power-fix-2026-11-01/review.html">전원부 수정 확인 화면</a>을 참조하세요.</p>
+<nav><a href="../../kicad/type_m_v1_1.kicad_pro">KiCad 프로젝트</a><a href="type_m_v1_1-schematic.pdf">회로도 PDF</a><a href="type_m_v1_1-pcb.svg">표시 없는 PCB 원본 SVG</a><a href="../revision-comparison.json">변경 대조 결과</a></nav>
+<section>
+<h2>PCB에서 확인할 위치</h2>
+<div class="legend"><span><i class="dot" style="background:#ff8c20"></i>추가한 앞면 배선</span><span><i class="dot" style="background:#00c9ee"></i>추가한 뒷면 배선</span><span><i class="dot" style="background:#f8df3a"></i>기존 SENSOR1 배선</span></div>
+<!-- Native KiCad export origin: (122.347, 89.619) mm. J7.2 native SVG drill center (45.847,28.067) equals board (168.194,117.686). Overlay follows pcb-patch.json; stroke widened for legibility. -->
+<svg viewBox="0 0 61.341 35" aria-label="실제 PCB 위에 SENSOR1과 GPIO20 연결을 강조한 그림">
+<image href="type_m_v1_1-pcb.svg" x="0" y="0" width="61.341" height="32.512"/>
+<g transform="translate(-122.347,-89.619)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M145.461 109.304 L147.955 109.304 L148.25 109.599 L148.25 112.75 L157.7 112.75 L159.461 114.511 L168.575 114.511 L168.575 117.305 L168.194 117.686 M168.575 114.511 L175.306 107.78 L176.195 107.78" stroke="#152133" stroke-width="0.72"/>
+<path d="M168.194 117.686 L168.575 117.305 L168.575 114.511 L175.306 107.78 L176.195 107.78" stroke="#f8df3a" stroke-width="0.38"/>
+<path d="M145.461 109.304 L147.955 109.304 L148.25 109.599 L148.25 112.75" stroke="#ff8c20" stroke-width="0.4"/>
+<path d="M148.25 112.75 L157.7 112.75 L159.461 114.511 L168.575 114.511" stroke="#00c9ee" stroke-width="0.4"/>
+<circle cx="145.461" cy="109.304" r="0.98" stroke="#ff8c20" stroke-width="0.3"/>
+<circle cx="148.25" cy="112.75" r="0.5" stroke="#00c9ee" stroke-width="0.28" fill="#fff"/>
+<circle cx="168.194" cy="117.686" r="0.8" stroke="#f8df3a" stroke-width="0.3"/>
+</g>
+<g font-family="Malgun Gothic,sans-serif" font-size="1.05" fill="#172334" stroke="none">
+<path d="M16.5 17.4 L21.8 19.2" stroke="#172334" stroke-width="0.14"/><rect x="10.6" y="15.7" width="12" height="1.9" rx="0.35" fill="white" stroke="#ff8c20" stroke-width="0.12"/><text x="11.1" y="17.05">① U1 · GPIO20</text>
+<path d="M30 26.8 L26.2 23.55" stroke="#172334" stroke-width="0.14"/><rect x="27.8" y="26.7" width="10.5" height="1.9" rx="0.35" fill="white" stroke="#00c9ee" stroke-width="0.12"/><text x="28.3" y="28.05">② 추가 비아</text>
+<path d="M47.2 32 L46.1 28.9" stroke="#172334" stroke-width="0.14"/><rect x="41.7" y="32" width="15.2" height="1.9" rx="0.35" fill="white" stroke="#a28b00" stroke-width="0.12"/><text x="42.2" y="33.35">③ SENSOR1 · J7.2</text>
+</g>
+</svg>
+<p class="small">KiCad가 내보낸 실제 PCB SVG 위에 배선 색과 번호를 설명용으로 겹쳤습니다. 강조선은 보기 쉽게 굵게 표시했습니다. 실제 새 배선 폭은 0.254 mm입니다.</p>
+<div class="steps"><div class="step"><strong>① C3의 ‘20’ 핀</strong><br>U1 왼쪽 열 아래에서 두 번째 패드입니다. 모듈 패드 번호는 15이고 GPIO 번호는 20입니다.</div><div class="step"><strong>② 앞면 → 뒷면</strong><br>추가한 비아에서 뒷면으로 넘어가 기존 SEN1 배선에 연결됩니다.</div><div class="step"><strong>③ SENSOR1 신호</strong><br>커넥터 가운데 핀입니다. 기존 R3 풀업 연결도 유지됩니다.</div></div>
+</section>
+<section><h2>회로도에서도 같은 연결입니다</h2><p><code>J7.2 ↔ R3.2 ↔ U1.15(GPIO20)</code> 세 핀이 같은 <strong>SEN1</strong> 네트에 속합니다. 아래 회로도에서 U1의 GPIO20 옆과 SENSOR1 가운데 핀에 있는 SEN1 라벨을 확인하세요.</p><a href="type_m_v1_1-schematic.pdf"><img class="schematic" src="type_m_v1_1.svg" alt="수정한 type_m v1.1 전체 회로도"></a></section>
+<section><h2>검사 결과와 남은 확인</h2><div class="status"><span>PCB DRC 오류 <strong>0</strong></span><span>미배선 <strong>0</strong></span><span>회로도 / PCB 불일치 <strong>0</strong></span></div><p>기존 실크 글자 높이 경고 12개는 남아 있습니다. 회로도 ERC는 센서 단계 당시 오류 21개·경고 27개였고, 전원부 수정 후 현재는 오류 20개·경고 26개입니다. 원본 v1 파일 57개를 보존했으며 센서 단계에서는 기존 부품 위치·배선·외곽을 유지했습니다(이후 전원부 수정으로 J1.1 네트와 VCC 배선 일부가 바뀜).</p><p><strong>GPIO20은 UART0 RX 겸용이 맞습니다.</strong> 현재 펌웨어는 GPIO18/19의 USB 시리얼을 사용하므로 GPIO20을 DHT 입력으로 쓸 수 있습니다. GPIO20에 외부 UART를 함께 연결하지 않습니다.</p><p class="note">이것은 새 PCB용 수정 설계입니다. 이미 실장된 v1의 배선이 바뀌지는 않으며, v1.1 제작 및 실제 센서 측정은 아직 확인하지 않았습니다.</p></section>
+</main>
+</html>

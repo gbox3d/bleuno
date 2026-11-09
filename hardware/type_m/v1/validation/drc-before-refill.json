@@ -1,0 +1,2760 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-31T18:34:32",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J1",
+                    "pos": {
+                        "x": 180.513,
+                        "y": 91.778
+                    },
+                    "uuid": "4d911aaa-4f55-4971-b5a3-3e6be3c701ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(J2-Pad1))가 없습니다",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]J2",
+                    "pos": {
+                        "x": 167.305,
+                        "y": 93.048
+                    },
+                    "uuid": "b508db00-aa4f-4cc8-a3b5-205badccd902"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J3",
+                    "pos": {
+                        "x": 126.665,
+                        "y": 113.495
+                    },
+                    "uuid": "1b7c593a-a93b-4ca7-a877-eb9a7bda1dbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J4",
+                    "pos": {
+                        "x": 133.65,
+                        "y": 113.622
+                    },
+                    "uuid": "bd48e259-f5e2-49ff-811d-ae7476af3a06"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "필드 'Original Reference'이(가) 다릅니다 (PCB: 'Servo1\n+    S   -', 회로도: 'Servo1')",
+            "items": [
+                {
+                    "description": "풋프린트 J5",
+                    "pos": {
+                        "x": 148.128,
+                        "y": 118.575
+                    },
+                    "uuid": "e4caa183-8079-4312-bd39-390b0701cc34"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "필드 'Original Reference'이(가) 다릅니다 (PCB: 'Servo2\n+   S   -', 회로도: 'Servo2')",
+            "items": [
+                {
+                    "description": "풋프린트 J6",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 118.575
+                    },
+                    "uuid": "7003e24c-72ab-4a49-b72c-1733fc56776b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Manufacturer Part'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J7",
+                    "pos": {
+                        "x": 168.194,
+                        "y": 117.686
+                    },
+                    "uuid": "a22a9daa-a482-4fa8-a13c-e0bf7bf0b8dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(U1-GPIO2-Pad3))가 없습니다",
+            "items": [
+                {
+                    "description": "3의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 106.764
+                    },
+                    "uuid": "6c49ba5a-b975-47d5-a108-b7a38a8191e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(U1-GPIO8-Pad12))가 없습니다",
+            "items": [
+                {
+                    "description": "12의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 101.684
+                    },
+                    "uuid": "98b0bd02-077b-40d8-8122-63a7bc0063a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(U1-GPIO9-Pad13))가 없습니다",
+            "items": [
+                {
+                    "description": "13의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 104.224
+                    },
+                    "uuid": "9aba8d1a-ba1f-4265-9cbf-a4203aa9fc37"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(U1-GPIO21-Pad15))가 없습니다",
+            "items": [
+                {
+                    "description": "15의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 109.304
+                    },
+                    "uuid": "64538ef2-dd58-4a30-aefe-6254c17459ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(U1-GPIO22-Pad16))가 없습니다",
+            "items": [
+                {
+                    "description": "16의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 111.844
+                    },
+                    "uuid": "a9f3b9fe-38c1-404c-896c-184740c287bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "패드에 회로도에서 지정한 네트(unconnected-(U2-ULT-Pad6))가 없습니다",
+            "items": [
+                {
+                    "description": "6의 PTH 패드[<no net>]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 107.145
+                    },
+                    "uuid": "5a83bd91-1701-406e-b93f-3d3175a3ed2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "bleuno_v1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2523 mm)",
+            "items": [
+                {
+                    "description": "배선 [SERVO2] on Bottom Layer, 길이 2.3349 mm",
+                    "pos": {
+                        "x": 147.112,
+                        "y": 108.415
+                    },
+                    "uuid": "21fddda7-f8ae-453b-ab17-6e1070f8309f"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2520 mm)",
+            "items": [
+                {
+                    "description": "배선 [SERVO2] on Bottom Layer, 길이 3.0533 mm",
+                    "pos": {
+                        "x": 149.271,
+                        "y": 114.892
+                    },
+                    "uuid": "7147e26a-305a-45b1-b780-01858b995b63"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 13.1510 mm",
+                    "pos": {
+                        "x": 143.81,
+                        "y": 113.876
+                    },
+                    "uuid": "6de21bc6-6933-478d-9389-583c85a0488d"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2533 mm)",
+            "items": [
+                {
+                    "description": "배선 [SLEEP] on Top Layer, 길이 2.1199 mm",
+                    "pos": {
+                        "x": 141.041,
+                        "y": 98.026
+                    },
+                    "uuid": "fec20a38-5c38-4941-a8bb-eba816b7dcea"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2523 mm)",
+            "items": [
+                {
+                    "description": "배선 [SERVO2] on Bottom Layer, 길이 4.3180 mm",
+                    "pos": {
+                        "x": 147.112,
+                        "y": 112.733
+                    },
+                    "uuid": "1dbb8dae-c8b2-4fc9-87c0-ccc621988dce"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2520 mm)",
+            "items": [
+                {
+                    "description": "배선 [SERVO2] on Bottom Layer, 길이 5.3340 mm",
+                    "pos": {
+                        "x": 154.605,
+                        "y": 114.892
+                    },
+                    "uuid": "5d168522-8efa-45fd-addb-353060ca37f2"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2533 mm)",
+            "items": [
+                {
+                    "description": "배선 [SLEEP] on Top Layer, 길이 1.3310 mm",
+                    "pos": {
+                        "x": 139.71,
+                        "y": 98.026
+                    },
+                    "uuid": "afc6ed32-3657-4313-bc1e-417f999fcb16"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2526 mm)",
+            "items": [
+                {
+                    "description": "배선 [VCC] on Top Layer, 길이 1.6510 mm",
+                    "pos": {
+                        "x": 143.937,
+                        "y": 118.575
+                    },
+                    "uuid": "d54e26d5-a558-4501-8c89-a445e36e8b89"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2517 mm)",
+            "items": [
+                {
+                    "description": "배선 [VCC] on Top Layer, 길이 2.5145 mm",
+                    "pos": {
+                        "x": 161.971,
+                        "y": 113.749
+                    },
+                    "uuid": "a9bead8c-292d-4552-91c3-1eab790aee98"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2526 mm)",
+            "items": [
+                {
+                    "description": "배선 [VCC] on Top Layer, 길이 7.9026 mm",
+                    "pos": {
+                        "x": 138.349,
+                        "y": 112.987
+                    },
+                    "uuid": "a4aeff93-b305-4ed6-99e6-046e86a47cfc"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2517 mm)",
+            "items": [
+                {
+                    "description": "배선 [VCC] on Top Layer, 길이 1.3970 mm",
+                    "pos": {
+                        "x": 160.574,
+                        "y": 113.749
+                    },
+                    "uuid": "5ffac865-6eaa-429f-950e-28515343e49b"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2521 mm)",
+            "items": [
+                {
+                    "description": "배선 [OUT2] on Top Layer, 길이 0.6470 mm",
+                    "pos": {
+                        "x": 125.268,
+                        "y": 113.495
+                    },
+                    "uuid": "78c39821-d56f-4963-8319-27464a5f8d37"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2533 mm)",
+            "items": [
+                {
+                    "description": "배선 [VCC] on Top Layer, 길이 5.5508 mm",
+                    "pos": {
+                        "x": 177.338,
+                        "y": 96.731
+                    },
+                    "uuid": "1e4529bd-6494-4ae0-b11e-f1200a5d3325"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2527 mm)",
+            "items": [
+                {
+                    "description": "배선 [3.3V] on Bottom Layer, 길이 1.6164 mm",
+                    "pos": {
+                        "x": 163.749,
+                        "y": 106.637
+                    },
+                    "uuid": "a55e664a-ad6e-4766-b252-e76e308b73f6"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2521 mm)",
+            "items": [
+                {
+                    "description": "배선 [OUT2] on Top Layer, 길이 2.5145 mm",
+                    "pos": {
+                        "x": 123.49,
+                        "y": 111.717
+                    },
+                    "uuid": "853a9fb5-9009-4fc1-9e95-0d78d7ed0410"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2527 mm)",
+            "items": [
+                {
+                    "description": "배선 [3.3V] on Bottom Layer, 길이 4.4450 mm",
+                    "pos": {
+                        "x": 163.749,
+                        "y": 102.192
+                    },
+                    "uuid": "b8cfe3b0-f11e-4cde-a286-da4821dd131b"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2521 mm)",
+            "items": [
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.8767 mm",
+                    "pos": {
+                        "x": 156.961,
+                        "y": 113.876
+                    },
+                    "uuid": "e5caed95-9aa0-4c24-a4b7-3d2561caee7d"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2521 mm)",
+            "items": [
+                {
+                    "description": "배선 [D1] on Top Layer, 길이 1.9750 mm",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 112.549
+                    },
+                    "uuid": "81edbaed-8d1c-4830-9db6-11db12bc6040"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2499 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]MP2",
+                    "pos": {
+                        "x": 126.792,
+                        "y": 120.226
+                    },
+                    "uuid": "3865b129-a7bd-4e37-a627-075cf3d4b87e"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2526 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[VCC]R1",
+                    "pos": {
+                        "x": 165.273,
+                        "y": 99.144
+                    },
+                    "uuid": "2f69c6e7-e4bc-4c71-a8f7-070823f22fb7"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2521 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[3.3V]R3",
+                    "pos": {
+                        "x": 166.035,
+                        "y": 107.78
+                    },
+                    "uuid": "c225f415-8b8c-4519-9dc6-ad2c66972215"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2499 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]MP2",
+                    "pos": {
+                        "x": 126.792,
+                        "y": 120.226
+                    },
+                    "uuid": "3865b129-a7bd-4e37-a627-075cf3d4b87e"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2502 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[VCC]R1",
+                    "pos": {
+                        "x": 165.273,
+                        "y": 99.144
+                    },
+                    "uuid": "2f69c6e7-e4bc-4c71-a8f7-070823f22fb7"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2502 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[CHKBAT]R1",
+                    "pos": {
+                        "x": 175.433,
+                        "y": 99.144
+                    },
+                    "uuid": "b28f023f-65f2-46bc-af0b-41a773c41c67"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2515 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[CHKBAT]R1",
+                    "pos": {
+                        "x": 175.433,
+                        "y": 99.144
+                    },
+                    "uuid": "b28f023f-65f2-46bc-af0b-41a773c41c67"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[CHKBAT]R2",
+                    "pos": {
+                        "x": 175.687,
+                        "y": 103.208
+                    },
+                    "uuid": "46f2e6ba-ab64-496b-a129-1fb9946fe776"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2505 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]MP1",
+                    "pos": {
+                        "x": 178.989,
+                        "y": 98.89
+                    },
+                    "uuid": "2b82da86-8704-47e2-a3f7-659daab15c57"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2499 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[CHKBAT]R2",
+                    "pos": {
+                        "x": 175.687,
+                        "y": 103.208
+                    },
+                    "uuid": "46f2e6ba-ab64-496b-a129-1fb9946fe776"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2535 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[SLEEP]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 94.445
+                    },
+                    "uuid": "1b2b6b05-d3de-4c39-a772-916aca3a079b"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2505 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]MP1",
+                    "pos": {
+                        "x": 178.989,
+                        "y": 98.89
+                    },
+                    "uuid": "2b82da86-8704-47e2-a3f7-659daab15c57"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[SLEEP]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 94.445
+                    },
+                    "uuid": "1b2b6b05-d3de-4c39-a772-916aca3a079b"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2518 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[OUT1]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 96.985
+                    },
+                    "uuid": "a0450d6d-18ee-4b9f-8f41-ad0dcf39341c"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2528 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[3.3V]J7",
+                    "pos": {
+                        "x": 166.694,
+                        "y": 117.686
+                    },
+                    "uuid": "1a0af31f-e431-4d32-9578-177dc81dd2b6"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[OUT1]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 96.985
+                    },
+                    "uuid": "a0450d6d-18ee-4b9f-8f41-ad0dcf39341c"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2522 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[OUT3]J4",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 113.622
+                    },
+                    "uuid": "1fb84a0a-8bf8-4068-b277-ad75c8d426b0"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2532 mm)",
+            "items": [
+                {
+                    "description": "3의 PTH 패드[OUT2]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 99.525
+                    },
+                    "uuid": "58e44084-4104-4249-ad7e-a465963725b5"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2531 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[OUT1]J3",
+                    "pos": {
+                        "x": 127.415,
+                        "y": 113.495
+                    },
+                    "uuid": "3a4f7b06-40e4-4184-9fe7-fabfce7aaa6d"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "3의 PTH 패드[OUT2]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 99.525
+                    },
+                    "uuid": "58e44084-4104-4249-ad7e-a465963725b5"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2517 mm)",
+            "items": [
+                {
+                    "description": "4의 PTH 패드[OUT3]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 102.065
+                    },
+                    "uuid": "9cea6b54-4365-4b3e-bcf5-3960a6521001"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2518 mm)",
+            "items": [
+                {
+                    "description": "4의 PTH 패드[OUT3]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 102.065
+                    },
+                    "uuid": "9cea6b54-4365-4b3e-bcf5-3960a6521001"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2531 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[OUT3]J4",
+                    "pos": {
+                        "x": 134.4,
+                        "y": 113.622
+                    },
+                    "uuid": "1fb84a0a-8bf8-4068-b277-ad75c8d426b0"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2517 mm)",
+            "items": [
+                {
+                    "description": "5의 PTH 패드[OUT4]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 104.605
+                    },
+                    "uuid": "2dba1859-b122-466a-829e-3b7f6a58f59a"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[3.3V]J7",
+                    "pos": {
+                        "x": 166.694,
+                        "y": 117.686
+                    },
+                    "uuid": "1a0af31f-e431-4d32-9578-177dc81dd2b6"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2534 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[OUT4]J4",
+                    "pos": {
+                        "x": 132.9,
+                        "y": 113.622
+                    },
+                    "uuid": "6be15dab-6244-4abb-92d8-d79188705e3a"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2518 mm)",
+            "items": [
+                {
+                    "description": "5의 PTH 패드[OUT4]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 104.605
+                    },
+                    "uuid": "2dba1859-b122-466a-829e-3b7f6a58f59a"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2524 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[SEN1]J7",
+                    "pos": {
+                        "x": 168.194,
+                        "y": 117.686
+                    },
+                    "uuid": "e7ccfd04-0ec8-421b-aaf2-0c2b95e2f05b"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2517 mm)",
+            "items": [
+                {
+                    "description": "6의 PTH 패드[<no net>]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 107.145
+                    },
+                    "uuid": "5a83bd91-1701-406e-b93f-3d3175a3ed2c"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2531 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[OUT1]J3",
+                    "pos": {
+                        "x": 127.415,
+                        "y": 113.495
+                    },
+                    "uuid": "3a4f7b06-40e4-4184-9fe7-fabfce7aaa6d"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "6의 PTH 패드[<no net>]U2",
+                    "pos": {
+                        "x": 125.141,
+                        "y": 107.145
+                    },
+                    "uuid": "5a83bd91-1701-406e-b93f-3d3175a3ed2c"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2526 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[SERVO2]J6",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 118.575
+                    },
+                    "uuid": "5dbf5981-6342-45b5-8dfc-2ccec02a84d1"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2515 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[OUT2]J3",
+                    "pos": {
+                        "x": 125.915,
+                        "y": 113.495
+                    },
+                    "uuid": "f0190e30-ddef-48a5-bd9f-e8278679651f"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2514 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[OUT4]J4",
+                    "pos": {
+                        "x": 132.9,
+                        "y": 113.622
+                    },
+                    "uuid": "6be15dab-6244-4abb-92d8-d79188705e3a"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2531 mm)",
+            "items": [
+                {
+                    "description": "7의 PTH 패드[D1]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 107.145
+                    },
+                    "uuid": "370679e4-b6de-4287-9d81-96d46de063f2"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2514 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[OUT2]J3",
+                    "pos": {
+                        "x": 125.915,
+                        "y": 113.495
+                    },
+                    "uuid": "f0190e30-ddef-48a5-bd9f-e8278679651f"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2522 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[SERVO2]J6",
+                    "pos": {
+                        "x": 158.288,
+                        "y": 118.575
+                    },
+                    "uuid": "5dbf5981-6342-45b5-8dfc-2ccec02a84d1"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "7의 PTH 패드[D1]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 107.145
+                    },
+                    "uuid": "370679e4-b6de-4287-9d81-96d46de063f2"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "8의 PTH 패드[D2]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 104.605
+                    },
+                    "uuid": "7b480ed8-7ed9-4dcb-a999-24e163df5c3b"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2512 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[VCC]J1",
+                    "pos": {
+                        "x": 181.263,
+                        "y": 91.778
+                    },
+                    "uuid": "2f19098d-99eb-4dbf-bbce-4152d1ac532c"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2524 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]J2",
+                    "pos": {
+                        "x": 167.305,
+                        "y": 93.048
+                    },
+                    "uuid": "b508db00-aa4f-4cc8-a3b5-205badccd902"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2525 mm)",
+            "items": [
+                {
+                    "description": "9의 PTH 패드[VCC]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 102.065
+                    },
+                    "uuid": "daba8b01-ab3e-4997-a4db-9daa57ca725a"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "9의 PTH 패드[VCC]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 102.065
+                    },
+                    "uuid": "daba8b01-ab3e-4997-a4db-9daa57ca725a"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2515 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[VCC]J5",
+                    "pos": {
+                        "x": 145.588,
+                        "y": 118.575
+                    },
+                    "uuid": "a29d43f0-27e0-46e2-822f-45249bd5e836"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2520 mm)",
+            "items": [
+                {
+                    "description": "11의 PTH 패드[D3]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 96.985
+                    },
+                    "uuid": "c6a7d654-a741-4239-8a1b-93cae603e75b"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "11의 PTH 패드[D3]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 96.985
+                    },
+                    "uuid": "c6a7d654-a741-4239-8a1b-93cae603e75b"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2508 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[SERVO1]J5",
+                    "pos": {
+                        "x": 148.128,
+                        "y": 118.575
+                    },
+                    "uuid": "b642be6f-a18a-4042-8689-3ff9507262dc"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[CHKBAT]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 111.844
+                    },
+                    "uuid": "5da1423f-476e-45f4-bea9-881cf2b5d3db"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2522 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[SERVO1]J5",
+                    "pos": {
+                        "x": 148.128,
+                        "y": 118.575
+                    },
+                    "uuid": "b642be6f-a18a-4042-8689-3ff9507262dc"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2535 mm)",
+            "items": [
+                {
+                    "description": "12의 PTH 패드[D4]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 94.445
+                    },
+                    "uuid": "ad800d05-7581-468e-86cd-3fbd8c726269"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2512 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[VCC]J1",
+                    "pos": {
+                        "x": 181.263,
+                        "y": 91.778
+                    },
+                    "uuid": "2f19098d-99eb-4dbf-bbce-4152d1ac532c"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2524 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[<no net>]J2",
+                    "pos": {
+                        "x": 167.305,
+                        "y": 93.048
+                    },
+                    "uuid": "b508db00-aa4f-4cc8-a3b5-205badccd902"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2519 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[VCC]J2",
+                    "pos": {
+                        "x": 169.845,
+                        "y": 93.048
+                    },
+                    "uuid": "90cce9b5-248f-4899-bfa7-6bc9433d452a"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2530 mm)",
+            "items": [
+                {
+                    "description": "12의 PTH 패드[D4]U2",
+                    "pos": {
+                        "x": 140.141,
+                        "y": 94.445
+                    },
+                    "uuid": "ad800d05-7581-468e-86cd-3fbd8c726269"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "1의 PTH 패드[CHKBAT]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 111.844
+                    },
+                    "uuid": "5da1423f-476e-45f4-bea9-881cf2b5d3db"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2532 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[D1]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 109.304
+                    },
+                    "uuid": "23657e6f-d4f0-43cf-a807-23439b201f07"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "2의 PTH 패드[D1]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 109.304
+                    },
+                    "uuid": "23657e6f-d4f0-43cf-a807-23439b201f07"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "3의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 106.764
+                    },
+                    "uuid": "6c49ba5a-b975-47d5-a108-b7a38a8191e4"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2528 mm)",
+            "items": [
+                {
+                    "description": "4의 PTH 패드[D2]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 104.224
+                    },
+                    "uuid": "b9546ba0-1eef-41b0-bc88-fa5d35091360"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "4의 PTH 패드[D2]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 104.224
+                    },
+                    "uuid": "b9546ba0-1eef-41b0-bc88-fa5d35091360"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "5의 PTH 패드[D3]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 101.684
+                    },
+                    "uuid": "c69406f0-f5b7-40a2-97b4-eb204c55c1a3"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "5의 PTH 패드[D3]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 101.684
+                    },
+                    "uuid": "c69406f0-f5b7-40a2-97b4-eb204c55c1a3"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2526 mm)",
+            "items": [
+                {
+                    "description": "6의 PTH 패드[3.3V]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 99.144
+                    },
+                    "uuid": "09fed7e1-9958-4528-9339-0e37d6cd99bc"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "6의 PTH 패드[3.3V]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 99.144
+                    },
+                    "uuid": "09fed7e1-9958-4528-9339-0e37d6cd99bc"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "8의 PTH 패드[VCC]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 94.064
+                    },
+                    "uuid": "2bd8f86f-c0cf-490e-8f2c-72a50535726a"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2510 mm)",
+            "items": [
+                {
+                    "description": "8의 PTH 패드[VCC]U1",
+                    "pos": {
+                        "x": 160.701,
+                        "y": 94.064
+                    },
+                    "uuid": "2bd8f86f-c0cf-490e-8f2c-72a50535726a"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2528 mm)",
+            "items": [
+                {
+                    "description": "9의 PTH 패드[D4]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 94.064
+                    },
+                    "uuid": "bbbfff5b-7798-4de7-9931-a4ea7e886c85"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "9의 PTH 패드[D4]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 94.064
+                    },
+                    "uuid": "bbbfff5b-7798-4de7-9931-a4ea7e886c85"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "10의 PTH 패드[SERVO1]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 96.604
+                    },
+                    "uuid": "3e5bb52b-7bf1-45c7-81a9-f41d5d2fc42f"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2528 mm)",
+            "items": [
+                {
+                    "description": "10의 PTH 패드[SERVO1]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 96.604
+                    },
+                    "uuid": "3e5bb52b-7bf1-45c7-81a9-f41d5d2fc42f"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2518 mm)",
+            "items": [
+                {
+                    "description": "11의 PTH 패드[SLEEP]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 99.144
+                    },
+                    "uuid": "a9488315-6d82-444c-8467-29211ffb662b"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "11의 PTH 패드[SLEEP]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 99.144
+                    },
+                    "uuid": "a9488315-6d82-444c-8467-29211ffb662b"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "12의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 101.684
+                    },
+                    "uuid": "98b0bd02-077b-40d8-8122-63a7bc0063a2"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "12의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 101.684
+                    },
+                    "uuid": "98b0bd02-077b-40d8-8122-63a7bc0063a2"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "13의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 104.224
+                    },
+                    "uuid": "9aba8d1a-ba1f-4265-9cbf-a4203aa9fc37"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "13의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 104.224
+                    },
+                    "uuid": "9aba8d1a-ba1f-4265-9cbf-a4203aa9fc37"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "14의 PTH 패드[SERVO2]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 106.764
+                    },
+                    "uuid": "a00772d8-0a87-4bc6-af92-b0bba8a3c4da"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "14의 PTH 패드[SERVO2]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 106.764
+                    },
+                    "uuid": "a00772d8-0a87-4bc6-af92-b0bba8a3c4da"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "15의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 109.304
+                    },
+                    "uuid": "64538ef2-dd58-4a30-aefe-6254c17459ed"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "15의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 109.304
+                    },
+                    "uuid": "64538ef2-dd58-4a30-aefe-6254c17459ed"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2528 mm)",
+            "items": [
+                {
+                    "description": "16의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 111.844
+                    },
+                    "uuid": "a9f3b9fe-38c1-404c-896c-184740c287bb"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 (규칙 'EasyEDA copper zone clearance' 공간거리 0.2540 mm; 실제값 0.2511 mm)",
+            "items": [
+                {
+                    "description": "16의 PTH 패드[<no net>]U1",
+                    "pos": {
+                        "x": 145.461,
+                        "y": 111.844
+                    },
+                    "uuid": "a9f3b9fe-38c1-404c-896c-184740c287bb"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "기판 모서리 공간거리 위반 (규칙 'EasyEDA zone to board outline' 공간거리 0.2540 mm; 실제값 0.2520 mm)",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 149.398,
+                        "y": 112.225
+                    },
+                    "uuid": "d3b418e0-0cab-5be4-8da4-ecf8015ac9fa"
+                },
+                {
+                    "description": "영역 [GND] on Top Layer, 우선순위 500",
+                    "pos": {
+                        "x": 120.569,
+                        "y": 86.952
+                    },
+                    "uuid": "5ce3c867-0eff-46eb-9fea-a576efa0d10f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "기판 모서리 공간거리 위반 (규칙 'EasyEDA zone to board outline' 공간거리 0.2540 mm; 실제값 0.2520 mm)",
+            "items": [
+                {
+                    "description": "세그먼트 (Multi-Layer)",
+                    "pos": {
+                        "x": 149.398,
+                        "y": 112.225
+                    },
+                    "uuid": "d3b418e0-0cab-5be4-8da4-ecf8015ac9fa"
+                },
+                {
+                    "description": "영역 [GND] on Bottom Layer, 우선순위 500",
+                    "pos": {
+                        "x": 121.458,
+                        "y": 89.238
+                    },
+                    "uuid": "11689c6d-4bd8-454d-9263-d065fe654477"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J3 (MT1)",
+                    "pos": {
+                        "x": 124.288,
+                        "y": 112.768
+                    },
+                    "uuid": "67c43fc5-2901-516f-b90d-ca79f3221d6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R3 (10k)",
+                    "pos": {
+                        "x": 168.956,
+                        "y": 108.161
+                    },
+                    "uuid": "1772498b-1154-5ad3-83e3-d2c7cab028ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J1 (BAT + -)",
+                    "pos": {
+                        "x": 176.449,
+                        "y": 91.143
+                    },
+                    "uuid": "d664905f-4794-57a0-82e9-0b2553fa69e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J2 (PW OFF ON)",
+                    "pos": {
+                        "x": 166.416,
+                        "y": 91.524
+                    },
+                    "uuid": "bf1a3702-b210-55df-96d9-219b6866ce61"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R1 (220k)",
+                    "pos": {
+                        "x": 169.21,
+                        "y": 99.398
+                    },
+                    "uuid": "685fe369-de6f-5e1b-919a-fbba16376273"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J6 (Servo2\n+   S   -)",
+                    "pos": {
+                        "x": 155.113,
+                        "y": 116.924
+                    },
+                    "uuid": "85fc6316-ceac-546a-a5c7-9690d4dc6f95"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 U2 (DRV8833)",
+                    "pos": {
+                        "x": 123.49,
+                        "y": 92.794
+                    },
+                    "uuid": "0881dcde-eab1-5c3e-b27c-63da6c3a5b62"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 U1 (Tenstar)",
+                    "pos": {
+                        "x": 144.826,
+                        "y": 91.143
+                    },
+                    "uuid": "2087cbe5-da37-52d1-b02b-83d31211d6f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 R2 (220k)",
+                    "pos": {
+                        "x": 169.337,
+                        "y": 103.716
+                    },
+                    "uuid": "11e318e5-58ff-542f-9971-666da8b8d7e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J7 (sensor1\n+   S  -)",
+                    "pos": {
+                        "x": 165.0045,
+                        "y": 116.0095
+                    },
+                    "uuid": "f91f38d2-a2e6-57ab-bfec-ea4bc2d571fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J4 (MT2)",
+                    "pos": {
+                        "x": 131.273,
+                        "y": 112.895
+                    },
+                    "uuid": "1ddb6d03-12f3-5e3a-b5c7-c19cadd6f435"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "텍스트 높이가 범위를 벗어남 (보드의 최대 실크 텍스트 높이 제한 최소 높이 0.8000 mm; 실제 0.6860 mm)",
+            "items": [
+                {
+                    "description": "풋프린트 텍스트 J5 (Servo1\n+    S   -)",
+                    "pos": {
+                        "x": 144.191,
+                        "y": 117.071
+                    },
+                    "uuid": "889efa40-2fc7-58da-93d7-450fdf5dcd9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

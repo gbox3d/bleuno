@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\user\Desktop\work\cronos\bleuno\hardware\type_m\v1\kicad\type_m_v1.kicad_sch</source>
+    <date>2026-10-31T19:18:26</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>type_m_v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>MT1</value>
+      <footprint>type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part">BX-ZH1.5-2PWZ</field>
+        <field name="Manufacturer">Bossie(博锡)</field>
+        <field name="Supplier Part">C18077736</field>
+        <field name="Supplier">LCSC</field>
+        <field name="LCSC Part Name">1x2P 间距:1.5mm 弯插 系列:ZH</field>
+        <field name="Original Reference">BAT + -</field>
+        <field name="Footprint">type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="BX-ZH1.5-2PWZ" description=""/>
+      <property name="Manufacturer Part" value="BX-ZH1.5-2PWZ"/>
+      <property name="Manufacturer" value="Bossie(博锡)"/>
+      <property name="Supplier Part" value="C18077736"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="LCSC Part Name" value="1x2P 间距:1.5mm 弯插 系列:ZH"/>
+      <property name="Original Reference" value="BAT + -"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad2c76f2-73a2-475e-b908-4b6411e7d519</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>PW OFF ON</value>
+      <footprint>type_m_v1:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Original Reference">PW OFF ON</field>
+        <field name="Footprint">type_m_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Original Reference" value="PW OFF ON"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aec89bc-583f-4630-b628-166f48e18b15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>MT1</value>
+      <footprint>type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part">BX-ZH1.5-2PWZ</field>
+        <field name="Manufacturer">Bossie(博锡)</field>
+        <field name="Supplier Part">C18077736</field>
+        <field name="Supplier">LCSC</field>
+        <field name="LCSC Part Name">1x2P 间距:1.5mm 弯插 系列:ZH</field>
+        <field name="Original Reference">MT1</field>
+        <field name="Footprint">type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="BX-ZH1.5-2PWZ" description=""/>
+      <property name="Manufacturer Part" value="BX-ZH1.5-2PWZ"/>
+      <property name="Manufacturer" value="Bossie(博锡)"/>
+      <property name="Supplier Part" value="C18077736"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="LCSC Part Name" value="1x2P 间距:1.5mm 弯插 系列:ZH"/>
+      <property name="Original Reference" value="MT1"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29a202f7-0a40-4b03-8094-bb6a6f2772b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>MT2</value>
+      <footprint>type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part">BX-ZH1.5-2PWZ</field>
+        <field name="Manufacturer">Bossie(博锡)</field>
+        <field name="Supplier Part">C18077736</field>
+        <field name="Supplier">LCSC</field>
+        <field name="LCSC Part Name">1x2P 间距:1.5mm 弯插 系列:ZH</field>
+        <field name="Original Reference">MT2</field>
+        <field name="Footprint">type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="BX-ZH1.5-2PWZ" description=""/>
+      <property name="Manufacturer Part" value="BX-ZH1.5-2PWZ"/>
+      <property name="Manufacturer" value="Bossie(博锡)"/>
+      <property name="Supplier Part" value="C18077736"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="LCSC Part Name" value="1x2P 间距:1.5mm 弯插 系列:ZH"/>
+      <property name="Original Reference" value="MT2"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8ee999f-70fe-4c24-b9ab-eb750bfd8af7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>Servo</value>
+      <footprint>type_m_v1:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Original Reference">Servo1</field>
+        <field name="Footprint">type_m_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Original Reference" value="Servo1"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a05dae3-65f1-4f00-ae34-14bb41f0e81c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>Servo</value>
+      <footprint>type_m_v1:HDR-TH_3P-P2.54-V-M</footprint>
+      <fields>
+        <field name="Original Reference">Servo2</field>
+        <field name="Footprint">type_m_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="PZ254V-11-03P_C2937625" description=""/>
+      <property name="Original Reference" value="Servo2"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a0a212b-5b32-4a64-8149-6b36893bdc56</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>WAFER-ZH1.5-3PZZ</value>
+      <footprint>type_m_v1:CONN-TH_3P-P1.50_A1500WV-03P</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/WAFER-ZH1.5-3PZZ/6173820.html</datasheet>
+      <fields>
+        <field name="Manufacturer Part">WAFER-ZH1.5-3PZZ</field>
+        <field name="Manufacturer">XUNPU(讯普)</field>
+        <field name="Supplier Part">C5359584</field>
+        <field name="Supplier">LCSC</field>
+        <field name="LCSC Part Name">1x3P 间距:1.5mm 直插 系列:ZH</field>
+        <field name="Original Reference">sensor1</field>
+        <field name="Footprint">type_m_v1:CONN-TH_3P-P1.50_A1500WV-03P</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/WAFER-ZH1.5-3PZZ/6173820.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="WAFER-ZH1.5-3PZZ" description=""/>
+      <property name="Manufacturer Part" value="WAFER-ZH1.5-3PZZ"/>
+      <property name="Manufacturer" value="XUNPU(讯普)"/>
+      <property name="Supplier Part" value="C5359584"/>
+      <property name="Supplier" value="LCSC"/>
+      <property name="LCSC Part Name" value="1x3P 间距:1.5mm 直插 系列:ZH"/>
+      <property name="Original Reference" value="sensor1"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>531709e4-9ff4-4124-a403-317207e8f3af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>220kΩ</value>
+      <footprint>type_m_v1:R_AXIAL-0.4</footprint>
+      <fields>
+        <field name="Original Reference">220k</field>
+        <field name="Footprint">type_m_v1:R_AXIAL-0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="Res" description=""/>
+      <property name="Original Reference" value="220k"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df72915a-f611-4f9b-a17c-7e235ec47f81</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>220kΩ</value>
+      <footprint>type_m_v1:R_AXIAL-0.4</footprint>
+      <fields>
+        <field name="Original Reference">220k</field>
+        <field name="Footprint">type_m_v1:R_AXIAL-0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="Res" description=""/>
+      <property name="Original Reference" value="220k"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b95824a-7967-41bc-930a-9597b80a4030</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ</value>
+      <footprint>type_m_v1:R_AXIAL-0.4</footprint>
+      <fields>
+        <field name="Original Reference">10k</field>
+        <field name="Footprint">type_m_v1:R_AXIAL-0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="Res" description=""/>
+      <property name="Original Reference" value="10k"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>447d998f-d04a-451f-8347-18932f3dc1e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32C3 Supermini</value>
+      <footprint>type_m_v1:ESP32C3 SM</footprint>
+      <fields>
+        <field name="Original Reference">Tenstar</field>
+        <field name="Footprint">type_m_v1:ESP32C3 SM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="ESP32C3 Supermini" description=""/>
+      <property name="Original Reference" value="Tenstar"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>764b1f7b-c654-491a-869f-1b2c6fa7bf87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>DRV8833</value>
+      <footprint>type_m_v1:DRV8833</footprint>
+      <fields>
+        <field name="Original Reference">DRV8833</field>
+        <field name="Footprint">type_m_v1:DRV8833</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="type_m_v1" part="DRV8833" description=""/>
+      <property name="Original Reference" value="DRV8833"/>
+      <property name="Sheetname" value="Schematic1"/>
+      <property name="Sheetfile" value="type_m_v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ddc92d3-1760-44be-bb85-382683e10547</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="type_m_v1" part="BX-ZH1.5-2PWZ">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">type_m_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20231017/D4B8CDB16C0CF009D30ACC8356399B5A.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer Part">BX-ZH1.5-2PWZ</field>
+        <field name="Manufacturer">Bossie(博锡)</field>
+        <field name="Supplier Part">C18077736</field>
+        <field name="Supplier">LCSC</field>
+        <field name="LCSC Part Name">1x2P 间距:1.5mm 弯插 系列:ZH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_m_v1" part="DRV8833">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">type_m_v1:DRV8833</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EEP" type="input"/>
+        <pin num="2" name="OUT1" type="input"/>
+        <pin num="3" name="OUT2" type="input"/>
+        <pin num="4" name="OUT3" type="input"/>
+        <pin num="5" name="OUT4" type="input"/>
+        <pin num="6" name="ULT" type="input"/>
+        <pin num="7" name="IN1" type="input"/>
+        <pin num="8" name="IN2" type="input"/>
+        <pin num="9" name="VCC" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="IN3" type="input"/>
+        <pin num="12" name="IN4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_m_v1" part="ESP32C3 Supermini">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">type_m_v1:ESP32C3 SM</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="unspecified"/>
+        <pin num="2" name="GPIO1" type="unspecified"/>
+        <pin num="3" name="GPIO2" type="unspecified"/>
+        <pin num="4" name="GPIO3" type="unspecified"/>
+        <pin num="5" name="GPIO4" type="unspecified"/>
+        <pin num="6" name="+3V3" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="+5V" type="unspecified"/>
+        <pin num="9" name="GPIO5" type="unspecified"/>
+        <pin num="10" name="GPIO6" type="unspecified"/>
+        <pin num="11" name="GPIO7" type="unspecified"/>
+        <pin num="12" name="GPIO8" type="unspecified"/>
+        <pin num="13" name="GPIO9" type="unspecified"/>
+        <pin num="14" name="GPIO10" type="unspecified"/>
+        <pin num="15" name="GPIO21" type="unspecified"/>
+        <pin num="16" name="GPIO22" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_m_v1" part="PZ254V-11-03P_C2937625">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">type_m_v1:HDR-TH_3P-P2.54-V-M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_m_v1" part="Res">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10kΩ</field>
+        <field name="Footprint">type_m_v1:R_AXIAL-0.4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="type_m_v1" part="WAFER-ZH1.5-3PZZ">
+      <docs>https://item.szlcsc.com/datasheet/WAFER-ZH1.5-3PZZ/6173820.html</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">type_m_v1:CONN-TH_3P-P1.50_A1500WV-03P</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/WAFER-ZH1.5-3PZZ/6173820.html</field>
+        <field name="Description"/>
+        <field name="Manufacturer Part">WAFER-ZH1.5-3PZZ</field>
+        <field name="Manufacturer">XUNPU(讯普)</field>
+        <field name="Supplier Part">C5359584</field>
+        <field name="Supplier">LCSC</field>
+        <field name="LCSC Part Name">1x3P 间距:1.5mm 直插 系列:ZH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="type_m_v1">
+      <uri>${KIPRJMOD}/type_m_v1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3V" class="Default">
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="+3V3_6" pintype="unspecified"/>
+    </net>
+    <net code="2" name="CHKBAT" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="GPIO0_1" pintype="unspecified"/>
+    </net>
+    <net code="3" name="D1" class="Default">
+      <node ref="U1" pin="2" pinfunction="GPIO1_2" pintype="unspecified"/>
+      <node ref="U2" pin="7" pinfunction="IN1_7" pintype="input"/>
+    </net>
+    <net code="4" name="D2" class="Default">
+      <node ref="U1" pin="4" pinfunction="GPIO3_4" pintype="unspecified"/>
+      <node ref="U2" pin="8" pinfunction="IN2_8" pintype="input"/>
+    </net>
+    <net code="5" name="D3" class="Default">
+      <node ref="U1" pin="5" pinfunction="GPIO4_5" pintype="unspecified"/>
+      <node ref="U2" pin="11" pinfunction="IN3_11" pintype="input"/>
+    </net>
+    <net code="6" name="D4" class="Default">
+      <node ref="U1" pin="9" pinfunction="GPIO5_9" pintype="unspecified"/>
+      <node ref="U2" pin="12" pinfunction="IN4_12" pintype="input"/>
+    </net>
+    <net code="7" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="J7" pin="3" pinfunction="3_3" pintype="unspecified"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND_7" pintype="unspecified"/>
+      <node ref="U2" pin="10" pinfunction="GND_10" pintype="input"/>
+    </net>
+    <net code="8" name="OUT1" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="OUT1_2" pintype="input"/>
+    </net>
+    <net code="9" name="OUT2" class="Default">
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="OUT2_3" pintype="input"/>
+    </net>
+    <net code="10" name="OUT3" class="Default">
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="OUT3_4" pintype="input"/>
+    </net>
+    <net code="11" name="OUT4" class="Default">
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="OUT4_5" pintype="input"/>
+    </net>
+    <net code="12" name="SEN1" class="Default">
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="input"/>
+    </net>
+    <net code="13" name="SERVO1" class="Default">
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U1" pin="10" pinfunction="GPIO6_10" pintype="unspecified"/>
+    </net>
+    <net code="14" name="SERVO2" class="Default">
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="U1" pin="14" pinfunction="GPIO10_14" pintype="unspecified"/>
+    </net>
+    <net code="15" name="SLEEP" class="Default">
+      <node ref="U1" pin="11" pinfunction="GPIO7_11" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="EEP_1" pintype="input"/>
+    </net>
+    <net code="16" name="VCC" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="unspecified"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="unspecified"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="+5V_8" pintype="unspecified"/>
+      <node ref="U2" pin="9" pinfunction="VCC_9" pintype="input"/>
+    </net>
+    <net code="17" name="VIN" class="Default">
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="unspecified"/>
+    </net>
+    <net code="18" name="unconnected-(J2-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="unspecified"/>
+    </net>
+    <net code="19" name="unconnected-(U1-GPIO2-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="GPIO2_3" pintype="unspecified"/>
+    </net>
+    <net code="20" name="unconnected-(U1-GPIO8-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="GPIO8_12" pintype="unspecified"/>
+    </net>
+    <net code="21" name="unconnected-(U1-GPIO9-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="GPIO9_13" pintype="unspecified"/>
+    </net>
+    <net code="22" name="unconnected-(U1-GPIO21-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="GPIO21_15" pintype="unspecified"/>
+    </net>
+    <net code="23" name="unconnected-(U1-GPIO22-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="GPIO22_16" pintype="unspecified"/>
+    </net>
+    <net code="24" name="unconnected-(U2-ULT-Pad6)" class="Default">
+      <node ref="U2" pin="6" pinfunction="ULT_6" pintype="input"/>
+    </net>
+  </nets>
+</export>

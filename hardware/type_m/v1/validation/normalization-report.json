@@ -1,0 +1,191 @@
+{
+  "project": "bleuno_v1",
+  "source_sha256": "ad53d548a11a0d6652db9e8f0933e21c97d479a1e3235c9c981f93750b959bda",
+  "references": [
+    {
+      "reference": "U1",
+      "source_unique_id": "gge1",
+      "source_reference": "Tenstar",
+      "source_pcb_text": "Tenstar",
+      "symbol_uuid": "764b1f7b-c654-491a-869f-1b2c6fa7bf87",
+      "footprint_uuid": "9a5b2610-7ca4-4bf7-9738-b3518b48df34",
+      "footprint": "bleuno_v1:ESP32C3 SM"
+    },
+    {
+      "reference": "U2",
+      "source_unique_id": "gge2",
+      "source_reference": "DRV8833",
+      "source_pcb_text": "DRV8833",
+      "symbol_uuid": "8ddc92d3-1760-44be-bb85-382683e10547",
+      "footprint_uuid": "86c824d0-2bcb-4f56-b257-e9f9645fbb6b",
+      "footprint": "bleuno_v1:DRV8833"
+    },
+    {
+      "reference": "R1",
+      "source_unique_id": "gge4",
+      "source_reference": "220k",
+      "source_pcb_text": "220k",
+      "symbol_uuid": "df72915a-f611-4f9b-a17c-7e235ec47f81",
+      "footprint_uuid": "512e75f4-77e7-4e71-add0-69e77f06ec93",
+      "footprint": "bleuno_v1:R_AXIAL-0.4"
+    },
+    {
+      "reference": "R2",
+      "source_unique_id": "gge5",
+      "source_reference": "220k",
+      "source_pcb_text": "220k",
+      "symbol_uuid": "2b95824a-7967-41bc-930a-9597b80a4030",
+      "footprint_uuid": "a1a82846-add4-4e7f-a05c-cbb295cb9815",
+      "footprint": "bleuno_v1:R_AXIAL-0.4"
+    },
+    {
+      "reference": "R3",
+      "source_unique_id": "gge8",
+      "source_reference": "10k",
+      "source_pcb_text": "10k",
+      "symbol_uuid": "447d998f-d04a-451f-8347-18932f3dc1e0",
+      "footprint_uuid": "26286945-6114-4038-be98-65996341ca0c",
+      "footprint": "bleuno_v1:R_AXIAL-0.4"
+    },
+    {
+      "reference": "J1",
+      "source_unique_id": "gge9_1",
+      "source_reference": "BAT + -",
+      "source_pcb_text": "BAT + -",
+      "symbol_uuid": "ad2c76f2-73a2-475e-b908-4b6411e7d519",
+      "footprint_uuid": "4d911aaa-4f55-4971-b5a3-3e6be3c701ce",
+      "footprint": "bleuno_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW"
+    },
+    {
+      "reference": "J2",
+      "source_unique_id": "gge3",
+      "source_reference": "PW OFF ON",
+      "source_pcb_text": "PW OFF ON",
+      "symbol_uuid": "2aec89bc-583f-4630-b628-166f48e18b15",
+      "footprint_uuid": "503e5ddb-6ddc-4e3b-a2ec-a50c2cecac78",
+      "footprint": "bleuno_v1:HDR-TH_3P-P2.54-V-M"
+    },
+    {
+      "reference": "J3",
+      "source_unique_id": "gge9",
+      "source_reference": "MT1",
+      "source_pcb_text": "MT1",
+      "symbol_uuid": "29a202f7-0a40-4b03-8094-bb6a6f2772b2",
+      "footprint_uuid": "1b7c593a-a93b-4ca7-a877-eb9a7bda1dbc",
+      "footprint": "bleuno_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW"
+    },
+    {
+      "reference": "J4",
+      "source_unique_id": "gge10",
+      "source_reference": "MT2",
+      "source_pcb_text": "MT2",
+      "symbol_uuid": "b8ee999f-70fe-4c24-b9ab-eb750bfd8af7",
+      "footprint_uuid": "bd48e259-f5e2-49ff-811d-ae7476af3a06",
+      "footprint": "bleuno_v1:CONN-TH_2P-P1.50_HCTL_HC-ZH1.5-2AW"
+    },
+    {
+      "reference": "J5",
+      "source_unique_id": "gge6",
+      "source_reference": "Servo1",
+      "source_pcb_text": "Servo1\n+    S   -",
+      "symbol_uuid": "0a05dae3-65f1-4f00-ae34-14bb41f0e81c",
+      "footprint_uuid": "e4caa183-8079-4312-bd39-390b0701cc34",
+      "footprint": "bleuno_v1:HDR-TH_3P-P2.54-V-M"
+    },
+    {
+      "reference": "J6",
+      "source_unique_id": "gge11",
+      "source_reference": "Servo2",
+      "source_pcb_text": "Servo2\n+   S   -",
+      "symbol_uuid": "2a0a212b-5b32-4a64-8149-6b36893bdc56",
+      "footprint_uuid": "7003e24c-72ab-4a49-b72c-1733fc56776b",
+      "footprint": "bleuno_v1:HDR-TH_3P-P2.54-V-M"
+    },
+    {
+      "reference": "J7",
+      "source_unique_id": "gge7",
+      "source_reference": "sensor1",
+      "source_pcb_text": "sensor1\n+   S  -",
+      "symbol_uuid": "531709e4-9ff4-4124-a403-317207e8f3af",
+      "footprint_uuid": "a22a9daa-a482-4fa8-a13c-e0bf7bf0b8dc",
+      "footprint": "bleuno_v1:CONN-TH_3P-P1.50_A1500WV-03P"
+    }
+  ],
+  "virtual_power_references": 14,
+  "board_only_references": [
+    "MP1",
+    "MP2"
+  ],
+  "board_geometry_sha256": "4fd0c19a6e8ae198e69b5e5c84fe29c104b98a45623749677155d4eb71e97e0f",
+  "pad_net_sha256": "cc3c22238f25cb981354d4bdde05451bc14308372c3c6c084034fa657b4d579a",
+  "schematic_geometry_sha256": "8f84e8d4239891bd6e7d436d28b1c9f6318c233ef15cd05297a396284f1d38e8",
+  "preserved_original_silkscreen_texts": 12,
+  "repaired_cutout": {
+    "source_id": "e175",
+    "edges": 14,
+    "source_vertices_mil": [
+      [
+        325,
+        -250
+      ],
+      [
+        395,
+        -180
+      ],
+      [
+        540,
+        -180
+      ],
+      [
+        620,
+        -260
+      ],
+      [
+        620,
+        -323.0313
+      ],
+      [
+        590,
+        -342.204
+      ],
+      [
+        590,
+        -404.6098
+      ],
+      [
+        680,
+        -455
+      ],
+      [
+        680,
+        -860
+      ],
+      [
+        665,
+        -875
+      ],
+      [
+        370,
+        -875
+      ],
+      [
+        365,
+        -870
+      ],
+      [
+        365,
+        -355
+      ],
+      [
+        325,
+        -315
+      ]
+    ]
+  },
+  "checks": {
+    "board_geometry_unchanged_except_cutout": true,
+    "pad_nets_unchanged": true,
+    "schematic_geometry_unchanged": true,
+    "native_board_reload": true
+  }
+}

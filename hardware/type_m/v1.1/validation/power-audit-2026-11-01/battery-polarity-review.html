@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><title>KiCad 배터리 극성 검토</title>
+<style>body{font:22px/1.6 'Malgun Gothic',sans-serif;color:#16243a;margin:32px;background:white}h1{font-size:30px;margin:0 0 8px}p{margin:8px 0}svg{display:block;width:950px;height:515px;margin:10px auto;border:1px solid #c4cbd4}table{border-collapse:collapse;width:100%;margin-top:16px}th,td{border:1px solid #bbc5d0;padding:10px 18px;text-align:left}th{background:#edf1f5}.bad{color:#b12929;font-weight:bold}.small{font-size:17px;color:#425269}</style>
+<h1>KiCad 전면 PCB: 배터리 인쇄와 실제 극성이 반대 (수정 전 검토)</h1>
+<p class="small" style="border-left:4px solid #d89321;padding-left:12px">기록 안내(2026-11-01 후속): 이 페이지는 <code>../preview/type_m_v1_1-pcb.svg</code>를 직접 포함하므로 전원부 수정 이후에는 수정 후 실크(<code>BAT − +</code>)가 보입니다. 수정 전 상태의 고정 그림은 <a href="battery-polarity-review.png">battery-polarity-review.png</a>이고, 수정 내용은 <a href="../power-fix-2026-11-01/review.html">전원부 수정 확인 화면</a>에 있습니다.</p>
+<p>아래는 KiCad가 내보낸 PCB SVG의 배터리 부분 확대입니다. 이 검토 시점에는 그림 안의 인쇄·배선을 수정하지 않았습니다.</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="53.7 0.2 7.64 4.14" aria-label="KiCad 원본 PCB의 BAT + - 인쇄와 커넥터 확대"><image href="../preview/type_m_v1_1-pcb.svg" x="0" y="0" width="61.341" height="32.512"/></svg>
+<table><tr><th>전면에서 본 위치</th><th>KiCad 패드</th><th>실제 연결</th></tr><tr><td>왼쪽 원형 패드</td><td>J1.2</td><td>GND = 배터리 −</td></tr><tr><td>오른쪽 사각 패드</td><td>J1.1</td><td>VCC = 배터리 +</td></tr></table>
+<p class="bad">실크의 순서는 “+ −”, 실제 패드의 좌우 순서는 “− +”입니다.</p>
+<p class="small">저장된 type_m v1.1 KiCad 설계 기준입니다. 실제 케이블 극성이나 실물 고장의 원인을 확정하는 자료는 아닙니다.</p></html>
